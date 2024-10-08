@@ -13,7 +13,7 @@
  "CollectionName": "??? CLMS", 
  "PathLevel2": "??? PanEU ???? other pathlevels ???? /geotiff/HRVPP/VI/v01",
  "ProductType": "??????? HRVPP_VI_10m_v1_d_tif ??? FAPAR",
- "TargetFormat": "EXTRACTED",
+ "TargetFormat": "???? EXTRACTED",
  "DecompressionStep": "???? false",
  "CompresionType": null,
  "ContentDate": {
@@ -55,13 +55,18 @@
  {
  "Name": "datasetIdentifier",
  "ValueType": "String",
- "Value": "CLMS_Global_LCC_100m_v3_yearly_geotiff"
+ "Value": "?????? copernicus_r_utm-wgs84_10_m_hrvpp-vi_p_2017-now_v01"
  },
  {
  "Name": "processingCenter",
  "ValueType": "String",
  "Value": "VITO"
  }
+  {
+ "Name": "parentIdentifier",
+ "ValueType": "String",
+ "Value": "copernicus_r_utm-wgs84_10_m_hrvpp-vi_p_2017-now_v01 ???? FAPAR"
+ },
  {
  "Name": "date",
  "ValueType": "DateTimeOffset",
