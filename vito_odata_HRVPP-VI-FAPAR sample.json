@@ -68,14 +68,14 @@
  "Value": "copernicus_r_utm-wgs84_10_m_hrvpp-vi_p_2017-now_v01 ???? FAPAR"
  },
  {
+ "Name": "identifier",
+ "ValueType": "String",
+ "Value": "VI_20200101T082239_S2B_T36SXE-010m_V101_FAPAR"
+ },
+ {
  "Name": "date",
  "ValueType": "DateTimeOffset",
  "Value": "2020-01-01T08:22:39.024Z"
- },
- {
- "Name": "productVersion",
- "ValueType": "String",
- "Value": "V101"
  },
  {
  "Name": "title",
@@ -111,6 +111,16 @@
  "Name": "status",
  "ValueType": "String",
  "Value": "ARCHIVED"
+ },
+ {
+ "Name": "productType",
+ "ValueType": "String",
+ "Value": "FAPAR"
+ },
+{	   
+ "Name": "productVersion",
+ "ValueType": "String",
+ "Value": "V101"
  },
  {
  "Name": "resolution",
