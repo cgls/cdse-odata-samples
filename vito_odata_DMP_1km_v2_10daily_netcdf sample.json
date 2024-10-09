@@ -1,0 +1,126 @@
+{
+ "@odata.context": "$metadata#Products(Attributes())",
+ "Name": "c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1",
+ "EvictionDate": "9999-12-31T23:59:59.999999Z",
+ "ModificationDate": "2023-02-11T20:59:03Z",
+ "OriginDate": "2023-02-11T20:59:03Z",
+ "PublicationDate": "2023-08-29T07:46:16Z",
+ "ContentLength": 159290905,
+ "Online": true,
+ "ContentType": "application/netcdf",
+ "Link": "?????? https://globalland.vito.be/download/netcdf/dry_matter_productivity/dmp_1km_v2_10daily/2020/20200110/c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1.nc",
+ "QL_Path": null,
+ "CollectionName": "??? CLMS", 
+ "PathLevel2": "??? GLOBAL ???? other pathlevels ???? /netcdf/vegetation/",
+ "ProductType": "??????? G_DMP_300m_v1_10d_nc",
+ "TargetFormat": "??? EXTRACTED",
+ "DecompressionStep": "???? false",
+ "CompresionType": null,
+ "ContentDate": {
+ "Start": "2020-01-01T00:00:00Z",
+ "End": "2020-01-10T23:59:59Z"
+ },
+ "Checksum": {
+ "Value": "????? 07ba8661aa2a5b86e95e8aa180a29a32", 
+ "Algorithm": "????? MD5", 
+ "ChecksumDate": "????? 2023-11-12T17:25:19.782782Z"},
+ "GeoFootprint": {
+ "type": "Polygon",
+ "coordinates": [
+    [
+                        [
+                            -180.0044642857,
+                            80.0044642857
+                        ],
+                        [
+                            -180.0044642857,
+                            -59.9955357143
+                        ],
+                        [
+                            179.9955357143,
+                            -59.9955357143
+                        ],
+                        [
+                            179.9955357143,
+                            80.0044642857
+                        ],
+                        [
+                            -180.0044642857,
+                            80.0044642857
+                        ]
+                    ]
+                ]
+ },
+  "Attributes": [
+ {
+ "Name": "datasetIdentifier",
+ "ValueType": "String",
+ "Value": "clms_global_dmp_1km_v2_10daily_netcdf"
+ },
+ {
+ "Name": "processingCenter",
+ "ValueType": "String",
+ "Value": "VITO"
+ }
+ {
+ "Name": "parentIdentifier",
+ "ValueType": "String",
+ "Value": "clms_global_dmp_1km_v2_10daily_netcdf"
+ },
+ {
+ "Name": "identifier",
+ "ValueType": "String",
+ "Value": "c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1"
+ },
+ {
+ "Name": "date",
+ "ValueType": "DateTimeOffset",
+ "Value": "2020-01-10T00:00:00Z"
+ },
+ {
+ "Name": "title",
+ "ValueType": "String",
+ "Value": "10-daily Dry Matter Productivity 1KM: GLOBE 2020-01-10T00:00:00Z"
+ },
+ {
+ "Name": "acquistionType",
+ "ValueType": "String",
+ "Value": "NOMINAL"
+ },
+ {
+ "Name": "tileId",
+ "ValueType": "String",
+ "Value": "GLOBE"
+ },
+ {
+ "Name": "platformShortName",
+ "ValueType": "String",
+ "Value": "PROBA-V"
+ },
+ {
+ "Name": "status",
+ "ValueType": "String",
+ "Value": "ARCHIVED"
+ },
+ {
+ "Name": "productType",
+ "ValueType": "String",
+ "Value": "DMP"
+ },
+ {
+ "Name": "productGroupId",
+ "ValueType": "String",
+ "Value": "RT0"
+ },
+ {
+ "Name": "productVersion",
+ "ValueType": "String",
+ "Value": "V2.0.1"
+ },
+ {
+ "Name": "resolution",
+ "ValueType": "Integer", 
+ "Value": "1000"
+ }
+]
+}
