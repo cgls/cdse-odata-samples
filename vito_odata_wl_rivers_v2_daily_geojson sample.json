@@ -1,6 +1,6 @@
 {
  "@odata.context": "$metadata#Products(Attributes())",
- "Name": "c_gls_WL_0000000000001_ALTI_V2.2.0"",
+ "Name": "c_gls_WL_0000000000001_ALTI_V2.2.0",
  "EvictionDate": "9999-12-31T23:59:59.999999Z",
  "ModificationDate": "2024-10-09T06:01:22Z",
  "OriginDate": "2024-10-09T06:01:22Z",
@@ -10,20 +10,20 @@
  "ContentType": "application/geo+json",
  "Link": "?????? https://globalland.cls.fr/webResources/catalogTree/geojson/lake_river_water_level/wl_rivers_v2_daily/c_gls_WL_202410050043_0000000000001_ALTI_V2.2.0.json",
  "QL_Path": null,
- "CollectionName": "??? CLMS", 
- "PathLevel2": "??? GLOBAL ???? other pathlevels ???? /netcdf/vegetation/",
- "ProductType": "??????? G_",
- "TargetFormat": "??? EXTRACTED",
- "DecompressionStep": "???? false",
- "CompresionType": null,
+ "CollectionName": "CLMS", 
+ "PathLevel2": "/GLOBAL/geojson/lake_river_water_level/....",
+ "ProductType": "wl_lakes_v2_daily",
+ "TargetFormat": "EXTRACTED",
+ "DecompressionStep": "false",
+ "CompresionType": false,
  "ContentDate": {
  "Start": "2018-12-03T00:42:00Z",
  "End": "2024-10-05T00:43:00Z"
  },
  "Checksum": {
- "Value": "????? 07ba8661aa2a5b86e95e8aa180a29a32", 
- "Algorithm": "????? MD5", 
- "ChecksumDate": "????? 2023-11-12T17:25:19.782782Z"},
+ "Value": "07ba8661aa2a5b86e95e8aa180a29a32", 
+ "Algorithm": "MD5", 
+ "ChecksumDate": "2023-11-12T17:25:19.782782Z"},
  "GeoFootprint": {
  "type": "Point",
  "coordinates": [
@@ -32,70 +32,5 @@
         ]
  },
   "Attributes": [
- {
- "Name": "datasetIdentifier",
- "ValueType": "String",
- "Value": "clms_global_wl_rivers_v2_daily_geojson"
- },
- {
- "Name": "processingCenter",
- "ValueType": "String",
- "Value": "CLS"
- }
- {
- "Name": "parentIdentifier",
- "ValueType": "String",
- "Value": "clms_global_wl_rivers_v2_daily_geojson"
- },
- {
- "Name": "identifier",
- "ValueType": "String",
- "Value": "c_gls_WL_0000000000001_ALTI_V2.2.0"
- },
- {
- "Name": "date",
- "ValueType": "DateTimeOffset",
- "Value": "2024-10-05T00:43:00Z"
- },
- {
- "Name": "title",
- "ValueType": "String",
- "Value": "River water level time series: Acarau Acarau"
- },
- {
- "Name": "acquistionType",
- "ValueType": "String",
- "Value": "NOMINAL"
- },
- {
- "Name": "tileId",
- "ValueType": "String",
- "Value": "Acarau"
- },
- {
- "Name": "platformShortName",
- "ValueType": "String",
- "Value": "Altimeters"
- },
- {
- "Name": "status",
- "ValueType": "String",
- "Value": "ARCHIVED"
- },
- {
- "Name": "productType",
- "ValueType": "String",
- "Value": "WL"
- },
-  {
- "Name": "productGroupId",
- "ValueType": "String",
- "Value": "Acarau"
- },
- {
- "Name": "productVersion",
- "ValueType": "String",
- "Value": "V2.2.0"
- }
 ]
 }
