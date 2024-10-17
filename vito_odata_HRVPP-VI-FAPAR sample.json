@@ -9,21 +9,21 @@
  "Online": true,
  "ContentType": "image/tiff",
  "Link": "?????? s3://HRVPP/CLMS/Pan-European/Biophysical/VI/v01/2020/01/01/VI_20200101T082239_S2B_T36SXE-010m_V101_FAPAR.tif",
- "QL_Path": null,
- "CollectionName": "??? CLMS", 
- "PathLevel2": "??? PanEU ???? other pathlevels ???? /geotiff/HRVPP/VI/v01",
- "ProductType": "??????? HRVPP_VI_10m_v1_d_tif ??? FAPAR",
- "TargetFormat": "???? EXTRACTED",
- "DecompressionStep": "???? false",
- "CompresionType": null,
+ "QL_Path": "",
+ "CollectionName": "CLMS", 
+ "PathLevel2": "Pan-European/Biophysical/VI/v1......",
+ "ProductType": "HRVPP_VI_10m_v1_d_tif",
+ "TargetFormat": "EXTRACTED",
+ "DecompressionStep": "false",
+ "CompresionType": false,
  "ContentDate": {
  "Start": "2020-01-01T08:22:39.024Z",
  "End": "2020-01-01T08:22:39.024Z"
  },
  "Checksum": {
- "Value": "????? 07ba8661aa2a5b86e95e8aa180a29a32", 
- "Algorithm": "????? MD5", 
- "ChecksumDate": "????? 2023-11-12T17:25:19.782782Z"},
+ "Value": "07ba8661aa2a5b86e95e8aa180a29a32", 
+ "Algorithm": "MD5", 
+ "ChecksumDate": "2023-11-12T17:25:19.782782Z"},
  "GeoFootprint": {
  "type": "Polygon",
  "coordinates": [
@@ -52,80 +52,5 @@
 				]
  },
   "Attributes": [
- {
- "Name": "datasetIdentifier",
- "ValueType": "String",
- "Value": "?????? copernicus_r_utm-wgs84_10_m_hrvpp-vi_p_2017-now_v01"
- },
- {
- "Name": "processingCenter",
- "ValueType": "String",
- "Value": "VITO"
- }
-  {
- "Name": "parentIdentifier",
- "ValueType": "String",
- "Value": "copernicus_r_utm-wgs84_10_m_hrvpp-vi_p_2017-now_v01 ???? FAPAR"
- },
- {
- "Name": "identifier",
- "ValueType": "String",
- "Value": "VI_20200101T082239_S2B_T36SXE-010m_V101_FAPAR"
- },
- {
- "Name": "date",
- "ValueType": "DateTimeOffset",
- "Value": "2020-01-01T08:22:39.024Z"
- },
- {
- "Name": "title",
- "ValueType": "String",
- "Value": "Vegetation Indices 2017-now (raster 010m) - version 1 revision 01 : FAPAR T36SXE 20200101T082239"
- },
- {
- "Name": "acquistionType",
- "ValueType": "String",
- "Value": "NOMINAL"
- },
- {
- "Name": "tileId",
- "ValueType": "String",
- "Value": "36SXE"
- },
- {
- "Name": "relativeOrbitNumber",
- "ValueType": "Integer",
- "Value": "121"
- },
- {
- "Name": "platformShortName",
- "ValueType": "String",
- "Value": "SENTINEL-2"
- },
- {
- "Name": "platformSerialIdentifier",
- "ValueType": "String",
- "Value": "S2B"
- },
- {
- "Name": "status",
- "ValueType": "String",
- "Value": "ARCHIVED"
- },
- {
- "Name": "productType",
- "ValueType": "String",
- "Value": "FAPAR"
- },
-{	   
- "Name": "productVersion",
- "ValueType": "String",
- "Value": "V101"
- },
- {
- "Name": "resolution",
- "ValueType": ARRAY "Integer", ??????
- "Value": "10"
- }
 ]
 }
