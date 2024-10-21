@@ -14,7 +14,7 @@
  "SpatialExtent": "Pan-European", 
  "ProductType": "Biophysical", 
  "DatasetName":"HRVPP_VI_10m_v1_d_tif", 
- "Version":v1"", 
+ "Version":"v1", 
  "PathLevel2": "pan-european/Biophysical/VI/v1......",
  "ProductType": "HRVPP_VI_10m_v1_d_tif",
  "TargetFormat": "EXTRACTED",
