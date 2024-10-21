@@ -1,6 +1,6 @@
 {
  "@odata.context": "$metadata#Products(Attributes())",
- "Name": "c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1",
+ "Name": "c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1-nc",
  "EvictionDate": "9999-12-31T23:59:59.999999Z",
  "ModificationDate": "2023-02-11T20:59:03Z",
  "OriginDate": "2023-02-11T20:59:03Z",
@@ -11,11 +11,13 @@
  "Link": "https://globalland.vito.be/download/netcdf/dry_matter_productivity/dmp_1km_v2_10daily/2020/20200110/c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1.nc" ,
  "QL_Path": "",
  "CollectionName": "CLMS", 
- "PathLevel2": " /GLOBAL/netcdf/dry_matter_productivity/...",
- "ProductType": "dmp_300m_v1_10daily",
+ "SpatialExtent":"global",
+ "ProductType": "dry_matter_productivity",
+ "DatasetName": "dmp_300m_v1_10daily",
+ "Version": "v1",
  "TargetFormat": "EXTRACTED",
  "DecompressionStep": false,
- "CompresionType": false,
+ "CompresionType": null,
  "ContentDate": {
  "Start": "2020-01-01T00:00:00Z",
  "End": "2020-01-10T23:59:59Z"
@@ -51,6 +53,17 @@
                     ]
                 ]
  },
-  "Attributes": []
+  "Attributes": [
+     { 
+      "Name": "datasetIdentifier", 
+      "ValueType": "String", 
+      "Value": "dmp_300m_v1_10daily” 
+    }, 
+    { 
+      "Name": "processingCenter", 
+      "ValueType": "String", 
+      "Value": "VITO" 
+    }, 
+  ]
 }
 
