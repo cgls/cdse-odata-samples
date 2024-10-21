@@ -56,7 +56,7 @@
   "Attributes": [    { 
       "Name": "datasetIdentifier", 
       "ValueType": "String", 
-      "Value": "HRVPP_VI_10m_v1_d_tif"
+      "Value": "HRVPP_VI_FAPAR_10m_v1_daily"
     }, 
     { 
       "Name": "processingCenter", 
