@@ -1,21 +1,25 @@
 {
  "@odata.context": "$metadata#Products(Attributes())",
- "Name": "VI_20200101T082239_S2B_T36SXE-010m_V101_FAPAR",
+ "Name": "VI_20200101T082239_S2B_T36SXE-010m_V101_FAPAR_cog",
  "EvictionDate": "9999-12-31T23:59:59.999999Z",
  "ModificationDate": "2021-07-14T09:43:02.358Z",
  "OriginDate": "2021-07-14T09:43:02.358Z",
  "PublicationDate": "2022-09-16T12:42:18Z",
  "ContentLength": 70485539,
  "Online": true,
- "ContentType": "image/tiff",
+ "ContentType": "application/tiff",
  "Link": "?????? s3://HRVPP/CLMS/Pan-European/Biophysical/VI/v01/2020/01/01/VI_20200101T082239_S2B_T36SXE-010m_V101_FAPAR.tif",
  "QL_Path": "",
- "CollectionName": "CLMS", 
- "PathLevel2": "Pan-European/Biophysical/VI/v1......",
+ "CollectionName": "CLMS", 	  
+ "SpatialExtent": "Pan-European", 
+ "ProductType": "Biophysical", 
+ "DatasetName":"HRVPP_VI_10m_v1_d_tif", 
+ "Version":v1"", 
+ "PathLevel2": "pan-european/Biophysical/VI/v1......",
  "ProductType": "HRVPP_VI_10m_v1_d_tif",
  "TargetFormat": "EXTRACTED",
- "DecompressionStep": "false",
- "CompresionType": false,
+ "DecompressionStep": false,
+ "CompresionType": null,
  "ContentDate": {
  "Start": "2020-01-01T08:22:39.024Z",
  "End": "2020-01-01T08:22:39.024Z"
@@ -51,6 +55,15 @@
                     ]
 				]
  },
-  "Attributes": [
+  "Attributes": [    { 
+      "Name": "datasetIdentifier", 
+      "ValueType": "String", 
+      "Value": "HRVPP_VI_10m_v1_d_tif"
+    }, 
+    { 
+      "Name": "processingCenter", 
+      "ValueType": "String", 
+      "Value": "VITO" 
+    }
 ]
 }
