@@ -57,7 +57,7 @@
      { 
       "Name": "datasetIdentifier", 
       "ValueType": "String", 
-      "Value": "dmp_300m_v1_10daily”
+      "Value": "dmp_300m_v1_10daily"
      }, 
     { 
       "Name": "processingCenter", 
