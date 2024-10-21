@@ -13,7 +13,7 @@
  "CollectionName": "CLMS", 	  
  "SpatialExtent": "Pan-European", 
  "ProductType": "Biophysical", 
- "DatasetName":"HRVPP_VI_10m_v1_d_tif", 
+ "DatasetName":"HRVPP_VI_FAPAR_10m_v1_daily", 
  "Version":"v1", 
  "TargetFormat": "EXTRACTED",
  "DecompressionStep": false,
