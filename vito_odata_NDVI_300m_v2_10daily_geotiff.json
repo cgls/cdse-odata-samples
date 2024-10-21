@@ -1,0 +1,68 @@
+{
+ "@odata.context": "$metadata#Products(Attributes())",
+ "Name": "c_gls_NDVI300-NDVI_202301010000_GLOBE_OLCI_V2.0.1_cog",
+ "EvictionDate": "9999-12-31T23:59:59.999999Z",
+ "ModificationDate": "2024-05-11T09:44:56Z",
+ "OriginDate": "2024-05-11T09:44:56Z",
+ "PublicationDate": "2024-05-15T16:07:14Z",
+ "ContentLength": 743980840,
+ "Online": true,
+ "ContentType": "application/tiff",
+ "Link": "s3://CLMS-ARCHIVE-INGESTION/geotiff/ndvi/ndvi_300m_v2_10daily/2023/20230101/c_gls_NDVI300-NDVI_202301010000_GLOBE_OLCI_V2.0.1.tiff",
+ "QL_Path": null,
+ "CollectionName": "CLMS", 
+ "SpatialExtent": "global", 
+ "ProductType": "ndvi", 
+ "DatasetName":"ndvi_300m_v2_10daily",
+  "Version":"v2",
+ "TargetFormat": "EXTRACTED",
+ "DecompressionStep": false,
+ "CompresionType": null,
+ "ContentDate": {
+ "Start": "2023-01-01T00:00:00Z",
+ "End": "2023-01-10T23:59:59Z"
+ },
+ "Checksum": {
+ "Value": "07ba8661aa2a5b86e95e8aa180a29a32", 
+ "Algorithm": "MD5", 
+ "ChecksumDate": "2023-11-12T17:25:19.782782Z"},
+ "GeoFootprint": {
+ "type": "Polygon",
+ "coordinates": [
+    [
+            [
+              179.998512,
+              -59.998512
+            ],
+            [
+              179.998512,
+              80.001488
+            ],
+            [
+              -180.001488,
+              80.001488
+            ],
+            [
+              -180.001488,
+              -59.998512
+            ],
+            [
+              179.998512,
+              -59.998512
+            ]
+          ]
+        ]
+ },
+  "Attributes": [
+   { 
+      "Name": "datasetIdentifier", 
+      "ValueType": "String", 
+      "Value": "ndvi_300m_v2_10daily” 
+    }, 
+    { 
+      "Name": "processingCenter", 
+      "ValueType": "String", 
+      "Value": "VITO" 
+    }, 
+]
+}
