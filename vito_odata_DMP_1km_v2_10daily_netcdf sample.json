@@ -1,6 +1,6 @@
 {
  "@odata.context": "$metadata#Products(Attributes())",
- "Name": "c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1-nc",
+ "Name": "c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1_nc",
  "EvictionDate": "9999-12-31T23:59:59.999999Z",
  "ModificationDate": "2023-02-11T20:59:03Z",
  "OriginDate": "2023-02-11T20:59:03Z",
@@ -57,8 +57,8 @@
      { 
       "Name": "datasetIdentifier", 
       "ValueType": "String", 
-      "Value": "dmp_300m_v1_10daily” 
-    }, 
+      "Value": "dmp_300m_v1_10daily”
+     }, 
     { 
       "Name": "processingCenter", 
       "ValueType": "String", 
