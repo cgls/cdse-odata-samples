@@ -57,12 +57,67 @@
    { 
       "Name": "datasetIdentifier", 
       "ValueType": "String", 
-      "Value": "ndvi_300m_v2_10daily” 
+      "Value": "ndvi_300m_v2_10daily" 
     }, 
     { 
       "Name": "processingCenter", 
       "ValueType": "String", 
       "Value": "VITO" 
     }, 
-]
-}
+     {
+     "Name": "parentIdentifier",
+     "ValueType": "String",
+     "Value": "clms_global_ndvi_300m_v2_10daily_geotiff"
+     },
+     {
+     "Name": "identifier",
+     "ValueType": "String",
+     "Value": "c_gls_NDVI300-NDVI_202301010000_GLOBE_OLCI_V2.0.1"
+     },
+     {
+     "Name": "date",
+     "ValueType": "DateTimeOffset",
+     "Value": "2023-01-01T00:00:00Z"
+     },
+     {
+     "Name": "title",
+     "ValueType": "String",
+     "Value": "10-daily Normalized Difference Vegetation Index 333M: GLOBE 2023-01-01T00:00:00Z - Normalized Difference Vegetation Index"
+     },
+     {
+     "Name": "acquistionType",
+     "ValueType": "String",
+     "Value": "NOMINAL"
+     },
+     {
+     "Name": "tileId",
+     "ValueType": "String",
+     "Value": "GLOBE"
+     },
+     {
+     "Name": "platformShortName",
+     "ValueType": "String",
+     "Value": "SENTINEL-3"
+     },
+     {
+     "Name": "status",
+     "ValueType": "String",
+     "Value": "ARCHIVED"
+     },
+     {
+     "Name": "productType",
+     "ValueType": "String",
+     "Value": "NDVI"
+     },
+     {
+     "Name": "productVersion",
+     "ValueType": "String",
+     "Value": "V2.0.1"
+     },
+     {
+     "Name": "resolution",
+     "ValueType": "Integer", 
+     "Value": "300"
+     }
+  ]
+    }
