@@ -36,12 +36,67 @@
        { 
       "Name": "datasetIdentifier", 
       "ValueType": "String", 
-      "Value": "wl_rivers_v2_daily” 
+      "Value": "wl_rivers_v2_daily" 
     }, 
     { 
       "Name": "processingCenter", 
       "ValueType": "String", 
       "Value": "CLS" 
     }, 
+   {
+      "Name": "parentIdentifier",
+      "ValueType": "String",
+      "Value": "clms_global_wl_rivers_v2_daily_geojson"
+      },
+      {
+      "Name": "identifier",
+      "ValueType": "String",
+      "Value": "c_gls_WL_0000000000001_ALTI_V2.2.0"
+      },
+      {
+      "Name": "date",
+      "ValueType": "DateTimeOffset",
+      "Value": "2024-10-05T00:43:00Z"
+      },
+      {
+      "Name": "title",
+      "ValueType": "String",
+      "Value": "River water level time series: Acarau Acarau"
+      },
+      {
+      "Name": "acquistionType",
+      "ValueType": "String",
+      "Value": "NOMINAL"
+      },
+      {
+      "Name": "tileId",
+      "ValueType": "String",
+      "Value": "Acarau"
+      },
+      {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "Altimeters"
+      },
+      {
+      "Name": "status",
+      "ValueType": "String",
+      "Value": "ARCHIVED"
+      },
+      {
+      "Name": "productType",
+      "ValueType": "String",
+      "Value": "WL"
+      },
+       {
+      "Name": "productGroupId",
+      "ValueType": "String",
+      "Value": "Acarau"
+      },
+      {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "V2.2.0"
+      }
 ]
 }
