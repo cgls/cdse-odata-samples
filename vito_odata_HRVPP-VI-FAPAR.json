@@ -62,6 +62,52 @@
       "Name": "processingCenter", 
       "ValueType": "String", 
       "Value": "VITO" 
-    }
+	
+    },	
+	 {
+	 "Name": "date",
+	 "ValueType": "DateTimeOffset",
+	 "Value": "2020-01-01T08:22:39.024Z"
+	 },
+	 {
+	 "Name": "productVersion",
+	 "ValueType": "String",
+	 "Value": "V101"
+	 },
+	 {
+	 "Name": "title",
+	 "ValueType": "String",
+	 "Value": "Vegetation Indices 2017-now (raster 010m) - version 1 revision 01 : FAPAR T36SXE 20200101T082239"
+	 },
+	 {
+	 "Name": "tileId",
+	 "ValueType": "String",
+	 "Value": "36SXE"
+	 },
+	 {
+	 "Name": "relativeOrbitNumber",
+	 "ValueType": "Integer",
+	 "Value": "121"
+	 },
+	 {
+	 "Name": "platformShortName",
+	 "ValueType": "String",
+	 "Value": "SENTINEL-2"
+	 },
+	 {
+	 "Name": "platformSerialIdentifier",
+	 "ValueType": "String",
+	 "Value": "S2B"
+	 },
+	 {
+	 "Name": "status",
+	 "ValueType": "String",
+	 "Value": "ARCHIVED"
+	 },
+	 {
+	 "Name": "resolution",
+	 "ValueType": "Integer", 
+	 "Value": "10"
+	 }
 ]
 }
