@@ -5,11 +5,9 @@
  "ModificationDate": "2021-07-14T09:43:02.358Z",
  "OriginDate": "2021-07-14T09:43:02.358Z",
  "PublicationDate": "2022-09-16T12:42:18Z",
- "ContentLength": 70485539,
  "Online": true,
  "ContentType": "application/tiff",
  "Link": "s3://hr-vpp-products-vi-v01-2020-01/CLMS/Pan-European/Biophysical/VI/v01/2020/01/01/VI_20200101T082239_S2B_T36SXE-010m_V101_FAPAR.tif",
- "QL_Path": "",
  "CollectionName": "CLMS", 	  
  "SpatialExtent": "Pan-European", 
  "ProductType": "Biophysical", 
@@ -54,25 +52,25 @@
 				]
  },
   "Attributes": [    { 
-      "Name": "datasetIdentifier", 
-      "ValueType": "String", 
-      "Value": "HRVPP_VI_FAPAR_10m_v1_daily"
-    }, 
-    { 
-      "Name": "processingCenter", 
-      "ValueType": "String", 
-      "Value": "VITO" 
-	
-    },	
+	      "Name": "datasetIdentifier", 
+	      "ValueType": "String", 
+	      "Value": "HRVPP_VI_FAPAR_10m_v1_daily"
+	    }, 
+	    { 
+	      "Name": "processingCenter", 
+	      "ValueType": "String", 
+	      "Value": "VITO" 
+		
+	    },	
 	 {
-	 "Name": "date",
+	 "Name": "nominalDate",
 	 "ValueType": "DateTimeOffset",
 	 "Value": "2020-01-01T08:22:39.024Z"
 	 },
 	 {
 	 "Name": "productVersion",
 	 "ValueType": "String",
-	 "Value": "V101"
+	 "Value": "v1.0.1"
 	 },
 	 {
 	 "Name": "title",
@@ -98,11 +96,6 @@
 	 "Name": "platformSerialIdentifier",
 	 "ValueType": "String",
 	 "Value": "S2B"
-	 },
-	 {
-	 "Name": "status",
-	 "ValueType": "String",
-	 "Value": "ARCHIVED"
 	 },
 	 {
 	 "Name": "resolution",
