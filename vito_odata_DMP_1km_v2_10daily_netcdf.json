@@ -5,11 +5,9 @@
  "ModificationDate": "2023-02-11T20:59:03Z",
  "OriginDate": "2023-02-11T20:59:03Z",
  "PublicationDate": "2023-08-29T07:46:16Z",
- "ContentLength": 159290905,
  "Online": true,
  "ContentType": "application/netcdf",
  "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/dry_matter_productivity/dmp_1km_v2_10daily/2020/20200110/c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1.nc" ,
- "QL_Path": "",
  "CollectionName": "CLMS", 
  "SpatialExtent":"global",
  "ProductType": "dry_matter_productivity",
@@ -64,18 +62,8 @@
       "ValueType": "String", 
       "Value": "VITO" 
     },
-    {
-      "Name": "parentIdentifier",
-      "ValueType": "String",
-      "Value": "clms_global_dmp_1km_v2_10daily_netcdf"
-      },
       {
-      "Name": "identifier",
-      "ValueType": "String",
-      "Value": "c_gls_DMP-RT0_202001100000_GLOBE_PROBAV_V2.0.1"
-      },
-      {
-      "Name": "date",
+      "Name": "nominalDate",
       "ValueType": "DateTimeOffset",
       "Value": "2020-01-10T00:00:00Z"
       },
@@ -85,29 +73,9 @@
       "Value": "10-daily Dry Matter Productivity 1KM: GLOBE 2020-01-10T00:00:00Z"
       },
       {
-      "Name": "acquistionType",
-      "ValueType": "String",
-      "Value": "NOMINAL"
-      },
-      {
-      "Name": "tileId",
-      "ValueType": "String",
-      "Value": "GLOBE"
-      },
-      {
       "Name": "platformShortName",
       "ValueType": "String",
       "Value": "PROBA-V"
-      },
-      {
-      "Name": "status",
-      "ValueType": "String",
-      "Value": "ARCHIVED"
-      },
-      {
-      "Name": "productType",
-      "ValueType": "String",
-      "Value": "DMP"
       },
       {
       "Name": "productGroupId",
