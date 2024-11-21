@@ -100,7 +100,7 @@
 	 {
 	 "Name": "resolution",
 	 "ValueType": "Integer", 
-	 "Value": "10"
+	 "Value": 10
 	 }
 ]
 }
