@@ -90,7 +90,7 @@
       {
       "Name": "resolution",
       "ValueType": "Integer", 
-      "Value": "1000"
+      "Value": 1000
       }
   ]
 }
