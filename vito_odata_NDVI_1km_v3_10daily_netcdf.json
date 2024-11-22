@@ -65,7 +65,7 @@
      {
      "Name": "nominalDate",
      "ValueType": "DateTimeOffset",
-     "Value": "1999-01-01T00:00:00Z""
+     "Value": "1999-01-01T00:00:00Z"
      },
      {
      "Name": "title",
