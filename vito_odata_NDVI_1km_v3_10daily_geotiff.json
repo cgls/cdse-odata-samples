@@ -77,6 +77,11 @@
      "ValueType": "String",
      "Value": "SPOT-4"
      },
+    {
+     "Name": "instrumentShortName",
+     "ValueType": "String",
+     "Value": "VEGETATION"
+     },
      {
      "Name": "productVersion",
      "ValueType": "String",
