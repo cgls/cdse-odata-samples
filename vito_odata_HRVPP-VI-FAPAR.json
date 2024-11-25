@@ -97,6 +97,11 @@
 	 "ValueType": "String",
 	 "Value": "S2B"
 	 },
+	   {
+	 "Name": "instrumentShortName",
+	 "ValueType": "String",
+	 "Value": "MSI"
+	 },
 	 {
 	 "Name": "resolution",
 	 "ValueType": "Integer", 
