@@ -63,7 +63,7 @@
       "Value": "todo" 
     }, 
    { 
-      "Name": "component", 
+      "Name": "component", // can it be in the attributes or is it needed in the main part (above)
       "ValueType": "String", 
       "Value": "bio-geophysical" 
     }, 
