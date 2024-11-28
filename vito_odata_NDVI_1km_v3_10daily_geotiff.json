@@ -10,9 +10,8 @@
  "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/ndvi/ndvi_1km_v3_10daily/1999/19990101/c_gls_NDVI_199901010000_GLOBE_VGT_V3.0.1_cog/",
  "CollectionName": "CLMS", 
  "SpatialExtent": "global", 
- "ProductType": "ndvi", 
- "DatasetName":"ndvi_1km_v3_10daily",
-  "Version":"v3",
+ "ProductType": "vegetation_indices", 
+ "Version":"v3",  // searcheable , integer ?  Could we convert to "CollectionVersion" ?
  "TargetFormat": "EXTRACTED",
  "DecompressionStep": false,
  "CompresionType": null,
@@ -20,10 +19,6 @@
  "Start": "1999-01-01T00:00:00Z",
  "End": "1999-01-10T23:59:59Z"
  },
- "Checksum": {
- "Value": "07ba8661aa2a5b86e95e8aa180a29a32", 
- "Algorithm": "MD5", 
- "ChecksumDate": "2023-11-12T17:25:19.782782Z"},
  "GeoFootprint": {
  "type": "Polygon",
  "coordinates": [
@@ -53,9 +48,29 @@
  },
   "Attributes": [
    { 
-      "Name": "datasetIdentifier", 
+      "Name": "collectionIdentifier", 
       "ValueType": "String", 
-      "Value": "ndvi_1km_v3_10daily" 
+      "Value": "ndvi_global_1km_10daily_v3" 
+    }, 
+   { 
+      "Name": "collectionShortName", 
+      "ValueType": "String", 
+      "Value": "ndvi" 
+    }, 
+    { 
+      "Name": "collectionLongName", 
+      "ValueType": "String", 
+      "Value": "todo" 
+    }, 
+   { 
+      "Name": "component", 
+      "ValueType": "String", 
+      "Value": "bio-geophysical" 
+    }, 
+   { 
+      "Name": "consolidationPeriod", // placeholder not for this product/collection
+      "ValueType": "Integer", 
+      "Value":null 
     }, 
     { 
       "Name": "processingCenter", 
@@ -63,14 +78,9 @@
       "Value": "VITO" 
     },
      {
-     "Name": "nominalDate",
+     "Name": "nominalDate",  //can YYYY MM DD be extracted from this nominalDate 
      "ValueType": "DateTimeOffset",
      "Value": "1999-01-01T00:00:00Z"
-     },
-     {
-     "Name": "title",
-     "ValueType": "String",
-     "Value": "10-daily Normalized Difference Vegetation Index 1kM: GLOBE 1999-01-01T00:00:00Z - Normalized Difference Vegetation Index"
      },
      {
      "Name": "platformShortName",
@@ -87,8 +97,23 @@
      "ValueType": "String",
      "Value": "V3.0.1"
      },
+    {
+     "Name": "fileFormat",
+     "ValueType": "String",
+     "Value": "cog"
+     },
+   {
+     "Name": "temporalGrid",
+     "ValueType": "String",
+     "Value": "10daily"
+     },
+    {
+     "Name": "collectionVersion",
+     "ValueType": "Integer",
+     "Value": 3
+     },
      {
-     "Name": "resolution",
+     "Name": "nominalResolution",
      "ValueType": "Integer", 
      "Value": 1000
      }
