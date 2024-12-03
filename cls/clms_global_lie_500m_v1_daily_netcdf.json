@@ -1,0 +1,67 @@
+{
+    "@odata.context": "$metadata#Products(Attributes())",
+    "Name": "clms_global_lie_500m_v1_daily_netcdf_nc",
+    "EvictionDate": "9999-12-31T23:59:59.999999Z",
+    "ModificationDate": "2024-12-03T14:41:11.256271Z",
+    "OriginDate": "2024-12-03T07:54:27.728388Z",
+    "PublicationDate": "2024-12-03T14:41:11.256271Z",
+    "ContentLength": 7241949,
+    "Online": true,
+    "ContentType": "application/netcdf",
+    "Link": "c_gls_LIE-NH_202104010000_NHEMI_SLSTR_V1.1.1",
+    "CollectionName": "CLMS",
+    "SpatialExtent":"global",
+    "ProductType": "lie",
+    "DatasetName": "clms_global_lie_500m_v1_daily_netcdf",
+    "Version": "v1",
+    "TargetFormat": "EXTRACTED",
+    "DecompressionStep": false,
+    "CompresionType": null,
+    "ContentDate": {
+        "Start": "2021-04-01T00:33:34Z",
+        "End": "2021-04-01T21:42:53Z"
+    },
+    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0025, 25.002499999999998], [-180.0025, 84.0025], [179.9975, 84.0025], [179.9975, 25.002499999999998], [-180.0025, 25.002499999999998]]]},
+    "Attributes": [
+        {
+            "Name": "productVersion",
+            "ValueType": "String",
+            "Value": "v1.1.1"
+        },
+        {
+            "Name": "nominalDate",
+            "ValueType": "DateTimeOffset",
+            "Value": "2021-04-01T00:00:00Z"
+        },
+        {
+            "Name": "processingCenter",
+            "ValueType": "String",
+            "Value": "SYKE, FMI, ENVEO"
+        },
+        {
+            "Name": "title",
+            "ValueType": "String",
+            "Value": "Lake Ice Coverage (LIE-NH) 500m: Northern Hemisphere 20210401"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL-3"
+        },
+        {
+            "Name": "platformSerialIdentifier",
+            "ValueType": "String",
+            "Value": "A, B"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "The Sea and Land Surface Temperature Radiometer (SLSTR)"
+        },
+        {
+            "Name": "resolution",
+            "ValueType": "Integer",
+            "Value": 500
+        }
+    ]
+}
