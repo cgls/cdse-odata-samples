@@ -52,6 +52,11 @@
       "ValueType": "String", 
       "Value": "ndvi_global_1km_10daily_v3" 
     }, 
+    { 
+      "Name": "collectionAlias", 
+      "ValueType": "String", 
+      "Value": "ndvi_global_1km_10daily" 
+    }, 
    { 
       "Name": "collectionShortName", 
       "ValueType": "String", 
