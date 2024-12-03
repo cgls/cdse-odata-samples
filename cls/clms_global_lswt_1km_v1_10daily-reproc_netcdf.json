@@ -1,0 +1,62 @@
+{
+    "@odata.context": "$metadata#Products(Attributes())",
+    "Name": "clms_global_lswt_1km_v1_10daily-reproc_netcdf_nc",
+    "EvictionDate": "9999-12-31T23:59:59.999999Z",
+    "ModificationDate": "2024-12-03T14:41:11.116254Z",
+    "OriginDate": "2024-12-02T15:10:19.059426Z",
+    "PublicationDate": "2024-12-03T14:41:11.116254Z",
+    "ContentLength": 7552212,
+    "Online": true,
+    "ContentType": "application/netcdf",
+    "Link": "c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2",
+    "CollectionName": "CLMS",
+    "SpatialExtent":"global",
+    "ProductType": "lswt",
+    "DatasetName": "clms_global_lswt_1km_v1_10daily-reproc_netcdf",
+    "Version": "v1",
+    "TargetFormat": "EXTRACTED",
+    "DecompressionStep": false,
+    "CompresionType": null,
+    "ContentDate": {
+        "Start": "2002-05-11T00:00:00Z",
+        "End": "2002-05-20T00:00:00Z"
+    },
+    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.000001, -90.000001], [-180.000001, 90.000001], [180.000001, 90.000001], [180.000001, -90.000001], [-180.000001, -90.000001]]]},
+    "Attributes": [
+        {
+            "Name": "productVersion",
+            "ValueType": "String",
+            "Value": "v1.0.2"
+        },
+        {
+            "Name": "nominalDate",
+            "ValueType": "DateTimeOffset",
+            "Value": "2002-05-11T00:00:00Z"
+        },
+        {
+            "Name": "processingCenter",
+            "ValueType": "String",
+            "Value": "University of Reading"
+        },
+        {
+            "Name": "title",
+            "ValueType": "String",
+            "Value": "CGLOPS AATSR 10 DAYS product"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "ENVISAT"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "AATSR"
+        },
+        {
+            "Name": "resolution",
+            "ValueType": "Integer",
+            "Value": 1000
+        }
+    ]
+}

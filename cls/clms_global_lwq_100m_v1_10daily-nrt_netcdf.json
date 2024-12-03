@@ -1,0 +1,67 @@
+{
+    "@odata.context": "$metadata#Products(Attributes())",
+    "Name": "clms_global_lwq_100m_v1_10daily-nrt_netcdf_nc",
+    "EvictionDate": "9999-12-31T23:59:59.999999Z",
+    "ModificationDate": "2024-12-03T14:41:11.168757Z",
+    "OriginDate": "2024-12-02T15:19:17.543279Z",
+    "PublicationDate": "2024-12-03T14:41:11.168757Z",
+    "ContentLength": 874310056,
+    "Online": true,
+    "ContentType": "application/netcdf",
+    "Link": "c_gls_LWQ100_201812210000_GLOBAL_MSI_V1.3",
+    "CollectionName": "CLMS",
+    "SpatialExtent":"global",
+    "ProductType": "lwq100",
+    "DatasetName": "clms_global_lwq_100m_v1_10daily-nrt_netcdf",
+    "Version": "v1",
+    "TargetFormat": "EXTRACTED",
+    "DecompressionStep": false,
+    "CompresionType": null,
+    "ContentDate": {
+        "Start": "2018-12-21T00:00:00Z",
+        "End": "2018-12-31T23:59:59Z"
+    },
+    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -90.0], [-180.0, 90.0], [180.0, 90.0], [180.0, -90.0], [-180.0, -90.0]]]},
+    "Attributes": [
+        {
+            "Name": "productVersion",
+            "ValueType": "String",
+            "Value": "v1.3"
+        },
+        {
+            "Name": "nominalDate",
+            "ValueType": "DateTimeOffset",
+            "Value": "2018-12-21T00:00:00Z"
+        },
+        {
+            "Name": "processingCenter",
+            "ValueType": "String",
+            "Value": "Plymouth Marine Laboratory"
+        },
+        {
+            "Name": "title",
+            "ValueType": "String",
+            "Value": "Water Quality, Calimnos L3 Aggregated product"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL-2"
+        },
+        {
+            "Name": "platformSerialIdentifier",
+            "ValueType": "String",
+            "Value": "A"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "MSI"
+        },
+        {
+            "Name": "resolution",
+            "ValueType": "Integer",
+            "Value": 100
+        }
+    ]
+}
