@@ -8,8 +8,7 @@
  "Online": true,
  "ContentType": "application/tiff",
  "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/ndvi/ndvi_1km_v3_10daily/1999/19990101/c_gls_NDVI_199901010000_GLOBE_VGT_V3.0.1_cog/",
- "CollectionName": "CLMS", 
- "SpatialExtent": "global", 
+ "CollectionName": "CLMS",  
  "ProductType": "vegetation_indices", 
  "Version":"v3",  // searcheable , integer ?  Could we convert to "CollectionVersion" ?
  "TargetFormat": "EXTRACTED",
@@ -20,8 +19,8 @@
  "End": "1999-01-10T23:59:59Z"
  },
  "GeoFootprint": {
- "type": "Polygon",
- "coordinates": [
+   "type": "Polygon",
+   "coordinates": [
    [
             [
               -180.0044642857,
@@ -98,6 +97,11 @@
      "Value": "VEGETATION"
      },
      {
+     "Name": "collectionVersion",
+     "ValueType": "Integer",
+     "Value": 3
+     },
+     {
      "Name": "productVersion",
      "ValueType": "String",
      "Value": "V3.0.1"
@@ -113,10 +117,11 @@
      "Value": "10daily"
      },
     {
-     "Name": "collectionVersion",
-     "ValueType": "Integer",
-     "Value": 3
+     "Name": " "spatialExtent",
+     "ValueType": "String",
+     "Value": "global"
      },
+  
      {
      "Name": "nominalResolution",
      "ValueType": "Integer", 
