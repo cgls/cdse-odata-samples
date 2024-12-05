@@ -10,7 +10,6 @@
  "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/ndvi/ndvi_1km_v3_10daily/1999/19990101/c_gls_NDVI_199901010000_GLOBE_VGT_V3.0.1_cog/",
  "CollectionName": "CLMS",  
  "ProductType": "vegetation_indices", 
- "Version":"v3",  // searcheable , integer ?  Could we convert to "CollectionVersion" ?
  "TargetFormat": "EXTRACTED",
  "DecompressionStep": false,
  "CompresionType": null,
@@ -47,27 +46,22 @@
  },
   "Attributes": [
    { 
-      "Name": "collectionIdentifier", 
+      "Name": "datasetIdentifier", 
       "ValueType": "String", 
       "Value": "ndvi_global_1km_10daily_v3" 
     }, 
     { 
-      "Name": "collectionAlias", 
+      "Name": "datasetAlias", 
       "ValueType": "String", 
       "Value": "ndvi_global_1km_10daily" 
     }, 
    { 
-      "Name": "collectionShortName", 
+      "Name": "datasetShortName", 
       "ValueType": "String", 
       "Value": "ndvi" 
     }, 
-    { 
-      "Name": "collectionLongName", 
-      "ValueType": "String", 
-      "Value": "todo" 
-    }, 
    { 
-      "Name": "component", // can it be in the attributes or is it needed in the main part (above)
+      "Name": "component", 
       "ValueType": "String", 
       "Value": "bio-geophysical" 
     }, 
@@ -86,16 +80,21 @@
      "ValueType": "DateTimeOffset",
      "Value": "1999-01-01T00:00:00Z"
      },
-     {
-     "Name": "platformShortName",
-     "ValueType": "String",
-     "Value": "SPOT-4"
+    {
+     "Name": "platformShortNames",
+     "ValueType": "List[String]",
+     "Value": ["SENTINEL-3","PROBA-V"]
+     },
+   {
+     "Name": "platformSerialIdentifiers",
+     "ValueType": "List[String]",
+     "Value": ["A","B"]
      },
     {
-     "Name": "instrumentShortName",
-     "ValueType": "String",
-     "Value": "VEGETATION"
-     },
+     "Name": "instrumentShortNames",
+     "ValueType": "List[String]",
+     "Value": ["OLCI", "SLSTR", "VEGETATION"]
+     },   
      {
      "Name": "collectionVersion",
      "ValueType": "Integer",
@@ -121,11 +120,15 @@
      "ValueType": "String",
      "Value": "global"
      },
-  
-     {
+    {
      "Name": "nominalResolution",
+     "ValueType": "String", 
+     "Value": "1km"
+     },
+     {
+     "Name": "nominalResolutionMeters",
      "ValueType": "Integer", 
-     "Value": 1000
+     "Value": "1000"
      }
   ]
     }
