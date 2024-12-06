@@ -83,17 +83,17 @@
     {
      "Name": "platformShortNames",
      "ValueType": "List[String]",
-     "Value": ["SENTINEL-3","PROBA-V"]
+     "Value": ["SPOT-4"]
      },
    {
      "Name": "platformSerialIdentifiers",
      "ValueType": "List[String]",
-     "Value": ["A","B"]
+     "Value":null
      },
     {
      "Name": "instrumentShortNames",
      "ValueType": "List[String]",
-     "Value": ["OLCI", "SLSTR", "VEGETATION"]
+     "Value": ["VEGETATION"]
      },   
      {
      "Name": "collectionVersion",
@@ -116,7 +116,7 @@
      "Value": "10daily"
      },
     {
-     "Name": " "spatialExtent",
+     "Name": "spatialExtent",
      "ValueType": "String",
      "Value": "global"
      },
