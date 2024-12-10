@@ -66,7 +66,7 @@
       "Value": "bio-geophysical" 
     }, 
    { 
-      "Name": "consolidationPeriod", // placeholder not for this product/collection
+      "Name": "consolidationPeriod", 
       "ValueType": "Integer", 
       "Value":null 
     }, 
@@ -76,7 +76,7 @@
       "Value": "VITO" 
     },
      {
-     "Name": "nominalDate",  //can YYYY MM DD be extracted from this nominalDate 
+     "Name": "nominalDate",  
      "ValueType": "DateTimeOffset",
      "Value": "1999-01-01T00:00:00Z"
      },
@@ -116,17 +116,17 @@
      "Value": "10daily"
      },
     {
-     "Name": "spatialExtent",
+     "Name": "areaOfInterest",
      "ValueType": "String",
      "Value": "global"
      },
     {
-     "Name": "nominalResolution",
+     "Name": "gridLabel",
      "ValueType": "String", 
      "Value": "1km"
      },
      {
-     "Name": "nominalResolutionMeters",
+     "Name": "metricGridSpacing",
      "ValueType": "Integer", 
      "Value": "1000"
      }
