@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_lie_250m_v1_daily_netcdf_nc",
+    "Name": "clms_global_lie_250m_v1_daily_netcdf_nc",   ==> "c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
     "OriginDate": "2024-12-05T07:45:45.150707Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1",
+    "Link": "c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1", ==> Source File location,
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_ice_extent",
     "TargetFormat": "EXTRACTED",
@@ -38,9 +38,14 @@
             "Value": "nc"
         },
         {
-            "Name": "processingCenter",
+            "Name": "processingCenter",  ==> TBD with JRC/CF,
             "ValueType": "String",
             "Value": "SYKE, FMI, ENVEO"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "MODIS"
         },
         {
             "Name": "platformShortName",
@@ -48,9 +53,14 @@
             "Value": "TERRA"
         },
         {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "EOS AM-1"
+        },
+        {
             "Name": "instrumentShortName",
             "ValueType": "String",
-            "Value": "Moderate Resolution Imaging Spectrometer (MODIS)"
+            "Value": "Moderate Resolution Imaging Spectrometer (MODIS)" ==> "MODIS"
         },
         {
             "Name": "datasetIdentifier",
