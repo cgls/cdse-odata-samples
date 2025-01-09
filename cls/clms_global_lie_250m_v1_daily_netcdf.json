@@ -2,21 +2,15 @@
     "@odata.context": "$metadata#Products(Attributes())",
     "Name": "clms_global_lie_250m_v1_daily_netcdf_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "ModificationDate": "2024-12-03T14:41:11.241825Z",
-    "OriginDate": "2024-12-03T07:54:26.114559Z",
-    "PublicationDate": "2024-12-03T14:41:11.241825Z",
-    "ContentLength": 1142720,
+    "OriginDate": "2024-12-05T07:45:45.150707Z",
     "Online": true,
     "ContentType": "application/netcdf",
     "Link": "c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1",
     "CollectionName": "CLMS",
-    "SpatialExtent":"global",
-    "ProductType": "lie250",
-    "DatasetName": "clms_global_lie_250m_v1_daily_netcdf",
-    "Version": "v1",
+    "ProductType": "river_and_lake_ice_extent",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
-    "CompresionType": null,
+    "CompressionType": null,
     "ContentDate": {
         "Start": "2017-03-15T00:00:01Z",
         "End": "2017-03-15T23:59:59Z"
@@ -29,19 +23,24 @@
             "Value": "v1.0.1"
         },
         {
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 1
+        },
+        {
             "Name": "nominalDate",
             "ValueType": "DateTimeOffset",
             "Value": "2017-03-15T00:00:00Z"
         },
         {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
+        },
+        {
             "Name": "processingCenter",
             "ValueType": "String",
             "Value": "SYKE, FMI, ENVEO"
-        },
-        {
-            "Name": "title",
-            "ValueType": "String",
-            "Value": "Lake Ice Coverage (LIE) 250m: Baltic 2017-03-15"
         },
         {
             "Name": "platformShortName",
@@ -54,9 +53,44 @@
             "Value": "Moderate Resolution Imaging Spectrometer (MODIS)"
         },
         {
-            "Name": "resolution",
+            "Name": "datasetIdentifier",
+            "ValueType": "String",
+            "Value": "lie_baltic_250m_daily_v1"
+        },
+        {
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "lie"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "lie_baltic_250m_daily"
+        },
+        {
+            "Name": "component",
+            "ValueType": "String",
+            "Value": "bio-geophysical"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "baltic"
+        },
+        {
+            "Name": "metricGridSpacing",
             "ValueType": "Integer",
             "Value": 250
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "250m"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "daily"
         }
     ]
 }

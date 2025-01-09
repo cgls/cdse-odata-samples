@@ -2,21 +2,15 @@
     "@odata.context": "$metadata#Products(Attributes())",
     "Name": "clms_global_swe_5km_v1_daily_netcdf_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "ModificationDate": "2024-12-03T14:41:11.053443Z",
     "OriginDate": "2024-12-02T11:35:17.325180Z",
-    "PublicationDate": "2024-12-03T14:41:11.053443Z",
-    "ContentLength": 57815974,
     "Online": true,
     "ContentType": "application/netcdf",
     "Link": "c_gls_SWE5K_200601010000_NHEMI_SSMIS_V1.0.2",
     "CollectionName": "CLMS",
-    "SpatialExtent":"global",
-    "ProductType": "swe5k",
-    "DatasetName": "clms_global_swe_5km_v1_daily_netcdf",
-    "Version": "v1",
+    "ProductType": "snow_water_equivalent",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
-    "CompresionType": null,
+    "CompressionType": null,
     "ContentDate": {
         "Start": "2006-01-01T00:00:00Z",
         "End": "2006-01-01T23:59:59Z"
@@ -29,9 +23,19 @@
             "Value": "v1.0.2"
         },
         {
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 1
+        },
+        {
             "Name": "nominalDate",
             "ValueType": "DateTimeOffset",
             "Value": "2006-01-01T00:00:00Z"
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
         },
         {
             "Name": "processingCenter",
@@ -39,24 +43,54 @@
             "Value": "FMI"
         },
         {
-            "Name": "title",
-            "ValueType": "String",
-            "Value": "Daily Snow Water Equivalent: NHEMI 2006-01-01"
+            "Name": "platformShortNames",
+            "ValueType": "List[String]",
+            "Value": ["DMSP", "SUOMI NPP"]
         },
         {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": "DMSP"
+            "Name": "instrumentShortNames",
+            "ValueType": "List[String]",
+            "Value": ["SSMIS", "VIIRS"]
         },
         {
-            "Name": "instrumentShortName",
+            "Name": "datasetIdentifier",
             "ValueType": "String",
-            "Value": "SSMIS, VIIRS"
+            "Value": "swe_northernhemisphere_5km_daily_v1"
         },
         {
-            "Name": "resolution",
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "swe"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "swe_northernhemisphere_5km_daily"
+        },
+        {
+            "Name": "component",
+            "ValueType": "String",
+            "Value": "bio-geophysical"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "northern hemisphere"
+        },
+        {
+            "Name": "metricGridSpacing",
             "ValueType": "Integer",
             "Value": 5000
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "5km"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "daily"
         }
     ]
 }

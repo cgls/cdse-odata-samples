@@ -2,21 +2,15 @@
     "@odata.context": "$metadata#Products(Attributes())",
     "Name": "clms_global_lwq_300m_v1_10daily-nrt_netcdf_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "ModificationDate": "2024-12-03T14:41:11.189222Z",
     "OriginDate": "2024-12-03T07:49:13.036679Z",
-    "PublicationDate": "2024-12-03T14:41:11.189222Z",
-    "ContentLength": 3171813137,
     "Online": true,
     "ContentType": "application/netcdf",
     "Link": "c_gls_LWQ300_201604210000_GLOBE_OLCI_V1.3.0",
     "CollectionName": "CLMS",
-    "SpatialExtent":"global",
-    "ProductType": "lwq300",
-    "DatasetName": "clms_global_lwq_300m_v1_10daily-nrt_netcdf",
-    "Version": "v1",
+    "ProductType": "lake_water_quality",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
-    "CompresionType": null,
+    "CompressionType": null,
     "ContentDate": {
         "Start": "2016-04-21T00:00:00Z",
         "End": "2016-04-30T23:59:59Z"
@@ -29,9 +23,19 @@
             "Value": "v1.3.0"
         },
         {
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 1
+        },
+        {
             "Name": "nominalDate",
             "ValueType": "DateTimeOffset",
             "Value": "2016-04-21T00:00:00Z"
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
         },
         {
             "Name": "processingCenter",
@@ -39,19 +43,54 @@
             "Value": "Plymouth Marine Laboratory"
         },
         {
-            "Name": "title",
-            "ValueType": "String",
-            "Value": "Water Quality, Calimnos L3 Aggregated product"
-        },
-        {
             "Name": "instrumentShortName",
             "ValueType": "String",
             "Value": "OLCI"
         },
         {
-            "Name": "resolution",
+            "Name": "datasetIdentifier",
+            "ValueType": "String",
+            "Value": "lwq-nrt_global_300m_10daily_v1"
+        },
+        {
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "lwq"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "lwq-nrt_global_300m_10daily"
+        },
+        {
+            "Name": "component",
+            "ValueType": "String",
+            "Value": "bio-geophysical"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "global"
+        },
+        {
+            "Name": "metricGridSpacing",
             "ValueType": "Integer",
             "Value": 300
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "300m"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "10-daily"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL-3"
         }
     ]
 }

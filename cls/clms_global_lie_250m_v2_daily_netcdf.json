@@ -1,36 +1,36 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_wb_100m_v1_monthly_netcdf_nc",
+    "Name": "clms_global_lie_250m_v2_daily_netcdf_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "OriginDate": "2024-12-02T15:14:07.544386Z",
+    "OriginDate": "2025-01-08T14:13:35.197627Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_WB100_202010010000_GLOBE_S2_V1.0.1",
+    "Link": "c_gls_LIE250_202402190000_CEURO_VIIRS_V2.2.1",
     "CollectionName": "CLMS",
-    "ProductType": "water_bodies",
+    "ProductType": "river_and_lake_ice_extent",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2020-10-01T00:00:00Z",
-        "End": "2020-10-31T23:59:59Z"
+        "Start": "2024-02-19T00:00:01Z",
+        "End": "2024-02-19T23:59:59Z"
     },
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -60.0], [-180.0, 80.0], [180.0, 80.0], [180.0, -60.0], [-180.0, -60.0]]]},
+    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-11.001249999999999, 35.00125], [-11.001249999999999, 72.00125], [49.99875, 72.00125], [49.99875, 35.00125], [-11.001249999999999, 35.00125]]]},
     "Attributes": [
         {
             "Name": "productVersion",
             "ValueType": "String",
-            "Value": "v1.0.1"
+            "Value": "v2.2.1"
         },
         {
             "Name": "datasetVersion",
             "ValueType": "Integer",
-            "Value": 1
+            "Value": 2
         },
         {
             "Name": "nominalDate",
             "ValueType": "DateTimeOffset",
-            "Value": "2020-10-01T00:00:00Z"
+            "Value": "2024-02-19T00:00:00Z"
         },
         {
             "Name": "fileFormat",
@@ -40,32 +40,32 @@
         {
             "Name": "processingCenter",
             "ValueType": "String",
-            "Value": "SIRS"
+            "Value": "Syke, FMI, ENVEO"
         },
         {
             "Name": "platformShortName",
             "ValueType": "String",
-            "Value": "SENTINEL-2"
+            "Value": "NOAA-20"
         },
         {
             "Name": "instrumentShortName",
             "ValueType": "String",
-            "Value": "MSI"
+            "Value": "Visible Infrared Imaging Radiometer Suite (VIIRS)"
         },
         {
             "Name": "datasetIdentifier",
             "ValueType": "String",
-            "Value": "wb_global_100m_monthly_v1"
+            "Value": "lie_europe_250m_daily_v2"
         },
         {
             "Name": "datasetShortName",
             "ValueType": "String",
-            "Value": "wb"
+            "Value": "lie"
         },
         {
             "Name": "datasetAlias",
             "ValueType": "String",
-            "Value": "wb_global_100m_monthly"
+            "Value": "lie_europe_250m_daily"
         },
         {
             "Name": "component",
@@ -75,27 +75,22 @@
         {
             "Name": "areaOfInterest",
             "ValueType": "String",
-            "Value": "global"
+            "Value": "europe"
         },
         {
             "Name": "metricGridSpacing",
             "ValueType": "Integer",
-            "Value": 100
+            "Value": 250
         },
         {
             "Name": "gridLabel",
             "ValueType": "String",
-            "Value": "100m"
+            "Value": "250m"
         },
         {
             "Name": "temporalRepeatRate",
             "ValueType": "String",
-            "Value": "monthly"
-        },
-        {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL-2"
+            "Value": "daily"
         }
     ]
 }

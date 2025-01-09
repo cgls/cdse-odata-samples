@@ -1,36 +1,36 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_wb_100m_v1_monthly_netcdf_nc",
+    "Name": "clms_global_lwq_300m_v2_10daily-nrt_netcdf_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "OriginDate": "2024-12-02T15:14:07.544386Z",
+    "OriginDate": "2024-12-11T08:34:11.539368Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_WB100_202010010000_GLOBE_S2_V1.0.1",
+    "Link": "c_gls_LWQ300_202409010000_GLOBE_OLCI_V2.0.0",
     "CollectionName": "CLMS",
-    "ProductType": "water_bodies",
+    "ProductType": "lake_water_quality",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2020-10-01T00:00:00Z",
-        "End": "2020-10-31T23:59:59Z"
+        "Start": "2024-09-01T00:00:00Z",
+        "End": "2024-09-10T23:59:59Z"
     },
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -60.0], [-180.0, 80.0], [180.0, 80.0], [180.0, -60.0], [-180.0, -60.0]]]},
+    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -90.0], [-180.0, 90.0], [180.0, 90.0], [180.0, -90.0], [-180.0, -90.0]]]},
     "Attributes": [
         {
             "Name": "productVersion",
             "ValueType": "String",
-            "Value": "v1.0.1"
+            "Value": "v2.0.0"
         },
         {
             "Name": "datasetVersion",
             "ValueType": "Integer",
-            "Value": 1
+            "Value": 2
         },
         {
             "Name": "nominalDate",
             "ValueType": "DateTimeOffset",
-            "Value": "2020-10-01T00:00:00Z"
+            "Value": "2024-09-01T00:00:00Z"
         },
         {
             "Name": "fileFormat",
@@ -40,32 +40,37 @@
         {
             "Name": "processingCenter",
             "ValueType": "String",
-            "Value": "SIRS"
+            "Value": "Plymouth Marine Laboratory"
         },
         {
             "Name": "platformShortName",
             "ValueType": "String",
-            "Value": "SENTINEL-2"
+            "Value": "SENTINEL-3"
+        },
+        {
+            "Name": "platformSerialIdentifiers",
+            "ValueType": "List[String]",
+            "Value": ["A", "B"]
         },
         {
             "Name": "instrumentShortName",
             "ValueType": "String",
-            "Value": "MSI"
+            "Value": "OLCI"
         },
         {
             "Name": "datasetIdentifier",
             "ValueType": "String",
-            "Value": "wb_global_100m_monthly_v1"
+            "Value": "lwq-nrt_global_300m_10daily_v2"
         },
         {
             "Name": "datasetShortName",
             "ValueType": "String",
-            "Value": "wb"
+            "Value": "lwq"
         },
         {
             "Name": "datasetAlias",
             "ValueType": "String",
-            "Value": "wb_global_100m_monthly"
+            "Value": "lwq-nrt_global_300m_10daily"
         },
         {
             "Name": "component",
@@ -80,22 +85,22 @@
         {
             "Name": "metricGridSpacing",
             "ValueType": "Integer",
-            "Value": 100
+            "Value": 300
         },
         {
             "Name": "gridLabel",
             "ValueType": "String",
-            "Value": "100m"
+            "Value": "300m"
         },
         {
             "Name": "temporalRepeatRate",
             "ValueType": "String",
-            "Value": "monthly"
+            "Value": "10-daily"
         },
         {
             "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "SENTINEL-2"
+            "Value": "SENTINEL-3"
         }
     ]
 }

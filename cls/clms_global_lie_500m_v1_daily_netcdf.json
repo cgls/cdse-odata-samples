@@ -2,21 +2,15 @@
     "@odata.context": "$metadata#Products(Attributes())",
     "Name": "clms_global_lie_500m_v1_daily_netcdf_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "ModificationDate": "2024-12-03T14:41:11.256271Z",
     "OriginDate": "2024-12-03T07:54:27.728388Z",
-    "PublicationDate": "2024-12-03T14:41:11.256271Z",
-    "ContentLength": 7241949,
     "Online": true,
     "ContentType": "application/netcdf",
     "Link": "c_gls_LIE-NH_202104010000_NHEMI_SLSTR_V1.1.1",
     "CollectionName": "CLMS",
-    "SpatialExtent":"global",
-    "ProductType": "lie",
-    "DatasetName": "clms_global_lie_500m_v1_daily_netcdf",
-    "Version": "v1",
+    "ProductType": "river_and_lake_ice_extent",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
-    "CompresionType": null,
+    "CompressionType": null,
     "ContentDate": {
         "Start": "2021-04-01T00:33:34Z",
         "End": "2021-04-01T21:42:53Z"
@@ -29,9 +23,19 @@
             "Value": "v1.1.1"
         },
         {
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 1
+        },
+        {
             "Name": "nominalDate",
             "ValueType": "DateTimeOffset",
             "Value": "2021-04-01T00:00:00Z"
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
         },
         {
             "Name": "processingCenter",
@@ -39,19 +43,14 @@
             "Value": "SYKE, FMI, ENVEO"
         },
         {
-            "Name": "title",
-            "ValueType": "String",
-            "Value": "Lake Ice Coverage (LIE-NH) 500m: Northern Hemisphere 20210401"
-        },
-        {
             "Name": "platformShortName",
             "ValueType": "String",
             "Value": "SENTINEL-3"
         },
         {
-            "Name": "platformSerialIdentifier",
-            "ValueType": "String",
-            "Value": "A, B"
+            "Name": "platformSerialIdentifiers",
+            "ValueType": "List[String]",
+            "Value": ["A", "B"]
         },
         {
             "Name": "instrumentShortName",
@@ -59,9 +58,44 @@
             "Value": "The Sea and Land Surface Temperature Radiometer (SLSTR)"
         },
         {
-            "Name": "resolution",
+            "Name": "datasetIdentifier",
+            "ValueType": "String",
+            "Value": "lie_northernhemisphere_500m_daily_v1"
+        },
+        {
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "lie"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "lie_northernhemisphere_500m_daily"
+        },
+        {
+            "Name": "component",
+            "ValueType": "String",
+            "Value": "bio-geophysical"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "northern hemisphere"
+        },
+        {
+            "Name": "metricGridSpacing",
             "ValueType": "Integer",
             "Value": 500
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "500m"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "daily"
         }
     ]
 }

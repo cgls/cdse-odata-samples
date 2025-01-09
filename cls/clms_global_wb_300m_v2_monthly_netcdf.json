@@ -2,21 +2,15 @@
     "@odata.context": "$metadata#Products(Attributes())",
     "Name": "clms_global_wb_300m_v2_monthly_netcdf_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "ModificationDate": "2024-12-03T14:41:11.152278Z",
     "OriginDate": "2024-12-02T15:14:48.778287Z",
-    "PublicationDate": "2024-12-03T14:41:11.152278Z",
-    "ContentLength": 125167545,
     "Online": true,
     "ContentType": "application/netcdf",
     "Link": "c_gls_WB300_202010010000_GLOBE_S2_V2.0.1",
     "CollectionName": "CLMS",
-    "SpatialExtent":"global",
-    "ProductType": "wb300",
-    "DatasetName": "clms_global_wb_300m_v2_monthly_netcdf",
-    "Version": "v2",
+    "ProductType": "water_bodies",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
-    "CompresionType": null,
+    "CompressionType": null,
     "ContentDate": {
         "Start": "2020-10-01T00:00:00Z",
         "End": "2020-10-31T23:59:59Z"
@@ -29,19 +23,24 @@
             "Value": "v2.0.1"
         },
         {
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 2
+        },
+        {
             "Name": "nominalDate",
             "ValueType": "DateTimeOffset",
             "Value": "2020-10-01T00:00:00Z"
         },
         {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
+        },
+        {
             "Name": "processingCenter",
             "ValueType": "String",
             "Value": "SIRS"
-        },
-        {
-            "Name": "title",
-            "ValueType": "String",
-            "Value": "Monthly Water Bodies 300M: GLOBE 2020-10-01T00:00:00Z"
         },
         {
             "Name": "platformShortName",
@@ -54,9 +53,49 @@
             "Value": "MSI"
         },
         {
-            "Name": "resolution",
+            "Name": "datasetIdentifier",
+            "ValueType": "String",
+            "Value": "wb_global_300m_monthly_v2"
+        },
+        {
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "wb"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "wb_global_300m_monthly"
+        },
+        {
+            "Name": "component",
+            "ValueType": "String",
+            "Value": "bio-geophysical"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "global"
+        },
+        {
+            "Name": "metricGridSpacing",
             "ValueType": "Integer",
             "Value": 300
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "300m"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "monthly"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL-2"
         }
     ]
 }
