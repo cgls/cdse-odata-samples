@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_wb_100m_v1_monthly_netcdf_nc",
+    "Name": "c_gls_WB100_202010010000_GLOBE_S2_V1.0.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
     "OriginDate": "2024-12-02T15:14:07.544386Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_WB100_202010010000_GLOBE_S2_V1.0.1",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/water_bodies/wb_100m_v1_monthly/2020/20201001/c_gls_WB100_202010010000_GLOBE_S2_V1.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "water_bodies",
     "TargetFormat": "EXTRACTED",

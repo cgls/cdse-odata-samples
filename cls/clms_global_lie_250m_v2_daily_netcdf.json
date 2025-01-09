@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_lie_250m_v2_daily_netcdf_nc",
+    "Name": "c_gls_LIE250_202402190000_CEURO_VIIRS_V2.2.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
     "OriginDate": "2025-01-08T14:13:35.197627Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_LIE250_202402190000_CEURO_VIIRS_V2.2.1",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_ice_extent/lie_250m_v2_daily/2024/20240219/c_gls_LIE250_202402190000_CEURO_VIIRS_V2.2.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_ice_extent",
     "TargetFormat": "EXTRACTED",

@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_lswt_1km_v1_10daily-reproc_netcdf_nc",
+    "Name": "c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
     "OriginDate": "2024-12-02T15:10:19.059426Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_surface_water_temperature/lswt_1km_v1_10daily-reproc/2002/20020511/c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2.nc",
     "CollectionName": "CLMS",
     "ProductType": "land_surface_temperature",
     "TargetFormat": "EXTRACTED",

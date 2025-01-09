@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_lwq_300m_v1_10daily-nrt_netcdf_nc",
+    "Name": "c_gls_LWQ300_201604210000_GLOBE_OLCI_V1.3.0_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
     "OriginDate": "2024-12-03T07:49:13.036679Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_LWQ300_201604210000_GLOBE_OLCI_V1.3.0",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_water_quality/lwq_300m_v1_10daily-nrt/2016/20160421/c_gls_LWQ300_201604210000_GLOBE_OLCI_V1.3.0.nc",
     "CollectionName": "CLMS",
     "ProductType": "lake_water_quality",
     "TargetFormat": "EXTRACTED",

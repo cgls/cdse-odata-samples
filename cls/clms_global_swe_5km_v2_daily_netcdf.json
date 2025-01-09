@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_swe_5km_v2_daily_netcdf_nc",
+    "Name": "c_gls_SWE5K_202407010000_NHEMI_SSMIS_V2.0.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
     "OriginDate": "2024-12-11T07:49:58.457216Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_SWE5K_202407010000_NHEMI_SSMIS_V2.0.1",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_water_equivalent/swe_5km_v2_daily/2024/20240701/c_gls_SWE5K_202407010000_NHEMI_SSMIS_V2.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "snow_water_equivalent",
     "TargetFormat": "EXTRACTED",

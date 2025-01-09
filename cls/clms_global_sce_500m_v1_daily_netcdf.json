@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_sce_500m_v1_daily_netcdf_nc",
+    "Name": "c_gls_SCE500_201703010000_CEURO_MODIS_V1.0.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
     "OriginDate": "2024-12-02T11:33:38.038212Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_SCE500_201703010000_CEURO_MODIS_V1.0.1",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_cover_extent/sce_500m_v1_daily/2017/20170301/c_gls_SCE500_201703010000_CEURO_MODIS_V1.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "snow_cover_extent",
     "TargetFormat": "EXTRACTED",

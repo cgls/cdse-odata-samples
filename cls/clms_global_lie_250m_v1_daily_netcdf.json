@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_lie_250m_v1_daily_netcdf_nc",   ==> "c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1_nc",
+    "Name": "c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1_nc",   ==> "c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
     "OriginDate": "2024-12-05T07:45:45.150707Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1", ==> Source File location,
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_ice_extent/lie_250m_v1_daily/2017/20170315/c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1.nc", ==> Source File location,
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_ice_extent",
     "TargetFormat": "EXTRACTED",

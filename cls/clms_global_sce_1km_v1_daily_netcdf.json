@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_sce_1km_v1_daily_netcdf_nc",
+    "Name": "c_gls_SCE_201801090000_NHEMI_VIIRS_V1.0.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
     "OriginDate": "2024-12-02T11:35:04.843161Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_SCE_201801090000_NHEMI_VIIRS_V1.0.1",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_cover_extent/sce_1km_v1_daily/2018/20180109/c_gls_SCE_201801090000_NHEMI_VIIRS_V1.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "snow_cover_extent",
     "TargetFormat": "EXTRACTED",
