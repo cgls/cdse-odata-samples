@@ -8,6 +8,8 @@
     "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_cover_extent/sce_500m_v1_daily/2017/20170301/c_gls_SCE500_201703010000_CEURO_MODIS_V1.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "snow_cover_extent",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "sce_europe_500m_daily_v1",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
@@ -15,6 +17,7 @@
         "Start": "2017-03-01T06:35:00Z",
         "End": "2017-03-01T11:45:00Z"
     },
+    "NominalDate": "2017-03-01T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-11.0, 35.0], [-11.0, 72.0], [50.0, 72.0], [50.0, 35.0], [-11.0, 35.0]]]},
     "Attributes": [
         {
@@ -26,11 +29,6 @@
             "Name": "datasetVersion",
             "ValueType": "Integer",
             "Value": 1
-        },
-        {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2017-03-01T00:00:00Z"
         },
         {
             "Name": "fileFormat",
@@ -63,11 +61,6 @@
             "Value": "MODIS"
         },
         {
-            "Name": "datasetIdentifier",
-            "ValueType": "String",
-            "Value": "sce_europe_500m_daily_v1"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "sce"
@@ -76,11 +69,6 @@
             "Name": "datasetAlias",
             "ValueType": "String",
             "Value": "sce_europe_500m_daily"
-        },
-        {
-            "Name": "component",
-            "ValueType": "String",
-            "Value": "bio-geophysical"
         },
         {
             "Name": "areaOfInterest",

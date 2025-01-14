@@ -8,6 +8,8 @@
     "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_ice_extent/lie_250m_v1_daily/2017/20170315/c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1.nc", ==> Source File location,
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_ice_extent",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "lie_baltic_250m_daily_v1",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
@@ -15,6 +17,7 @@
         "Start": "2017-03-15T00:00:01Z",
         "End": "2017-03-15T23:59:59Z"
     },
+    "NominalDate": "2017-03-15T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[4.99625, 44.99875], [4.99625, 71.00375], [45.00125, 71.00375], [45.00125, 44.99875], [4.99625, 44.99875]]]},
     "Attributes": [
         {
@@ -26,11 +29,6 @@
             "Name": "datasetVersion",
             "ValueType": "Integer",
             "Value": 1
-        },
-        {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2017-03-15T00:00:00Z"
         },
         {
             "Name": "fileFormat",
@@ -63,11 +61,6 @@
             "Value": "MODIS"
         },
         {
-            "Name": "datasetIdentifier",
-            "ValueType": "String",
-            "Value": "lie_baltic_250m_daily_v1"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "lie"
@@ -76,11 +69,6 @@
             "Name": "datasetAlias",
             "ValueType": "String",
             "Value": "lie_baltic_250m_daily"
-        },
-        {
-            "Name": "component",
-            "ValueType": "String",
-            "Value": "bio-geophysical"
         },
         {
             "Name": "areaOfInterest",

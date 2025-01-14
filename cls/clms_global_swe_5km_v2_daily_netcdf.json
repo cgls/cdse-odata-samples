@@ -8,6 +8,8 @@
     "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_water_equivalent/swe_5km_v2_daily/2024/20240701/c_gls_SWE5K_202407010000_NHEMI_SSMIS_V2.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "snow_water_equivalent",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "swe_northernhemisphere_5km_daily_v2",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
@@ -15,6 +17,7 @@
         "Start": "2024-07-01T00:00:00Z",
         "End": "2024-07-01T23:59:59Z"
     },
+    "NominalDate": "2024-07-01T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, 35.0], [-180.0, 85.0], [180.0, 85.0], [180.0, 35.0], [-180.0, 35.0]]]},
     "Attributes": [
         {
@@ -26,11 +29,6 @@
             "Name": "datasetVersion",
             "ValueType": "Integer",
             "Value": 2
-        },
-        {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2024-07-01T00:00:00Z"
         },
         {
             "Name": "fileFormat",
@@ -58,11 +56,6 @@
             "Value": "SSMIS,VIIRS"
         },
         {
-            "Name": "datasetIdentifier",
-            "ValueType": "String",
-            "Value": "swe_northernhemisphere_5km_daily_v2"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "swe"
@@ -71,11 +64,6 @@
             "Name": "datasetAlias",
             "ValueType": "String",
             "Value": "swe_northernhemisphere_5km_daily"
-        },
-        {
-            "Name": "component",
-            "ValueType": "String",
-            "Value": "bio-geophysical"
         },
         {
             "Name": "areaOfInterest",

@@ -8,6 +8,8 @@
     "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/water_bodies/wb_300m_v2_monthly/2020/20201001/c_gls_WB300_202010010000_GLOBE_S2_V2.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "water_bodies",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "wb_global_300m_monthly_v2",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
@@ -15,6 +17,7 @@
         "Start": "2020-10-01T00:00:00Z",
         "End": "2020-10-31T23:59:59Z"
     },
+    "NominalDate": "2020-10-01T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -60.0], [-180.0, 80.0], [180.0, 80.0], [180.0, -60.0], [-180.0, -60.0]]]},
     "Attributes": [
         {
@@ -26,11 +29,6 @@
             "Name": "datasetVersion",
             "ValueType": "Integer",
             "Value": 2
-        },
-        {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2020-10-01T00:00:00Z"
         },
         {
             "Name": "fileFormat",
@@ -53,11 +51,6 @@
             "Value": "MSI"
         },
         {
-            "Name": "datasetIdentifier",
-            "ValueType": "String",
-            "Value": "wb_global_300m_monthly_v2"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "wb"
@@ -66,11 +59,6 @@
             "Name": "datasetAlias",
             "ValueType": "String",
             "Value": "wb_global_300m_monthly"
-        },
-        {
-            "Name": "component",
-            "ValueType": "String",
-            "Value": "bio-geophysical"
         },
         {
             "Name": "areaOfInterest",

@@ -8,6 +8,8 @@
     "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_cover_extent/sce_1km_v1_daily/2018/20180109/c_gls_SCE_201801090000_NHEMI_VIIRS_V1.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "snow_cover_extent",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "sce_northernhemisphere_1km_daily_v1",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
@@ -15,6 +17,7 @@
         "Start": "2018-01-09T00:48:03.100Z",
         "End": "2018-01-09T23:03:45.600Z"
     },
+    "NominalDate": "2018-01-09T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, 25.0], [-180.0, 84.0], [180.0, 84.0], [180.0, 25.0], [-180.0, 25.0]]]},
     "Attributes": [
         {
@@ -26,11 +29,6 @@
             "Name": "datasetVersion",
             "ValueType": "Integer",
             "Value": 1
-        },
-        {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2018-01-09T00:00:00Z"
         },
         {
             "Name": "fileFormat",
@@ -58,11 +56,6 @@
             "Value": "VIIRS"
         },
         {
-            "Name": "datasetIdentifier",
-            "ValueType": "String",
-            "Value": "sce_northernhemisphere_1km_daily_v1"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "sce"
@@ -71,11 +64,6 @@
             "Name": "datasetAlias",
             "ValueType": "String",
             "Value": "sce_northernhemisphere_1km_daily"
-        },
-        {
-            "Name": "component",
-            "ValueType": "String",
-            "Value": "bio-geophysical"
         },
         {
             "Name": "areaOfInterest",

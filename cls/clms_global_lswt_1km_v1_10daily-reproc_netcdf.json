@@ -8,6 +8,8 @@
     "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_surface_water_temperature/lswt_1km_v1_10daily-reproc/2002/20020511/c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2.nc",
     "CollectionName": "CLMS",
     "ProductType": "land_surface_temperature",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "lswt-offline_global_1km_10daily_v1",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
@@ -15,6 +17,7 @@
         "Start": "2002-05-11T00:00:00Z",
         "End": "2002-05-20T00:00:00Z"
     },
+    "NominalDate": "2002-05-11T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.000001, -90.000001], [-180.000001, 90.000001], [180.000001, 90.000001], [180.000001, -90.000001], [-180.000001, -90.000001]]]},
     "Attributes": [
         {
@@ -26,11 +29,6 @@
             "Name": "datasetVersion",
             "ValueType": "Integer",
             "Value": 1
-        },
-        {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2002-05-11T00:00:00Z"
         },
         {
             "Name": "fileFormat",
@@ -58,11 +56,6 @@
             "Value": "AATSR"
         },
         {
-            "Name": "datasetIdentifier",
-            "ValueType": "String",
-            "Value": "lswt-offline_global_1km_10daily_v1"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "lswt"
@@ -71,11 +64,6 @@
             "Name": "datasetAlias",
             "ValueType": "String",
             "Value": "lswt-offline_global_1km_10daily"
-        },
-        {
-            "Name": "component",
-            "ValueType": "String",
-            "Value": "bio-geophysical"
         },
         {
             "Name": "areaOfInterest",

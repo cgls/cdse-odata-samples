@@ -8,6 +8,8 @@
     "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_water_quality/lwq_100m_v1_10daily-nrt/2018/20181221/c_gls_LWQ100_201812210000_GLOBAL_MSI_V1.3.nc",
     "CollectionName": "CLMS",
     "ProductType": "lake_water_quality",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "lwq-nrt_global_100m_10daily_v1",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
@@ -15,6 +17,7 @@
         "Start": "2018-12-21T00:00:00Z",
         "End": "2018-12-31T23:59:59Z"
     },
+    "NominalDate": "2018-12-21T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -90.0], [-180.0, 90.0], [180.0, 90.0], [180.0, -90.0], [-180.0, -90.0]]]},
     "Attributes": [
         {
@@ -26,11 +29,6 @@
             "Name": "datasetVersion",
             "ValueType": "Integer",
             "Value": 1
-        },
-        {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2018-12-21T00:00:00Z"
         },
         {
             "Name": "fileFormat",
@@ -63,11 +61,6 @@
             "Value": "MSI"
         },
         {
-            "Name": "datasetIdentifier",
-            "ValueType": "String",
-            "Value": "lwq-nrt_global_100m_10daily_v1"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "lwq"
@@ -76,11 +69,6 @@
             "Name": "datasetAlias",
             "ValueType": "String",
             "Value": "lwq-nrt_global_100m_10daily"
-        },
-        {
-            "Name": "component",
-            "ValueType": "String",
-            "Value": "bio-geophysical"
         },
         {
             "Name": "areaOfInterest",
