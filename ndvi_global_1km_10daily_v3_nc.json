@@ -43,9 +43,19 @@
             "Value": "VITO"
         },
         {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "PROBAV"
+        },
+        {
             "Name": "platformShortName",
             "ValueType": "String",
-            "Value": "PROBA-V"
+            "Value": "PROBAV"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "PROBAV"
         },
         {
             "Name": "instrumentShortName",
