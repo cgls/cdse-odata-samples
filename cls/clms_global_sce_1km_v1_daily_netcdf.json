@@ -1,26 +1,23 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_sce_1km_v1_daily_netcdf_nc",
+    "Name": "c_gls_SCE_201801090000_NHEMI_VIIRS_V1.0.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "ModificationDate": "2024-12-03T14:41:11.039996Z",
     "OriginDate": "2024-12-02T11:35:04.843161Z",
-    "PublicationDate": "2024-12-03T14:41:11.039996Z",
-    "ContentLength": 425160033,
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_SCE_201801090000_NHEMI_VIIRS_V1.0.1",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_cover_extent/sce_1km_v1_daily/2018/20180109/c_gls_SCE_201801090000_NHEMI_VIIRS_V1.0.1.nc",
     "CollectionName": "CLMS",
-    "SpatialExtent":"global",
-    "ProductType": "sce",
-    "DatasetName": "clms_global_sce_1km_v1_daily_netcdf",
-    "Version": "v1",
+    "ProductType": "snow_cover_extent",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "sce_northernhemisphere_1km_daily_v1",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
-    "CompresionType": null,
+    "CompressionType": null,
     "ContentDate": {
         "Start": "2018-01-09T00:48:03.100Z",
         "End": "2018-01-09T23:03:45.600Z"
     },
+    "NominalDate": "2018-01-09T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, 25.0], [-180.0, 84.0], [180.0, 84.0], [180.0, 25.0], [-180.0, 25.0]]]},
     "Attributes": [
         {
@@ -29,9 +26,14 @@
             "Value": "v1.0.1"
         },
         {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2018-01-09T00:00:00Z"
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 1
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
         },
         {
             "Name": "processingCenter",
@@ -39,14 +41,14 @@
             "Value": "ENVEO IT GmbH"
         },
         {
-            "Name": "title",
+            "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "Fractional Snow Cover, northern hemisphere, S-NPP VIIRS (0.01deg., 2018-01-09)"
+            "Value": "SUOMI NPP"
         },
         {
             "Name": "platformShortName",
             "ValueType": "String",
-            "Value": "SUOMI NPP"
+            "Value": "NPP"
         },
         {
             "Name": "instrumentShortName",
@@ -54,9 +56,39 @@
             "Value": "VIIRS"
         },
         {
-            "Name": "resolution",
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "sce"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "sce_northernhemisphere_1km_daily"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "northern hemisphere"
+        },
+        {
+            "Name": "metricGridSpacing",
             "ValueType": "Integer",
             "Value": 1000
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "1km"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }

@@ -1,34 +1,34 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1_nc",
+    "Name": "c_gls_SWE5K_202407010000_NHEMI_SSMIS_V2.0.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "OriginDate": "2024-12-05T07:45:45.150707Z",
+    "OriginDate": "2024-12-11T07:49:58.457216Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_ice_extent/lie_250m_v1_daily/2017/20170315/c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1.nc",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_water_equivalent/swe_5km_v2_daily/2024/20240701/c_gls_SWE5K_202407010000_NHEMI_SSMIS_V2.0.1.nc",
     "CollectionName": "CLMS",
-    "ProductType": "river_and_lake_ice_extent",
+    "ProductType": "snow_water_equivalent",
     "Component": "bio-geophysical",
-    "DatasetIdentifier": "lie_baltic_250m_daily_v1",
+    "DatasetIdentifier": "swe_northernhemisphere_5km_daily_v2",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2017-03-15T00:00:01Z",
-        "End": "2017-03-15T23:59:59Z"
+        "Start": "2024-07-01T00:00:00Z",
+        "End": "2024-07-01T23:59:59Z"
     },
-    "NominalDate": "2017-03-15T00:00:00Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[4.99625, 44.99875], [4.99625, 71.00375], [45.00125, 71.00375], [45.00125, 44.99875], [4.99625, 44.99875]]]},
+    "NominalDate": "2024-07-01T00:00:00Z",
+    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, 35.0], [-180.0, 85.0], [180.0, 85.0], [180.0, 35.0], [-180.0, 35.0]]]},
     "Attributes": [
         {
             "Name": "productVersion",
             "ValueType": "String",
-            "Value": "v1.0.1"
+            "Value": "v2.0.1"
         },
         {
             "Name": "datasetVersion",
             "ValueType": "Integer",
-            "Value": 1
+            "Value": 2
         },
         {
             "Name": "fileFormat",
@@ -36,59 +36,59 @@
             "Value": "nc"
         },
         {
-            "Name": "processingCenter",  ==> TBD with JRC/CF,
+            "Name": "processingCenter",
             "ValueType": "String",
-            "Value": "SYKE, FMI, ENVEO"
+            "Value": "FMI"
         },
         {
             "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "TERRA"
+            "Value": "DMSP,SUOMI NPP"
         },
         {
             "Name": "platformShortName",
             "ValueType": "String",
-            "Value": "TERRA"
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": "EOS AM-1"
+            "Value": "NPP"
         },
         {
             "Name": "instrumentShortName",
             "ValueType": "String",
-            "Value": "MODIS"
+            "Value": "SSMIS,VIIRS"
         },
         {
             "Name": "datasetShortName",
             "ValueType": "String",
-            "Value": "lie"
+            "Value": "swe"
         },
         {
             "Name": "datasetAlias",
             "ValueType": "String",
-            "Value": "lie_baltic_250m_daily"
+            "Value": "swe_northernhemisphere_5km_daily"
         },
         {
             "Name": "areaOfInterest",
             "ValueType": "String",
-            "Value": "baltic"
+            "Value": "northern hemisphere"
         },
         {
             "Name": "metricGridSpacing",
             "ValueType": "Integer",
-            "Value": 250
+            "Value": 5000
         },
         {
             "Name": "gridLabel",
             "ValueType": "String",
-            "Value": "250m"
+            "Value": "5km"
         },
         {
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }

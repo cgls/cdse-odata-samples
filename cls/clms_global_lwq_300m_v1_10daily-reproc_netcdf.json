@@ -1,26 +1,23 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_lwq_300m_v1_10daily-reproc_netcdf_nc",
+    "Name": "c_gls_LWQ300_200205110000_GLOBE_MERIS_V1.3.0_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "ModificationDate": "2024-12-03T14:41:11.221700Z",
     "OriginDate": "2024-12-03T07:54:25.535190Z",
-    "PublicationDate": "2024-12-03T14:41:11.221700Z",
-    "ContentLength": 169648335,
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_LWQ300_200205110000_GLOBE_MERIS_V1.3.0",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_water_quality/lwq_300m_v1_10daily-reproc/2002/20020511/c_gls_LWQ300_200205110000_GLOBE_MERIS_V1.3.0.nc",
     "CollectionName": "CLMS",
-    "SpatialExtent":"global",
-    "ProductType": "lwq300",
-    "DatasetName": "clms_global_lwq_300m_v1_10daily-reproc_netcdf",
-    "Version": "v1",
+    "ProductType": "lake_water_quality",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "lwq-reproc_global_300m_10daily_v1",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
-    "CompresionType": null,
+    "CompressionType": null,
     "ContentDate": {
         "Start": "2002-05-11T00:00:00Z",
         "End": "2002-05-20T23:59:59Z"
     },
+    "NominalDate": "2002-05-11T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -90.0], [-180.0, 90.0], [180.0, 90.0], [180.0, -90.0], [-180.0, -90.0]]]},
     "Attributes": [
         {
@@ -29,9 +26,14 @@
             "Value": "v1.3.0"
         },
         {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2002-05-11T00:00:00Z"
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 1
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
         },
         {
             "Name": "processingCenter",
@@ -39,9 +41,9 @@
             "Value": "Plymouth Marine Laboratory"
         },
         {
-            "Name": "title",
+            "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "Water Quality, Calimnos L3 Aggregated product"
+            "Value": "ENVISAT"
         },
         {
             "Name": "platformShortName",
@@ -54,9 +56,39 @@
             "Value": "MERIS"
         },
         {
-            "Name": "resolution",
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "lwq"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "lwq-reproc_global_300m_10daily"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "global"
+        },
+        {
+            "Name": "metricGridSpacing",
             "ValueType": "Integer",
             "Value": 300
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "300m"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "10-daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }

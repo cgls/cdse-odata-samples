@@ -1,26 +1,23 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_sce_500m_v1_daily_netcdf_nc",
+    "Name": "c_gls_SCE500_201703010000_CEURO_MODIS_V1.0.1_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "ModificationDate": "2024-12-03T14:41:11.012046Z",
     "OriginDate": "2024-12-02T11:33:38.038212Z",
-    "PublicationDate": "2024-12-03T14:41:11.012046Z",
-    "ContentLength": 180741517,
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_SCE500_201703010000_CEURO_MODIS_V1.0.1",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_cover_extent/sce_500m_v1_daily/2017/20170301/c_gls_SCE500_201703010000_CEURO_MODIS_V1.0.1.nc",
     "CollectionName": "CLMS",
-    "SpatialExtent":"global",
-    "ProductType": "sce500",
-    "DatasetName": "clms_global_sce_500m_v1_daily_netcdf",
-    "Version": "v1",
+    "ProductType": "snow_cover_extent",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "sce_europe_500m_daily_v1",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
-    "CompresionType": null,
+    "CompressionType": null,
     "ContentDate": {
         "Start": "2017-03-01T06:35:00Z",
         "End": "2017-03-01T11:45:00Z"
     },
+    "NominalDate": "2017-03-01T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-11.0, 35.0], [-11.0, 72.0], [50.0, 72.0], [50.0, 35.0], [-11.0, 35.0]]]},
     "Attributes": [
         {
@@ -29,9 +26,14 @@
             "Value": "v1.0.1"
         },
         {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2017-03-01T00:00:00Z"
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 1
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
         },
         {
             "Name": "processingCenter",
@@ -39,9 +41,9 @@
             "Value": "ENVEO IT GmbH"
         },
         {
-            "Name": "title",
+            "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "Daily Snow Cover Extent: Continental Europe, 2017-03-01"
+            "Value": "TERRA"
         },
         {
             "Name": "platformShortName",
@@ -49,14 +51,44 @@
             "Value": "TERRA"
         },
         {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "EOS AM-1"
+        },
+        {
             "Name": "instrumentShortName",
             "ValueType": "String",
             "Value": "MODIS"
         },
         {
-            "Name": "resolution",
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "sce"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "sce_europe_500m_daily"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "europe"
+        },
+        {
+            "Name": "metricGridSpacing",
             "ValueType": "Integer",
             "Value": 500
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "500m"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "daily"
         }
     ]
 }

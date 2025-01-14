@@ -1,26 +1,23 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "clms_global_lswt_1km_v1_10daily-reproc_netcdf_nc",
+    "Name": "c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2_nc",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "ModificationDate": "2024-12-03T14:41:11.116254Z",
     "OriginDate": "2024-12-02T15:10:19.059426Z",
-    "PublicationDate": "2024-12-03T14:41:11.116254Z",
-    "ContentLength": 7552212,
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_surface_water_temperature/lswt_1km_v1_10daily-reproc/2002/20020511/c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2.nc",
     "CollectionName": "CLMS",
-    "SpatialExtent":"global",
-    "ProductType": "lswt",
-    "DatasetName": "clms_global_lswt_1km_v1_10daily-reproc_netcdf",
-    "Version": "v1",
+    "ProductType": "land_surface_temperature",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "lswt-offline_global_1km_10daily_v1",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
-    "CompresionType": null,
+    "CompressionType": null,
     "ContentDate": {
         "Start": "2002-05-11T00:00:00Z",
         "End": "2002-05-20T00:00:00Z"
     },
+    "NominalDate": "2002-05-11T00:00:00Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.000001, -90.000001], [-180.000001, 90.000001], [180.000001, 90.000001], [180.000001, -90.000001], [-180.000001, -90.000001]]]},
     "Attributes": [
         {
@@ -29,9 +26,14 @@
             "Value": "v1.0.2"
         },
         {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2002-05-11T00:00:00Z"
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 1
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
         },
         {
             "Name": "processingCenter",
@@ -39,9 +41,9 @@
             "Value": "University of Reading"
         },
         {
-            "Name": "title",
+            "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "CGLOPS AATSR 10 DAYS product"
+            "Value": "ENVISAT"
         },
         {
             "Name": "platformShortName",
@@ -54,9 +56,39 @@
             "Value": "AATSR"
         },
         {
-            "Name": "resolution",
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "lswt"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "lswt-offline_global_1km_10daily"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "global"
+        },
+        {
+            "Name": "metricGridSpacing",
             "ValueType": "Integer",
             "Value": 1000
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "1km"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "10-daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }
