@@ -43,14 +43,19 @@
             "Value": "FMI"
         },
         {
-            "Name": "platformShortNames",
-            "ValueType": "List[String]",
-            "Value": ["DMSP", "SUOMI NPP"]
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "DMSP,SUOMI NPP"
         },
         {
-            "Name": "instrumentShortNames",
-            "ValueType": "List[String]",
-            "Value": ["SSMIS", "VIIRS"]
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "NPP"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "SSMIS,VIIRS"
         },
         {
             "Name": "datasetIdentifier",
@@ -91,6 +96,11 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }

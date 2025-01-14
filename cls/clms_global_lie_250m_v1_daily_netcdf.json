@@ -45,7 +45,7 @@
         {
             "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "MODIS"
+            "Value": "TERRA"
         },
         {
             "Name": "platformShortName",
@@ -60,7 +60,7 @@
         {
             "Name": "instrumentShortName",
             "ValueType": "String",
-            "Value": "Moderate Resolution Imaging Spectrometer (MODIS)" ==> "MODIS"
+            "Value": "MODIS"
         },
         {
             "Name": "datasetIdentifier",

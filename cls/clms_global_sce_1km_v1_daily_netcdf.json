@@ -43,9 +43,14 @@
             "Value": "ENVEO IT GmbH"
         },
         {
-            "Name": "platformShortName",
+            "Name": "missionShortName",
             "ValueType": "String",
             "Value": "SUOMI NPP"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "NPP"
         },
         {
             "Name": "instrumentShortName",
@@ -91,6 +96,11 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }

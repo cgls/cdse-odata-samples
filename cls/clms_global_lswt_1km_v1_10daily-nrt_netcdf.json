@@ -43,14 +43,19 @@
             "Value": "University of Reading"
         },
         {
-            "Name": "platformShortName",
+            "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "SENTINEL-3"
+            "Value": "SENTINEL3"
         },
         {
-            "Name": "platformSerialIdentifier",
+            "Name": "platformShortName",
             "ValueType": "String",
-            "Value": "A"
+            "Value": "SENTINEL3A"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "S3A"
         },
         {
             "Name": "instrumentShortName",

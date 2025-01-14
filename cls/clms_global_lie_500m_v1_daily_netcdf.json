@@ -43,19 +43,24 @@
             "Value": "SYKE, FMI, ENVEO"
         },
         {
-            "Name": "platformShortName",
+            "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "SENTINEL-3"
+            "Value": "SENTINEL3"
         },
         {
-            "Name": "platformSerialIdentifiers",
-            "ValueType": "List[String]",
-            "Value": ["A", "B"]
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3A,SENTINEL3B"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "S3A,S3B"
         },
         {
             "Name": "instrumentShortName",
             "ValueType": "String",
-            "Value": "The Sea and Land Surface Temperature Radiometer (SLSTR)"
+            "Value": "SLSTR"
         },
         {
             "Name": "datasetIdentifier",

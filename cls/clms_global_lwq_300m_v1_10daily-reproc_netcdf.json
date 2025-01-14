@@ -43,6 +43,11 @@
             "Value": "Plymouth Marine Laboratory"
         },
         {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "ENVISAT"
+        },
+        {
             "Name": "platformShortName",
             "ValueType": "String",
             "Value": "ENVISAT"
@@ -91,6 +96,11 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "10-daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }

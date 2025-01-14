@@ -43,14 +43,19 @@
             "Value": "Syke, FMI, ENVEO"
         },
         {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "NOAA20"
+        },
+        {
             "Name": "platformShortName",
             "ValueType": "String",
-            "Value": "NOAA-20"
+            "Value": "NOAA20"
         },
         {
             "Name": "instrumentShortName",
             "ValueType": "String",
-            "Value": "Visible Infrared Imaging Radiometer Suite (VIIRS)"
+            "Value": "VIIRS"
         },
         {
             "Name": "datasetIdentifier",
@@ -91,6 +96,11 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }

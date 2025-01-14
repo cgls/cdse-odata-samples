@@ -43,9 +43,9 @@
             "Value": "SIRS"
         },
         {
-            "Name": "platformShortName",
+            "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "SENTINEL-2"
+            "Value": "SENTINEL2"
         },
         {
             "Name": "instrumentShortName",
@@ -93,9 +93,14 @@
             "Value": "monthly"
         },
         {
-            "Name": "missionShortName",
+            "Name": "platformShortName",
             "ValueType": "String",
-            "Value": "SENTINEL-2"
+            "Value": null
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }

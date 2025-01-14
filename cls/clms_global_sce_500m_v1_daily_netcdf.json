@@ -43,9 +43,19 @@
             "Value": "ENVEO IT GmbH"
         },
         {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "TERRA"
+        },
+        {
             "Name": "platformShortName",
             "ValueType": "String",
             "Value": "TERRA"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "EOS AM-1"
         },
         {
             "Name": "instrumentShortName",

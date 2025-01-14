@@ -90,7 +90,17 @@
         {
             "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "SENTINEL-3"
+            "Value": "SENTINEL3"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": null
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }
