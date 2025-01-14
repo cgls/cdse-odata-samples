@@ -58,7 +58,7 @@
             "Value": "CLS"
         },
         {
-            "Name": "platformShortName",
+            "Name": "missionShortName",
             "ValueType": "String",
             "Value": "JASON2/JASON3/SENTINEL6A"
         },
@@ -86,6 +86,21 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": null
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }

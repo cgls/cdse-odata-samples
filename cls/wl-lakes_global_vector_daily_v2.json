@@ -81,6 +81,26 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": null
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": null
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": null
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": null
         }
     ]
 }
