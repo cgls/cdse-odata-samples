@@ -8,6 +8,8 @@
     "Link": "s3://CLMS-CRYOHYDRO-INGESTION/webResources/catalogTree/geojson/lake_river_water_level/wl_lakes_v2_daily/c_gls_WL_202501051856_1300000000009_ALTI_V2.2.0.json",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_water_level",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "wl-lakes_global_vector_daily_v2",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
@@ -15,6 +17,7 @@
         "Start": "1992-09-28T22:30:00Z",
         "End": "2025-01-05T18:56:00Z"
     },
+    "NominalDate": "2025-01-05T18:56:00Z",
     "GeoFootprint": {"type": "Point", "coordinates": [-81.0, 42.0]},
     "Attributes": [
         {
@@ -28,11 +31,6 @@
             "Value": 2
         },
         {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2025-01-05T18:56:00Z"
-        },
-        {
             "Name": "fileFormat",
             "ValueType": "String",
             "Value": "geojson"
@@ -41,11 +39,6 @@
             "Name": "wlLakeName",
             "ValueType": "String",
             "Value": "erie"
-        },
-        {
-            "Name": "datasetIdentifier",
-            "ValueType": "String",
-            "Value": "wl-lakes_global_vector_daily_v2"
         },
         {
             "Name": "wlBasinName",
@@ -66,11 +59,6 @@
             "Name": "datasetAlias",
             "ValueType": "String",
             "Value": "wl-lakes_global_vector_daily"
-        },
-        {
-            "Name": "component",
-            "ValueType": "String",
-            "Value": "bio-geophysical"
         },
         {
             "Name": "areaOfInterest",

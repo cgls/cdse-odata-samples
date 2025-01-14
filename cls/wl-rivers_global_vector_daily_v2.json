@@ -8,6 +8,8 @@
     "Link": "s3://CLMS-CRYOHYDRO-INGESTION/webResources/catalogTree/geojson/lake_river_water_level/wl_rivers_v2_daily/c_gls_WL_202501060723_0000000000396_ALTI_V2.2.0.json",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_water_level",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "wl-rivers_global_vector_daily_v2",
     "TargetFormat": "EXTRACTED",
     "DecompressionStep": false,
     "CompressionType": null,
@@ -15,6 +17,7 @@
         "Start": "2008-07-15T12:15:00Z",
         "End": "2025-01-06T07:23:00Z"
     },
+    "NominalDate": "2025-01-06T07:23:00Z",
     "GeoFootprint": {"type": "Point", "coordinates": [-66.4414, 2.4785]},
     "Attributes": [
         {
@@ -28,11 +31,6 @@
             "Value": 2
         },
         {
-            "Name": "nominalDate",
-            "ValueType": "DateTimeOffset",
-            "Value": "2025-01-06T07:23:00Z"
-        },
-        {
             "Name": "fileFormat",
             "ValueType": "String",
             "Value": "geojson"
@@ -41,11 +39,6 @@
             "Name": "wlRiverName",
             "ValueType": "String",
             "Value": "Casiquiare"
-        },
-        {
-            "Name": "datasetIdentifier",
-            "ValueType": "String",
-            "Value": "wl-rivers_global_vector_daily_v2"
         },
         {
             "Name": "wlBasinName",
@@ -71,11 +64,6 @@
             "Name": "datasetAlias",
             "ValueType": "String",
             "Value": "wl-rivers_global_vector_daily"
-        },
-        {
-            "Name": "component",
-            "ValueType": "String",
-            "Value": "bio-geophysical"
         },
         {
             "Name": "areaOfInterest",
