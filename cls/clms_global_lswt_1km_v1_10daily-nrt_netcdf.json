@@ -58,7 +58,7 @@
         {
             "Name": "instrumentShortName",
             "ValueType": "String",
-            "Value": "SLSTRA"
+            "Value": "SLSTR"
         },
         {
             "Name": "datasetShortName",
@@ -88,7 +88,7 @@
         {
             "Name": "temporalRepeatRate",
             "ValueType": "String",
-            "Value": "10-daily"
+            "Value": "10daily"
         }
     ]
 }

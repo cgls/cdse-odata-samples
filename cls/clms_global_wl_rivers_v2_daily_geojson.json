@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "c_gls_WL_202501060723_0000000000396_ALTI_V2.2.0_geojson",
+    "Name": "c_gls_WL_202412250043_0000000000001_ALTI_V2.2.0_geojson",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "OriginDate": "2025-01-08T01:04:00Z",
+    "OriginDate": "2024-12-27T01:04:00Z",
     "Online": true,
     "ContentType": "application/geo+json",
-    "Link": "s3://CLMS-CRYOHYDRO-INGESTION/webResources/catalogTree/geojson/lake_river_water_level/wl_rivers_v2_daily/c_gls_WL_202501060723_0000000000396_ALTI_V2.2.0.json",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/geojson/lake_river_water_level/wl_rivers_v2_daily/c_gls_WL_202412250043_0000000000001_ALTI_V2.2.0.json",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_water_level",
     "Component": "bio-geophysical",
@@ -14,11 +14,11 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2008-07-15T12:15:00Z",
-        "End": "2025-01-06T07:23:00Z"
+        "Start": "2018-12-03T00:42:00Z",
+        "End": "2024-12-25T00:43:00Z"
     },
-    "NominalDate": "2025-01-06T07:23:00Z",
-    "GeoFootprint": {"type": "Point", "coordinates": [-66.4414, 2.4785]},
+    "NominalDate": "2024-12-25T00:43:00Z",
+    "GeoFootprint": {"type": "Point", "coordinates": [-40.2152, -3.4606]},
     "Attributes": [
         {
             "Name": "productVersion",
@@ -38,12 +38,12 @@
         {
             "Name": "wlRiverName",
             "ValueType": "String",
-            "Value": "Casiquiare"
+            "Value": "Acarau"
         },
         {
             "Name": "wlBasinName",
             "ValueType": "String",
-            "Value": "Amazonas"
+            "Value": "Acarau"
         },
         {
             "Name": "processingCenter",
@@ -53,7 +53,17 @@
         {
             "Name": "missionShortName",
             "ValueType": "String",
-            "Value": "JASON2/JASON3/SENTINEL6A"
+            "Value": "SENTINEL3"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3B"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "S3B"
         },
         {
             "Name": "datasetShortName",
@@ -74,16 +84,6 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
-        },
-        {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": null
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": null
         },
         {
             "Name": "instrumentShortName",

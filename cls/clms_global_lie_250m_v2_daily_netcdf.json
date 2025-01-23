@@ -38,7 +38,7 @@
         {
             "Name": "processingCenter",
             "ValueType": "String",
-            "Value": "Syke, FMI, ENVEO"
+            "Value": "Syke,FMI,ENVEO"
         },
         {
             "Name": "missionShortName",
