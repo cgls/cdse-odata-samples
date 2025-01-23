@@ -36,9 +36,9 @@
             "Value": "nc"
         },
         {
-            "Name": "processingCenter",  ==> TBD with JRC/CF,
+            "Name": "processingCenter",
             "ValueType": "String",
-            "Value": "SYKE, FMI, ENVEO"
+            "Value": "SYKE,FMI,ENVEO"
         },
         {
             "Name": "missionShortName",

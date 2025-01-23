@@ -38,7 +38,7 @@
         {
             "Name": "processingCenter",
             "ValueType": "String",
-            "Value": "Brockmann Consult GmbH, Plymouth Marine Laboratory"
+            "Value": "Brockmann Consult GmbH,Plymouth Marine Laboratory"
         },
         {
             "Name": "missionShortName",
@@ -78,7 +78,7 @@
         {
             "Name": "temporalRepeatRate",
             "ValueType": "String",
-            "Value": "10-daily"
+            "Value": "10daily"
         },
         {
             "Name": "platformShortName",

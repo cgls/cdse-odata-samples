@@ -73,7 +73,7 @@
         {
             "Name": "temporalRepeatRate",
             "ValueType": "String",
-            "Value": "10-daily"
+            "Value": "10daily"
         },
         {
             "Name": "missionShortName",

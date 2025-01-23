@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "c_gls_WL_202501051856_1300000000009_ALTI_V2.2.0_geojson",
+    "Name": "c_gls_WL_202412050326_1000000000349_ALTI_V2.2.0_geojson",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "OriginDate": "2025-01-07T00:59:00Z",
+    "OriginDate": "2024-12-07T00:58:00Z",
     "Online": true,
     "ContentType": "application/geo+json",
-    "Link": "s3://CLMS-CRYOHYDRO-INGESTION/webResources/catalogTree/geojson/lake_river_water_level/wl_lakes_v2_daily/c_gls_WL_202501051856_1300000000009_ALTI_V2.2.0.json",
+    "Link": "s3://CLMS-ARCHIVE-INGESTION/geojson/lake_river_water_level/wl_lakes_v2_daily/c_gls_WL_202412050326_1000000000349_ALTI_V2.2.0.json",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_water_level",
     "Component": "bio-geophysical",
@@ -14,11 +14,11 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "1992-09-28T22:30:00Z",
-        "End": "2025-01-05T18:56:00Z"
+        "Start": "2016-05-09T03:26:00Z",
+        "End": "2024-12-05T03:26:00Z"
     },
-    "NominalDate": "2025-01-05T18:56:00Z",
-    "GeoFootprint": {"type": "Point", "coordinates": [-81.0, 42.0]},
+    "NominalDate": "2024-12-05T03:26:00Z",
+    "GeoFootprint": {"type": "Point", "coordinates": [-83.7, 12.54]},
     "Attributes": [
         {
             "Name": "productVersion",
@@ -38,12 +38,12 @@
         {
             "Name": "wlLakeName",
             "ValueType": "String",
-            "Value": "erie"
+            "Value": "perlas"
         },
         {
             "Name": "wlBasinName",
             "ValueType": "String",
-            "Value": "St-Lawrence"
+            "Value": "Perlas"
         },
         {
             "Name": "processingCenter",
