@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_FCOVER-RT2_201909100000_GLOBE_PROBAV_V2.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2019-10-02T08:24:31Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/fraction_green_cover/fcover_1km_v2_10daily/2019/20190910/c_gls_FCOVER-RT2_201909100000_GLOBE_PROBAV_V2.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "vegetation_properties",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "fcover_global_1km_10daily_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2019-09-01T00:00:00Z",
+    "End": "2019-09-10T23:59:59.999Z"
+  },
+  "NominalDate": "2019-09-10T00:00:00Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0044643,
+          -59.9955357
+        ],
+        [
+          -180.0044643,
+          80.0044643
+        ],
+        [
+          179.9955357,
+          80.0044643
+        ],
+        [
+          179.9955357,
+          -59.9955357
+        ],
+        [
+          -180.0044643,
+          -59.9955357
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v2.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "consolidationPeriod",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "VEGETATION"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "fgvc"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "fcover_global_1km_10daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 1000
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "1km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    }
+  ]
+}

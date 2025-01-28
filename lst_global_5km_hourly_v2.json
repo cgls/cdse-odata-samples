@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_LST_202501121100_GLOBE_GEO_V2.1.2_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-01-12T11:42:16Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/land_surface_temperature/lst_5km_v2_hourly/2025/20250112/c_gls_LST_202501121100_GLOBE_GEO_V2.1.2.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "land_surface_temperature",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "lst_global_5km_hourly_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2025-01-12T10:30:00Z",
+    "End": "2025-01-12T11:30:00Z"
+  },
+  "NominalDate": "2025-01-12T11:00:00Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.02232139999998,
+          -79.97768239999999
+        ],
+        [
+          -180.02232139999998,
+          80.0223214
+        ],
+        [
+          179.9776872,
+          80.0223214
+        ],
+        [
+          179.9776872,
+          -79.97768239999999
+        ],
+        [
+          -180.02232139999998,
+          -79.97768239999999
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v2.1.2"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "IPMA"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "HIMAWARI9,GOES,METEOSAT10,METEOSAT9"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "HIMAWARI9,GOES16,METEOSAT10,METEOSAT9"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "AHI,ABI,SEVIRI,SEVIRI"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lst"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "lst_global_5km_hourly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 5000
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "5km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "hourly"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": null
+    }
+  ]
+}
