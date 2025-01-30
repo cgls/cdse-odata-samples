@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_DMP300-RT5_201502200000_GLOBE_PROBAV_V1.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2023-02-11T20:09:47Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/dry_matter_productivity/dmp_300m_v1_10daily/2015/20150220/c_gls_DMP300-RT5_201502200000_GLOBE_PROBAV_V1.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "dry-gross_dry_matter_productivity",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "dmp_global_300m_10daily_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2015-02-11T00:00:00Z",
+    "End": "2015-02-20T23:59:59Z"
+  },
+  "NominalDate": "2015-02-20T00:00:00Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0014881,
+          -59.9985119
+        ],
+        [
+          -180.0014881,
+          80.0014881
+        ],
+        [
+          179.99851189999998,
+          80.0014881
+        ],
+        [
+          179.99851189999998,
+          -59.9985119
+        ],
+        [
+          -180.0014881,
+          -59.9985119
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v1.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "consolidationPeriod",
+      "ValueType": "Integer",
+      "Value": 5
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "VEGETATION"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "dmp"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "dmp_global_300m_10daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 300
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "300m"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    }
+  ]
+}

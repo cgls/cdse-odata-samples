@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_LST10-DC_201909010000_GLOBE_GEO_V1.2.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2019-09-11T01:26:33Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/land_surface_temperature/lst_5km_v1_10daily-daily-cycle/2019/20190901/c_gls_LST10-DC_201909010000_GLOBE_GEO_V1.2.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "land_surface_temperature",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "lst-daily-cycle_global_5km_10daily_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2019-09-01T00:00:00Z",
+    "End": "2019-09-10T23:00:00Z"
+  },
+  "NominalDate": "2019-09-01T00:00:00Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.02232139999998,
+          -79.97768239999999
+        ],
+        [
+          -180.02232139999998,
+          80.0223214
+        ],
+        [
+          179.9776872,
+          80.0223214
+        ],
+        [
+          179.9776872,
+          -79.97768239999999
+        ],
+        [
+          -180.02232139999998,
+          -79.97768239999999
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v1.2.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "IPMA"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "GOES,MSG,HIMAWARI"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "ABI,SEVIRI,AHI"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lst-dc"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "lst-daily-cycle_global_5km_10daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 5000
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "5km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": null
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": null
+    }
+  ]
+}

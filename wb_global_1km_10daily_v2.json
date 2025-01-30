@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_WB_200109110000_GLOBE_VGT_V2.1.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2017-08-22T12:02:08Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/water_bodies/wb_1km_v2_10daily/2001/20010911/c_gls_WB_200109110000_GLOBE_VGT_V2.1.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "water_bodies",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "wb_global_1km_10daily_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2001-09-11T00:00:00Z",
+    "End": "2001-09-20T23:59:59Z"
+  },
+  "NominalDate": "2001-09-11T00:00:00Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0044643,
+          -59.9955357
+        ],
+        [
+          -180.0044643,
+          80.0044643
+        ],
+        [
+          179.9955357,
+          80.0044643
+        ],
+        [
+          179.9955357,
+          -59.9955357
+        ],
+        [
+          -180.0044643,
+          -59.9955357
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v2.1.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SPOT4"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SPOT4"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "SPOT4"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "VEGETATION"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "wb"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "wb_global_1km_10daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 1000
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "1km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    }
+  ]
+}

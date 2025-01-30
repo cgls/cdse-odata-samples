@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_LAI_200804200000_GLOBE_VGT_V2.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2017-03-26T08:09:03Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/leaf_area_index/lai_1km_v2_10daily/2008/20080420/c_gls_LAI_200804200000_GLOBE_VGT_V2.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "vegetation_properties",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "lai_global_1km_10daily_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2008-04-11T00:00:00Z",
+    "End": "2008-04-20T23:59:59.999Z"
+  },
+  "NominalDate": "2008-04-20T00:00:00Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0044643,
+          -59.9955357
+        ],
+        [
+          -180.0044643,
+          80.0044643
+        ],
+        [
+          179.9955357,
+          80.0044643
+        ],
+        [
+          179.9955357,
+          -59.9955357
+        ],
+        [
+          -180.0044643,
+          -59.9955357
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v2.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SPOT5"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SPOT5"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "SPOT5"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "VEGETATION"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lai"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "lai_global_1km_10daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 1000
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "1km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    }
+  ]
+}

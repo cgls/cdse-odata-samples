@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_SSM1km_201909030000_CEURO_S1CSAR_V1.1.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2019-09-15T22:57:05Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/surface_soil_moisture/ssm_1km_v1_daily/2019/20190903/c_gls_SSM1km_201909030000_CEURO_S1CSAR_V1.1.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "surface_soil_moisture",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "ssm_europe_1km_daily_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2019-09-03T00:00:00Z",
+    "End": "2019-09-03T23:59:59Z"
+  },
+  "NominalDate": "2019-09-03T00:00:00Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -11,
+          35
+        ],
+        [
+          -11,
+          72
+        ],
+        [
+          50,
+          72
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          -11,
+          35
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v1.1.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "TU Wien"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL1"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL1A,SENTINEL1B"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "S1A,S1B"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "SAR"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "ssm"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "ssm_europe_1km_daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "europe"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 1000
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "1km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "daily"
+    }
+  ]
+}

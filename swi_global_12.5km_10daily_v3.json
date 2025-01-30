@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_SWI10_201206211200_GLOBE_ASCAT_V3.1.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2018-10-30T10:05:40Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_10daily/2012/20120621/c_gls_SWI10_201206211200_GLOBE_ASCAT_V3.1.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "soil_water_index",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "swi_global_12.5km_10daily_v3",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2012-06-20T12:00:00Z",
+    "End": "2012-06-30T12:00:00Z"
+  },
+  "NominalDate": "2012-06-21T12:00:00Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180,
+          -90
+        ],
+        [
+          -180,
+          90
+        ],
+        [
+          180,
+          90
+        ],
+        [
+          180,
+          -90
+        ],
+        [
+          -180,
+          -90
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v3.1.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 3
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "TU Wien"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "METOP"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "METOPA"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "ASCAT"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "swi"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "swi_global_12.5km_10daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 12500
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "12.5km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": null
+    }
+  ]
+}
