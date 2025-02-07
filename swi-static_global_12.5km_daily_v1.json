@@ -112,6 +112,11 @@
       "Value": "daily"
     },
     {
+      "Name": "swiSubParameter",
+      "ValueType": "String",
+      "Value": "CI"
+    },
+    {
       "Name": "platformAcronym",
       "ValueType": "String",
       "Value": null

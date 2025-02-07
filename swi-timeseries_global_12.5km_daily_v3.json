@@ -112,6 +112,11 @@
       "Value": "daily"
     },
     {
+      "Name": "swiTSCellId",
+      "ValueType": "String",
+      "Value": "C0348"
+    },
+    {
       "Name": "platformAcronym",
       "ValueType": "String",
       "Value": null
