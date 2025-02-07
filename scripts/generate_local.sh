@@ -1,5 +1,5 @@
 #!/bin/bash
-# set -e
+set -e
 dir=$(dirname $0)
 
 DOCKER_IMAGE="vito-docker.artifactory.vgt.vito.be/clms_metadata:latest"
