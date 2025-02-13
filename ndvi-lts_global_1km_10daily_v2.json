@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_NDVI-LTS_1999-2017-1001_GLOBE_VGT-PROBAV_V2.2.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2019-02-07T17:18:58Z",
+  "OriginDate": "2019-02-07T17:18:58.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/ndvi/ndvi_1km_v2_statistics/c_gls_NDVI-LTS_1999-2017-1001_GLOBE_VGT-PROBAV_V2.2.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "1999-01-01T00:00:00Z",
-    "End": "2017-12-31T23:59:59Z"
+    "Start": "1999-01-01T00:00:00.000000Z",
+    "End": "2017-12-31T23:59:59.999999Z"
   },
-  "NominalDate": "1999-10-01T00:00:00Z",
+  "NominalDate": "1999-10-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [

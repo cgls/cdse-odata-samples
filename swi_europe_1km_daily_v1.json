@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_SWI1km_201608131200_CEURO_SCATSAR_V1.0.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2019-03-30T08:03:33Z",
+  "OriginDate": "2019-03-30T08:03:33.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_1km_v1_daily/2016/20160813/c_gls_SWI1km_201608131200_CEURO_SCATSAR_V1.0.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2016-08-12T12:00:01Z",
-    "End": "2016-08-13T12:00:00Z"
+    "Start": "2016-08-12T12:00:01.000000Z",
+    "End": "2016-08-13T12:00:00.000000Z"
   },
-  "NominalDate": "2016-08-13T12:00:00Z",
+  "NominalDate": "2016-08-13T12:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [

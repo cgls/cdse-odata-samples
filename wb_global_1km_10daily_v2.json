@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_WB_200109110000_GLOBE_VGT_V2.1.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2017-08-22T12:02:08Z",
+  "OriginDate": "2017-08-22T12:02:08.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/water_bodies/wb_1km_v2_10daily/2001/20010911/c_gls_WB_200109110000_GLOBE_VGT_V2.1.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2001-09-11T00:00:00Z",
-    "End": "2001-09-20T23:59:59Z"
+    "Start": "2001-09-11T00:00:00.000000Z",
+    "End": "2001-09-20T23:59:59.999999Z"
   },
-  "NominalDate": "2001-09-11T00:00:00Z",
+  "NominalDate": "2001-09-11T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [

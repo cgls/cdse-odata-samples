@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_NDVI300_202101210000_GLOBE_OLCI_V2.0.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2021-02-08T12:25:55Z",
+  "OriginDate": "2021-02-08T12:25:55.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/ndvi/ndvi_300m_v2_10daily/2021/20210121/c_gls_NDVI300_202101210000_GLOBE_OLCI_V2.0.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2021-01-21T00:00:00Z",
-    "End": "2021-01-31T23:59:59Z"
+    "Start": "2021-01-21T00:00:00.000000Z",
+    "End": "2021-01-31T23:59:59.999999Z"
   },
-  "NominalDate": "2021-01-21T00:00:00Z",
+  "NominalDate": "2021-01-21T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -109,12 +109,12 @@
     {
       "Name": "platformShortName",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     },
     {
       "Name": "platformAcronym",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     }
   ]
 }

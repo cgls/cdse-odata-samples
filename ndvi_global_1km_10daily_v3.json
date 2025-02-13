@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_NDVI_202004010000_GLOBE_PROBAV_V3.0.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2021-02-08T20:43:17Z",
+  "OriginDate": "2021-02-08T20:43:17.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/ndvi/ndvi_1km_v3_10daily/2020/20200401/c_gls_NDVI_202004010000_GLOBE_PROBAV_V3.0.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2020-04-01T00:00:00Z",
-    "End": "2020-04-10T23:59:59Z"
+    "Start": "2020-04-01T00:00:00.000000Z",
+    "End": "2020-04-10T23:59:59.999999Z"
   },
-  "NominalDate": "2020-04-01T00:00:00Z",
+  "NominalDate": "2020-04-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [

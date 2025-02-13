@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_GDMP300-RT0_202501100000_GLOBE_OLCI_V1.1.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-01-12T13:45:20Z",
+  "OriginDate": "2025-01-12T13:45:20.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/dry_matter_productivity/gdmp_300m_v1_10daily/2025/20250110/c_gls_GDMP300-RT0_202501100000_GLOBE_OLCI_V1.1.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2025-01-01T00:00:00Z",
-    "End": "2025-01-10T23:59:59Z"
+    "Start": "2025-01-01T00:00:00.000000Z",
+    "End": "2025-01-10T23:59:59.999999Z"
   },
-  "NominalDate": "2025-01-10T00:00:00Z",
+  "NominalDate": "2025-01-10T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -114,12 +114,12 @@
     {
       "Name": "platformShortName",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     },
     {
       "Name": "platformAcronym",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     }
   ]
 }
