@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_LST10-DC_201909010000_GLOBE_GEO_V1.2.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2019-09-11T01:26:33Z",
+  "OriginDate": "2019-09-11T01:26:33.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/land_surface_temperature/lst_5km_v1_10daily-daily-cycle/2019/20190901/c_gls_LST10-DC_201909010000_GLOBE_GEO_V1.2.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2019-09-01T00:00:00Z",
-    "End": "2019-09-10T23:00:00Z"
+    "Start": "2019-09-01T00:00:00.000000Z",
+    "End": "2019-09-10T23:00:00.000000Z"
   },
-  "NominalDate": "2019-09-01T00:00:00Z",
+  "NominalDate": "2019-09-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -109,12 +109,12 @@
     {
       "Name": "platformShortName",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     },
     {
       "Name": "platformAcronym",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     }
   ]
 }

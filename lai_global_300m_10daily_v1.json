@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_LAI300_201402200000_GLOBE_PROBAV_V1.0.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2023-02-13T13:33:51Z",
+  "OriginDate": "2023-02-13T13:33:51.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/leaf_area_index/lai_300m_v1_10daily/2014/20140220/c_gls_LAI300_201402200000_GLOBE_PROBAV_V1.0.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2014-02-11T00:00:00Z",
-    "End": "2014-02-20T23:59:59.999Z"
+    "Start": "2014-02-11T00:00:00.000000Z",
+    "End": "2014-02-20T23:59:59.999999Z"
   },
-  "NominalDate": "2014-02-20T00:00:00Z",
+  "NominalDate": "2014-02-20T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [

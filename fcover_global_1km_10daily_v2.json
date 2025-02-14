@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_FCOVER-RT2_201909100000_GLOBE_PROBAV_V2.0.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2019-10-02T08:24:31Z",
+  "OriginDate": "2019-10-02T08:24:31.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/fraction_green_cover/fcover_1km_v2_10daily/2019/20190910/c_gls_FCOVER-RT2_201909100000_GLOBE_PROBAV_V2.0.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2019-09-01T00:00:00Z",
-    "End": "2019-09-10T23:59:59.999Z"
+    "Start": "2019-09-01T00:00:00.000000Z",
+    "End": "2019-09-10T23:59:59.999999Z"
   },
-  "NominalDate": "2019-09-10T00:00:00Z",
+  "NominalDate": "2019-09-10T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [

@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_LST10-TCI_202101110000_GLOBE_GEO_V2.1.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2023-09-19T09:42:32Z",
+  "OriginDate": "2023-09-19T09:42:32.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/land_surface_temperature/lst_5km_v2_10daily-tci/2021/20210111/c_gls_LST10-TCI_202101110000_GLOBE_GEO_V2.1.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2021-01-11T00:00:00Z",
-    "End": "2021-01-20T23:00:00Z"
+    "Start": "2021-01-11T00:00:00.000000Z",
+    "End": "2021-01-20T23:00:00.000000Z"
   },
-  "NominalDate": "2021-01-11T00:00:00Z",
+  "NominalDate": "2021-01-11T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -74,7 +74,7 @@
     {
       "Name": "platformShortName",
       "ValueType": "String",
-      "Value": "HIMAWARI8,GOESR,METEOSAT11,METEOSAT8"
+      "Value": "HIMAWARI8,METEOSAT11,METEOSAT8"
     },
     {
       "Name": "instrumentShortName",
@@ -114,7 +114,7 @@
     {
       "Name": "platformAcronym",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     }
   ]
 }

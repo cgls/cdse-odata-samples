@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_LST_202501121100_GLOBE_GEO_V2.1.2_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-01-12T11:42:16Z",
+  "OriginDate": "2025-01-12T11:42:16.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/land_surface_temperature/lst_5km_v2_hourly/2025/20250112/c_gls_LST_202501121100_GLOBE_GEO_V2.1.2.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2025-01-12T10:30:00Z",
-    "End": "2025-01-12T11:30:00Z"
+    "Start": "2025-01-12T10:30:00.000000Z",
+    "End": "2025-01-12T11:30:00.000000Z"
   },
-  "NominalDate": "2025-01-12T11:00:00Z",
+  "NominalDate": "2025-01-12T11:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -114,7 +114,7 @@
     {
       "Name": "platformAcronym",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     }
   ]
 }

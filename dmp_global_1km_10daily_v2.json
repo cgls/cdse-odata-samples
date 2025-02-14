@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_DMP_200109100000_GLOBE_VGT_V2.0.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2023-02-11T20:01:50Z",
+  "OriginDate": "2023-02-11T20:01:50.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/dry_matter_productivity/dmp_1km_v2_10daily/2001/20010910/c_gls_DMP_200109100000_GLOBE_VGT_V2.0.1.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2001-09-01T00:00:00Z",
-    "End": "2001-09-10T23:59:59Z"
+    "Start": "2001-09-01T00:00:00.000000Z",
+    "End": "2001-09-10T23:59:59.999999Z"
   },
-  "NominalDate": "2001-09-10T00:00:00Z",
+  "NominalDate": "2001-09-10T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [

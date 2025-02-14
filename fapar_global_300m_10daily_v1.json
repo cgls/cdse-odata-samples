@@ -2,7 +2,7 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "c_gls_FAPAR300-RT6_202302100000_GLOBE_OLCI_V1.1.2_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2023-04-14T08:53:45Z",
+  "OriginDate": "2023-04-14T08:53:45.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/fraction_absorbed_par/fapar_300m_v1_10daily/2023/20230210/c_gls_FAPAR300-RT6_202302100000_GLOBE_OLCI_V1.1.2.nc",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2023-02-01T00:00:00Z",
-    "End": "2023-02-10T23:59:59.999Z"
+    "Start": "2023-02-01T00:00:00.000000Z",
+    "End": "2023-02-10T23:59:59.999999Z"
   },
-  "NominalDate": "2023-02-10T00:00:00Z",
+  "NominalDate": "2023-02-10T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -114,12 +114,12 @@
     {
       "Name": "platformShortName",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     },
     {
       "Name": "platformAcronym",
       "ValueType": "String",
-      "Value": null
+      "Value": "unspecified"
     }
   ]
 }
