@@ -14,11 +14,11 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2017-03-15T00:00:01Z",
-        "End": "2017-03-15T23:59:59Z"
+        "Start": "2017-03-15T00:00:01.000000Z",
+        "End": "2017-03-15T23:59:59.999999Z"
     },
-    "NominalDate": "2017-03-15T00:00:00Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[4.99625, 44.99875], [4.99625, 71.00375], [45.00125, 71.00375], [45.00125, 44.99875], [4.99625, 44.99875]]]},
+    "NominalDate": "2017-03-15T00:00:00.000000Z",
+    "GeoFootprint": {"type": "Polygon", "coordinates": [[[4.9975, 45.0], [4.9975, 71.0025], [45.0, 71.0025], [45.0, 45.0], [4.9975, 45.0]]]},
     "Attributes": [
         {
             "Name": "productVersion",
@@ -49,11 +49,6 @@
             "Name": "platformShortName",
             "ValueType": "String",
             "Value": "TERRA"
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": "EOS AM-1"
         },
         {
             "Name": "instrumentShortName",
@@ -89,6 +84,11 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "unspecified"
         }
     ]
 }

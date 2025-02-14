@@ -14,10 +14,10 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2017-03-01T06:35:00Z",
-        "End": "2017-03-01T11:45:00Z"
+        "Start": "2017-03-01T06:35:00.000000Z",
+        "End": "2017-03-01T11:45:00.000000Z"
     },
-    "NominalDate": "2017-03-01T00:00:00Z",
+    "NominalDate": "2017-03-01T00:00:00.000000Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-11.0, 35.0], [-11.0, 72.0], [50.0, 72.0], [50.0, 35.0], [-11.0, 35.0]]]},
     "Attributes": [
         {
@@ -49,11 +49,6 @@
             "Name": "platformShortName",
             "ValueType": "String",
             "Value": "TERRA"
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": "EOS AM-1"
         },
         {
             "Name": "instrumentShortName",
@@ -89,6 +84,11 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "unspecified"
         }
     ]
 }

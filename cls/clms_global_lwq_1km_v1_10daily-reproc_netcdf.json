@@ -14,10 +14,10 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2002-05-11T00:00:00Z",
-        "End": "2002-05-20T23:59:59Z"
+        "Start": "2002-05-11T00:00:00.000000Z",
+        "End": "2002-05-20T23:59:59.999999Z"
     },
-    "NominalDate": "2002-05-11T00:00:00Z",
+    "NominalDate": "2002-05-11T00:00:00.000000Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -90.0], [-180.0, 90.0], [180.0, 90.0], [180.0, -90.0], [-180.0, -90.0]]]},
     "Attributes": [
         {
@@ -88,7 +88,7 @@
         {
             "Name": "platformAcronym",
             "ValueType": "String",
-            "Value": null
+            "Value": "unspecified"
         }
     ]
 }

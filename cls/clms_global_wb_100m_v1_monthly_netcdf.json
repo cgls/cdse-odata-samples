@@ -14,10 +14,10 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2020-10-01T00:00:00Z",
-        "End": "2020-10-31T23:59:59Z"
+        "Start": "2020-10-01T00:00:00.000000Z",
+        "End": "2020-10-31T23:59:59.999999Z"
     },
-    "NominalDate": "2020-10-01T00:00:00Z",
+    "NominalDate": "2020-10-01T00:00:00.000000Z",
     "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -60.0], [-180.0, 80.0], [180.0, 80.0], [180.0, -60.0], [-180.0, -60.0]]]},
     "Attributes": [
         {
@@ -83,12 +83,12 @@
         {
             "Name": "platformShortName",
             "ValueType": "String",
-            "Value": null
+            "Value": "unspecified"
         },
         {
             "Name": "platformAcronym",
             "ValueType": "String",
-            "Value": null
+            "Value": "unspecified"
         }
     ]
 }
