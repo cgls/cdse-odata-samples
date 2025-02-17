@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-02T11:35:04.843161Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_cover_extent/sce_1km_v1_daily/2018/20180109/c_gls_SCE_201801090000_NHEMI_VIIRS_V1.0.1.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/snow_cover_extent/sce_1km_v1_daily/2018/20180109/c_gls_SCE_201801090000_NHEMI_VIIRS_V1.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "snow_cover_extent",
     "Component": "bio-geophysical",
@@ -18,7 +18,33 @@
         "End": "2018-01-09T23:03:45.600000Z"
     },
     "NominalDate": "2018-01-09T00:00:00.000000Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, 25.0], [-180.0, 84.0], [180.0, 84.0], [180.0, 25.0], [-180.0, 25.0]]]},
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180.0,
+                    25.0
+                ],
+                [
+                    -180.0,
+                    84.0
+                ],
+                [
+                    180.0,
+                    84.0
+                ],
+                [
+                    180.0,
+                    25.0
+                ],
+                [
+                    -180.0,
+                    25.0
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",

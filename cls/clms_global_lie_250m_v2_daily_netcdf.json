@@ -5,7 +5,7 @@
     "OriginDate": "2025-01-08T14:13:35.197627Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_ice_extent/lie_250m_v2_daily/2024/20240219/c_gls_LIE250_202402190000_CEURO_VIIRS_V2.2.1.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/lake_ice_extent/lie_250m_v2_daily/2024/20240219/c_gls_LIE250_202402190000_CEURO_VIIRS_V2.2.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_ice_extent",
     "Component": "bio-geophysical",
@@ -18,7 +18,33 @@
         "End": "2024-02-19T23:59:59.999999Z"
     },
     "NominalDate": "2024-02-19T00:00:00.000000Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-11.001249999999999, 35.00125], [-11.001249999999999, 72.00125], [49.99875, 72.00125], [49.99875, 35.00125], [-11.001249999999999, 35.00125]]]},
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -11.001249999999999,
+                    35.00125
+                ],
+                [
+                    -11.001249999999999,
+                    72.00125
+                ],
+                [
+                    49.99875,
+                    72.00125
+                ],
+                [
+                    49.99875,
+                    35.00125
+                ],
+                [
+                    -11.001249999999999,
+                    35.00125
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",

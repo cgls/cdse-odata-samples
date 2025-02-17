@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-05T07:45:45.150707Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_ice_extent/lie_250m_v1_daily/2017/20170315/c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/lake_ice_extent/lie_250m_v1_daily/2017/20170315/c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_ice_extent",
     "Component": "bio-geophysical",
@@ -18,7 +18,33 @@
         "End": "2017-03-15T23:59:59.999999Z"
     },
     "NominalDate": "2017-03-15T00:00:00.000000Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[4.9975, 45.0], [4.9975, 71.0025], [45.0, 71.0025], [45.0, 45.0], [4.9975, 45.0]]]},
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    4.9975,
+                    45.0
+                ],
+                [
+                    4.9975,
+                    71.0025
+                ],
+                [
+                    45.0,
+                    71.0025
+                ],
+                [
+                    45.0,
+                    45.0
+                ],
+                [
+                    4.9975,
+                    45.0
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",

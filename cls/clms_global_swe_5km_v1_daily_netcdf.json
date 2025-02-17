@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-02T11:35:17.325180Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_water_equivalent/swe_5km_v1_daily/2006/20060101/c_gls_SWE5K_200601010000_NHEMI_SSMIS_V1.0.2.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/snow_water_equivalent/swe_5km_v1_daily/2006/20060101/c_gls_SWE5K_200601010000_NHEMI_SSMIS_V1.0.2.nc",
     "CollectionName": "CLMS",
     "ProductType": "snow_water_equivalent",
     "Component": "bio-geophysical",
@@ -18,7 +18,33 @@
         "End": "2006-01-01T23:59:59.999999Z"
     },
     "NominalDate": "2006-01-01T00:00:00.000000Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, 35.0], [-180.0, 85.0], [180.0, 85.0], [180.0, 35.0], [-180.0, 35.0]]]},
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180.0,
+                    35.0
+                ],
+                [
+                    -180.0,
+                    85.0
+                ],
+                [
+                    180.0,
+                    85.0
+                ],
+                [
+                    180.0,
+                    35.0
+                ],
+                [
+                    -180.0,
+                    35.0
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",

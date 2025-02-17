@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-02T15:10:19.059426Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_surface_water_temperature/lswt_1km_v1_10daily-reproc/2002/20020511/c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/lake_surface_water_temperature/lswt_1km_v1_10daily-reproc/2002/20020511/c_gls_LSWT_200205110000_GLOBE_AATSR_v1.0.2.nc",
     "CollectionName": "CLMS",
     "ProductType": "land_surface_temperature",
     "Component": "bio-geophysical",
@@ -18,7 +18,33 @@
         "End": "2002-05-20T00:00:00.000000Z"
     },
     "NominalDate": "2002-05-11T00:00:00.000000Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.000001, -90.000001], [-180.000001, 90.000001], [180.000001, 90.000001], [180.000001, -90.000001], [-180.000001, -90.000001]]]},
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180.000001,
+                    -90.000001
+                ],
+                [
+                    -180.000001,
+                    90.000001
+                ],
+                [
+                    180.000001,
+                    90.000001
+                ],
+                [
+                    180.000001,
+                    -90.000001
+                ],
+                [
+                    -180.000001,
+                    -90.000001
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",
