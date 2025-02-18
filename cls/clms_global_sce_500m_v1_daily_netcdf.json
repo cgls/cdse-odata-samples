@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-02T11:33:38.038212Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/snow_cover_extent/sce_500m_v1_daily/2017/20170301/c_gls_SCE500_201703010000_CEURO_MODIS_V1.0.1.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/snow_cover_extent/sce_500m_v1_daily/2017/20170301/c_gls_SCE500_201703010000_CEURO_MODIS_V1.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "snow_cover_extent",
     "Component": "bio-geophysical",
@@ -14,11 +14,37 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2017-03-01T06:35:00Z",
-        "End": "2017-03-01T11:45:00Z"
+        "Start": "2017-03-01T06:35:00.000000Z",
+        "End": "2017-03-01T11:45:00.000000Z"
     },
-    "NominalDate": "2017-03-01T00:00:00Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-11.0, 35.0], [-11.0, 72.0], [50.0, 72.0], [50.0, 35.0], [-11.0, 35.0]]]},
+    "NominalDate": "2017-03-01T00:00:00.000000Z",
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -11.0,
+                    35.0
+                ],
+                [
+                    -11.0,
+                    72.0
+                ],
+                [
+                    50.0,
+                    72.0
+                ],
+                [
+                    50.0,
+                    35.0
+                ],
+                [
+                    -11.0,
+                    35.0
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",
@@ -38,7 +64,7 @@
         {
             "Name": "processingCenter",
             "ValueType": "String",
-            "Value": "ENVEO IT GmbH"
+            "Value": "ENVEO IT"
         },
         {
             "Name": "missionShortName",
@@ -49,11 +75,6 @@
             "Name": "platformShortName",
             "ValueType": "String",
             "Value": "TERRA"
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": "EOS AM-1"
         },
         {
             "Name": "instrumentShortName",
@@ -89,6 +110,11 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "unspecified"
         }
     ]
 }
