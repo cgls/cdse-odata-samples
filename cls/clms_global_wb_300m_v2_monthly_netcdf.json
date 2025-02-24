@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-02T15:14:48.778287Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/water_bodies/wb_300m_v2_monthly/2020/20201001/c_gls_WB300_202010010000_GLOBE_S2_V2.0.1.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/water_bodies/wb_300m_v2_monthly/2020/20201001/c_gls_WB300_202010010000_GLOBE_S2_V2.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "water_bodies",
     "Component": "bio-geophysical",
@@ -14,11 +14,37 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2020-10-01T00:00:00Z",
-        "End": "2020-10-31T23:59:59Z"
+        "Start": "2020-10-01T00:00:00.000000Z",
+        "End": "2020-10-31T23:59:59.999999Z"
     },
-    "NominalDate": "2020-10-01T00:00:00Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -60.0], [-180.0, 80.0], [180.0, 80.0], [180.0, -60.0], [-180.0, -60.0]]]},
+    "NominalDate": "2020-10-01T00:00:00.000000Z",
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180.0,
+                    -60.0
+                ],
+                [
+                    -180.0,
+                    80.0
+                ],
+                [
+                    180.0,
+                    80.0
+                ],
+                [
+                    180.0,
+                    -60.0
+                ],
+                [
+                    -180.0,
+                    -60.0
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",
@@ -83,12 +109,12 @@
         {
             "Name": "platformShortName",
             "ValueType": "String",
-            "Value": null
+            "Value": "unspecified"
         },
         {
             "Name": "platformAcronym",
             "ValueType": "String",
-            "Value": null
+            "Value": "unspecified"
         }
     ]
 }

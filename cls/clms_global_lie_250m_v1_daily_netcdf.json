@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-05T07:45:45.150707Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_ice_extent/lie_250m_v1_daily/2017/20170315/c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/lake_ice_extent/lie_250m_v1_daily/2017/20170315/c_gls_LIE250_201703150000_Baltic_MODIS_V1.0.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_ice_extent",
     "Component": "bio-geophysical",
@@ -14,11 +14,37 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2017-03-15T00:00:01Z",
-        "End": "2017-03-15T23:59:59Z"
+        "Start": "2017-03-15T00:00:01.000000Z",
+        "End": "2017-03-15T23:59:59.999999Z"
     },
-    "NominalDate": "2017-03-15T00:00:00Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[4.99625, 44.99875], [4.99625, 71.00375], [45.00125, 71.00375], [45.00125, 44.99875], [4.99625, 44.99875]]]},
+    "NominalDate": "2017-03-15T00:00:00.000000Z",
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    4.99625,
+                    44.99875
+                ],
+                [
+                    4.99625,
+                    71.00375
+                ],
+                [
+                    45.00125,
+                    71.00375
+                ],
+                [
+                    45.00125,
+                    44.99875
+                ],
+                [
+                    4.99625,
+                    44.99875
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",
@@ -49,11 +75,6 @@
             "Name": "platformShortName",
             "ValueType": "String",
             "Value": "TERRA"
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": "EOS AM-1"
         },
         {
             "Name": "instrumentShortName",
@@ -89,6 +110,11 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "unspecified"
         }
     ]
 }

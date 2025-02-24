@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-05T08:00:04.383098Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_water_quality/lwq_100m_v1_10daily-nrt/2018/20181221/c_gls_LWQ100_201812210000_GLOBAL_MSI_V1.3.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/lake_water_quality/lwq_100m_v1_10daily-nrt/2018/20181221/c_gls_LWQ100_201812210000_GLOBAL_MSI_V1.3.nc",
     "CollectionName": "CLMS",
     "ProductType": "lake_water_quality",
     "Component": "bio-geophysical",
@@ -14,11 +14,37 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2018-12-21T00:00:00Z",
-        "End": "2018-12-31T23:59:59Z"
+        "Start": "2018-12-21T00:00:00.000000Z",
+        "End": "2018-12-31T23:59:59.999999Z"
     },
-    "NominalDate": "2018-12-21T00:00:00Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -90.0], [-180.0, 90.0], [180.0, 90.0], [180.0, -90.0], [-180.0, -90.0]]]},
+    "NominalDate": "2018-12-21T00:00:00.000000Z",
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180.0,
+                    -90.0
+                ],
+                [
+                    -180.0,
+                    90.0
+                ],
+                [
+                    180.0,
+                    90.0
+                ],
+                [
+                    180.0,
+                    -90.0
+                ],
+                [
+                    -180.0,
+                    -90.0
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",

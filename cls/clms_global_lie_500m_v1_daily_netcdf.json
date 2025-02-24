@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-03T07:54:27.728388Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_ice_extent/lie_500m_v1_daily/2021/20210401/c_gls_LIE-NH_202104010000_NHEMI_SLSTR_V1.1.1.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/lake_ice_extent/lie_500m_v1_daily/2021/20210401/c_gls_LIE-NH_202104010000_NHEMI_SLSTR_V1.1.1.nc",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_ice_extent",
     "Component": "bio-geophysical",
@@ -14,11 +14,37 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2021-04-01T00:33:34Z",
-        "End": "2021-04-01T21:42:53Z"
+        "Start": "2021-04-01T00:33:34.000000Z",
+        "End": "2021-04-01T21:42:53.000000Z"
     },
-    "NominalDate": "2021-04-01T00:00:00Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0025, 25.002499999999998], [-180.0025, 84.0025], [179.9975, 84.0025], [179.9975, 25.002499999999998], [-180.0025, 25.002499999999998]]]},
+    "NominalDate": "2021-04-01T00:00:00.000000Z",
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180.0025,
+                    25.002499999999998
+                ],
+                [
+                    -180.0025,
+                    84.0025
+                ],
+                [
+                    179.9975,
+                    84.0025
+                ],
+                [
+                    179.9975,
+                    25.002499999999998
+                ],
+                [
+                    -180.0025,
+                    25.002499999999998
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",

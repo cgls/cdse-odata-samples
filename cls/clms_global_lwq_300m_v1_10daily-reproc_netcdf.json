@@ -5,7 +5,7 @@
     "OriginDate": "2024-12-03T07:54:25.535190Z",
     "Online": true,
     "ContentType": "application/netcdf",
-    "Link": "s3://CLMS-ARCHIVE-INGESTION/netcdf/lake_water_quality/lwq_300m_v1_10daily-reproc/2002/20020511/c_gls_LWQ300_200205110000_GLOBE_MERIS_V1.3.0.nc",
+    "Link": "/data/MTDA/Copernicus/Land/global/netcdf/lake_water_quality/lwq_300m_v1_10daily-reproc/2002/20020511/c_gls_LWQ300_200205110000_GLOBE_MERIS_V1.3.0.nc",
     "CollectionName": "CLMS",
     "ProductType": "lake_water_quality",
     "Component": "bio-geophysical",
@@ -14,11 +14,37 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2002-05-11T00:00:00Z",
-        "End": "2002-05-20T23:59:59Z"
+        "Start": "2002-05-11T00:00:00.000000Z",
+        "End": "2002-05-20T23:59:59.999999Z"
     },
-    "NominalDate": "2002-05-11T00:00:00Z",
-    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0, -90.0], [-180.0, 90.0], [180.0, 90.0], [180.0, -90.0], [-180.0, -90.0]]]},
+    "NominalDate": "2002-05-11T00:00:00.000000Z",
+    "GeoFootprint": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -180.0,
+                    -90.0
+                ],
+                [
+                    -180.0,
+                    90.0
+                ],
+                [
+                    180.0,
+                    90.0
+                ],
+                [
+                    180.0,
+                    -90.0
+                ],
+                [
+                    -180.0,
+                    -90.0
+                ]
+            ]
+        ]
+    },
     "Attributes": [
         {
             "Name": "productVersion",
@@ -88,7 +114,7 @@
         {
             "Name": "platformAcronym",
             "ValueType": "String",
-            "Value": null
+            "Value": "unspecified"
         }
     ]
 }
