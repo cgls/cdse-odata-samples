@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "PROBAV_LC100_global_v3.0.1_2019-nrt_EPSG-4326_cog",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2024-05-14T20:11:28.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "/data/MTDA/Copernicus/Land/global/geotiff/land_cover/lcc_100m_v3_yearly/2019/20190101",
+  "CollectionName": "CLMS",
+  "ProductType": "dynamic_land_cover",
+  "Component": "landcover_landuse",
+  "DatasetIdentifier": "lc_global_100m_yearly_v3",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2019-01-01T00:00:00.000000Z",
+    "End": "2019-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2019-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180,
+          -60
+        ],
+        [
+          -180,
+          80
+        ],
+        [
+          180,
+          80
+        ],
+        [
+          180,
+          -60
+        ],
+        [
+          -180,
+          -60
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v3.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 3
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "VEGETATION"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lc"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "lc_global_100m_yearly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 100
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "100m"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "yearly"
+    }
+  ]
+}
