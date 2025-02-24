@@ -1,11 +1,11 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "c_gls_SWI-STATIC-CI_201101010000_GLOBE_SWI-GLDAS_V1.1.1_nc",
+  "Name": "c_gls_SWI-STATIC-WF_201501010000_GLOBE_GLWD_V1.1.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2024-06-06T10:07:50.000000Z",
+  "OriginDate": "2024-06-06T10:07:53.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
-  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-CI_201101010000_GLOBE_SWI-GLDAS_V1.1.1.nc",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-WF_201501010000_GLOBE_GLWD_V1.1.1.nc",
   "CollectionName": "CLMS",
   "ProductType": "soil_water_index",
   "Component": "bio-geophysical",
@@ -14,10 +14,10 @@
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2011-01-01T00:00:00.000000Z",
-    "End": "2011-12-31T23:59:59.999999Z"
+    "Start": "2015-01-01T00:00:00.000000Z",
+    "End": "2015-01-01T00:00:00.000000Z"
   },
-  "NominalDate": "2011-01-01T00:00:00.000000Z",
+  "NominalDate": "2015-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
@@ -67,19 +67,9 @@
       "Value": "TU Wien"
     },
     {
-      "Name": "missionShortName",
-      "ValueType": "String",
-      "Value": "METOP"
-    },
-    {
-      "Name": "platformShortName",
-      "ValueType": "String",
-      "Value": "METOPA,METOPB"
-    },
-    {
       "Name": "instrumentShortName",
       "ValueType": "String",
-      "Value": "ASCAT"
+      "Value": "GLWD"
     },
     {
       "Name": "datasetShortName",
@@ -114,7 +104,17 @@
     {
       "Name": "swiSubParameter",
       "ValueType": "String",
-      "Value": "CI"
+      "Value": "WF"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
     },
     {
       "Name": "platformAcronym",
