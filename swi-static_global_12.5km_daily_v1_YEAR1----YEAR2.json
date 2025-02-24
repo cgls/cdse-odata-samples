@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_SWI-STATIC-CI_2007----2017_GLOBE_SWI-GLDAS_V1.1.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2024-06-06T10:07:50.000000Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-CI_2007----2017_GLOBE_SWI-GLDAS_V1.1.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "soil_water_index",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "swi-static_global_12.5km_daily_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2007-01-01T00:00:00.000000Z",
+    "End": "2017-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2007-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180,
+          -90
+        ],
+        [
+          -180,
+          90
+        ],
+        [
+          180,
+          90
+        ],
+        [
+          180,
+          -90
+        ],
+        [
+          -180,
+          -90
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v1.1.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "TU Wien"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "METOP"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "METOPA,METOPB"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "ASCAT"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "swi-sl"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "swi-static_global_12.5km_daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 12500
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "12.5km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "daily"
+    },
+    {
+      "Name": "swiSubParameter",
+      "ValueType": "String",
+      "Value": "CI"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}
