@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "cgl_TOC_20190104000021_X33Y07_S3A_v2.3.4_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2024-07-22T17:20:41.000000Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "s3://prod-sen3-toc-1-v2.3.4-2019-01/prod/sen3/toc/1/v2.3.4/2019/01/20190104/cgl_TOC_20190104000021_X33Y07_S3A_v2.3.4/cgl_TOC_20190104000021_X33Y07_S3A_v2.3.4.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "top_of_canopy_reflectances",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "toc_global_300m_daily_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2019-01-04T00:00:21.000000Z",
+    "End": "2019-01-04T00:03:21.000000Z"
+  },
+  "NominalDate": "2019-01-04T00:00:21.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          149.99851189999998,
+          5.0014880999999995
+        ],
+        [
+          149.99851189999998,
+          15.0014881
+        ],
+        [
+          159.99851189999998,
+          15.0014881
+        ],
+        [
+          159.99851189999998,
+          5.0014880999999995
+        ],
+        [
+          149.99851189999998,
+          5.0014880999999995
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v2.3.4"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL3"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL3A"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "S3A"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "OLCI,SLSTR"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "tcr"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "toc_global_300m_daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 300
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "300m"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "daily"
+    }
+  ]
+}
