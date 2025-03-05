@@ -67,26 +67,6 @@
             "Value": "SYKE,FMI,ENVEO"
         },
         {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL3"
-        },
-        {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL3A,SENTINEL3B"
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": "S3A,S3B"
-        },
-        {
-            "Name": "instrumentShortName",
-            "ValueType": "String",
-            "Value": "SLSTR"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "lie"
@@ -115,6 +95,26 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3A,SENTINEL3B"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "S3A,S3B"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "SLSTR"
         }
     ]
 }

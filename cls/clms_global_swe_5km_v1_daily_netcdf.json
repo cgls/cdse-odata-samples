@@ -67,21 +67,6 @@
             "Value": "FMI"
         },
         {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "DMSP,SUOMI NPP"
-        },
-        {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": "NPP"
-        },
-        {
-            "Name": "instrumentShortName",
-            "ValueType": "String",
-            "Value": "SSMIS,VIIRS"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "swe"
@@ -112,9 +97,24 @@
             "Value": "daily"
         },
         {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SUOMINPP,unspecified"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "NPP,unspecified"
+        },
+        {
             "Name": "platformAcronym",
             "ValueType": "String",
             "Value": "unspecified"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "VIIRS,SSMIS"
         }
     ]
 }

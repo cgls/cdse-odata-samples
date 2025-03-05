@@ -67,26 +67,6 @@
             "Value": "University of Reading"
         },
         {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL3"
-        },
-        {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL3A"
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": "S3A"
-        },
-        {
-            "Name": "instrumentShortName",
-            "ValueType": "String",
-            "Value": "SLSTR"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "lswt"
@@ -115,6 +95,26 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "10daily"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3A"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "S3A"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "SLSTR"
         }
     ]
 }

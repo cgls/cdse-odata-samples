@@ -67,21 +67,6 @@
             "Value": "Syke,FMI,ENVEO"
         },
         {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "NOAA20"
-        },
-        {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": "NOAA20"
-        },
-        {
-            "Name": "instrumentShortName",
-            "ValueType": "String",
-            "Value": "VIIRS"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "lie"
@@ -112,9 +97,24 @@
             "Value": "daily"
         },
         {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "NOAA20"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "NOAA20"
+        },
+        {
             "Name": "platformAcronym",
             "ValueType": "String",
             "Value": "unspecified"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "VIIRS"
         }
     ]
 }

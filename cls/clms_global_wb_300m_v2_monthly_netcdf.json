@@ -67,16 +67,6 @@
             "Value": "SIRS"
         },
         {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL2"
-        },
-        {
-            "Name": "instrumentShortName",
-            "ValueType": "String",
-            "Value": "MSI"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "wb"
@@ -107,6 +97,11 @@
             "Value": "monthly"
         },
         {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL2"
+        },
+        {
             "Name": "platformShortName",
             "ValueType": "String",
             "Value": "unspecified"
@@ -115,6 +110,11 @@
             "Name": "platformAcronym",
             "ValueType": "String",
             "Value": "unspecified"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "MSI"
         }
     ]
 }
