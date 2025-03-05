@@ -1,0 +1,4 @@
+profile,name,path
+toc,toc_global_300m_daily_v2,s3://prod-sen3-toc-1-v2.3.4-2019-01/prod/sen3/toc/1/v2.3.4/2019/01/20190104/cgl_TOC_20190104000021_X33Y07_S3A_v2.3.4/cgl_TOC_20190104000021_X33Y07_S3A_v2.3.4.nc
+archive,ndvi_global_1km_10daily_v3_cog,s3://CLMS-ARCHIVE-INGESTION/geotiff/ndvi/ndvi_1km_v3_10daily/2020/20200321/c_gls_NDVI_202003210000_GLOBE_PROBAV_V3.0.1_cog/
+archive,ndvi_global_1km_10daily_v3_nc,s3://CLMS-ARCHIVE-INGESTION/netcdf/ndvi/ndvi_1km_v3_10daily/2020/20200321/c_gls_NDVI_202003210000_GLOBE_PROBAV_V3.0.1.nc
