@@ -7,7 +7,7 @@
   "ContentType": "application/netcdf",
   "Link": "s3://prod-sen3-toc-1-v2.3.4-2019-01/prod/sen3/toc/1/v2.3.4/2019/01/20190104/cgl_TOC_20190104000021_X33Y07_S3A_v2.3.4/cgl_TOC_20190104000021_X33Y07_S3A_v2.3.4.nc",
   "CollectionName": "CLMS",
-  "ProductType": "top_of_canopy_reflectances",
+  "ProductType": "top-of-canopy_reflectances",
   "Component": "bio-geophysical",
   "DatasetIdentifier": "toc_global_300m_daily_v2",
   "TargetFormat": "EXTRACTED",
@@ -67,26 +67,6 @@
       "Value": "VITO"
     },
     {
-      "Name": "missionShortName",
-      "ValueType": "String",
-      "Value": "SENTINEL3"
-    },
-    {
-      "Name": "platformShortName",
-      "ValueType": "String",
-      "Value": "SENTINEL3A"
-    },
-    {
-      "Name": "platformAcronym",
-      "ValueType": "String",
-      "Value": "S3A"
-    },
-    {
-      "Name": "instrumentShortName",
-      "ValueType": "String",
-      "Value": "OLCI,SLSTR"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "tcr"
@@ -115,6 +95,26 @@
       "Name": "temporalRepeatRate",
       "ValueType": "String",
       "Value": "daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL3"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL3A"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "S3A"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "OLCI,SLSTR"
     }
   ]
 }

@@ -67,26 +67,6 @@
       "Value": "TU Wien"
     },
     {
-      "Name": "missionShortName",
-      "ValueType": "String",
-      "Value": "SENTINEL1"
-    },
-    {
-      "Name": "platformShortName",
-      "ValueType": "String",
-      "Value": "SENTINEL1A,SENTINEL1B"
-    },
-    {
-      "Name": "platformAcronym",
-      "ValueType": "String",
-      "Value": "S1A,S1B"
-    },
-    {
-      "Name": "instrumentShortName",
-      "ValueType": "String",
-      "Value": "SAR"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "ssm"
@@ -115,6 +95,26 @@
       "Name": "temporalRepeatRate",
       "ValueType": "String",
       "Value": "daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL1"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL1A,SENTINEL1B"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "S1A,S1B"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "SAR"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "PROBAV_LC100_global_v3.0.1_2019-nrt_EPSG-4326_cog",
+  "Name": "PROBAV_LC100_global_v3.0.1_2019_cog",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
   "OriginDate": "2024-05-14T20:11:28.000000Z",
   "Online": true,
@@ -67,26 +67,6 @@
       "Value": "VITO"
     },
     {
-      "Name": "missionShortName",
-      "ValueType": "String",
-      "Value": "PROBAV"
-    },
-    {
-      "Name": "platformShortName",
-      "ValueType": "String",
-      "Value": "PROBAV"
-    },
-    {
-      "Name": "platformAcronym",
-      "ValueType": "String",
-      "Value": "PROBAV"
-    },
-    {
-      "Name": "instrumentShortName",
-      "ValueType": "String",
-      "Value": "VEGETATION"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "lc"
@@ -115,6 +95,26 @@
       "Name": "temporalRepeatRate",
       "ValueType": "String",
       "Value": "yearly"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "VEGETATION"
     }
   ]
 }

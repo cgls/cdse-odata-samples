@@ -67,21 +67,6 @@
       "Value": "TU Wien"
     },
     {
-      "Name": "missionShortName",
-      "ValueType": "String",
-      "Value": "METOP"
-    },
-    {
-      "Name": "platformShortName",
-      "ValueType": "String",
-      "Value": "METOPA"
-    },
-    {
-      "Name": "instrumentShortName",
-      "ValueType": "String",
-      "Value": "ASCAT"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "swi"
@@ -112,9 +97,24 @@
       "Value": "10daily"
     },
     {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "METOP"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "METOPA"
+    },
+    {
       "Name": "platformAcronym",
       "ValueType": "String",
       "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "ASCAT"
     }
   ]
 }

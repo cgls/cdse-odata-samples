@@ -67,21 +67,6 @@
       "Value": "IPMA"
     },
     {
-      "Name": "missionShortName",
-      "ValueType": "String",
-      "Value": "HIMAWARI8,GOES,METEOSAT11"
-    },
-    {
-      "Name": "platformShortName",
-      "ValueType": "String",
-      "Value": "HIMAWARI8,GOES16,METEOSAT11"
-    },
-    {
-      "Name": "instrumentShortName",
-      "ValueType": "String",
-      "Value": "ABI,SEVIRI,AHI"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "lst-dc"
@@ -112,9 +97,24 @@
       "Value": "10daily"
     },
     {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "HIMAWARI8,GOES,METEOSAT11"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "HIMAWARI8,GOES16,METEOSAT11"
+    },
+    {
       "Name": "platformAcronym",
       "ValueType": "String",
       "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "AHI,ABI,SEVIRI"
     }
   ]
 }

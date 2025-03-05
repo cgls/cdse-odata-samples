@@ -67,16 +67,6 @@
       "Value": "VITO"
     },
     {
-      "Name": "missionShortName",
-      "ValueType": "String",
-      "Value": "SENTINEL3"
-    },
-    {
-      "Name": "instrumentShortName",
-      "ValueType": "String",
-      "Value": "OLCI,SLSTR"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "ba"
@@ -107,6 +97,11 @@
       "Value": "daily"
     },
     {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL3"
+    },
+    {
       "Name": "platformShortName",
       "ValueType": "String",
       "Value": "unspecified"
@@ -115,6 +110,11 @@
       "Name": "platformAcronym",
       "ValueType": "String",
       "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "OLCI,SLSTR"
     }
   ]
 }

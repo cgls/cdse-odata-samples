@@ -67,26 +67,6 @@
       "Value": "VITO"
     },
     {
-      "Name": "missionShortName",
-      "ValueType": "String",
-      "Value": "PROBAV"
-    },
-    {
-      "Name": "platformShortName",
-      "ValueType": "String",
-      "Value": "PROBAV"
-    },
-    {
-      "Name": "platformAcronym",
-      "ValueType": "String",
-      "Value": "PROBAV"
-    },
-    {
-      "Name": "instrumentShortName",
-      "ValueType": "String",
-      "Value": "VEGETATION"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "ndvi"
@@ -115,6 +95,26 @@
       "Name": "temporalRepeatRate",
       "ValueType": "String",
       "Value": "10daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "PROBAV"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "VEGETATION"
     }
   ]
 }

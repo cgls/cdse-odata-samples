@@ -67,11 +67,6 @@
       "Value": "TU Wien"
     },
     {
-      "Name": "instrumentShortName",
-      "ValueType": "String",
-      "Value": "GLWD"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "swi-sl"
@@ -118,6 +113,11 @@
     },
     {
       "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
       "ValueType": "String",
       "Value": "unspecified"
     }

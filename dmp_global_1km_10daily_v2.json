@@ -67,26 +67,6 @@
       "Value": "VITO"
     },
     {
-      "Name": "missionShortName",
-      "ValueType": "String",
-      "Value": "SPOT4"
-    },
-    {
-      "Name": "platformShortName",
-      "ValueType": "String",
-      "Value": "SPOT4"
-    },
-    {
-      "Name": "platformAcronym",
-      "ValueType": "String",
-      "Value": "SPOT4"
-    },
-    {
-      "Name": "instrumentShortName",
-      "ValueType": "String",
-      "Value": "VEGETATION"
-    },
-    {
       "Name": "datasetShortName",
       "ValueType": "String",
       "Value": "dmp"
@@ -115,6 +95,26 @@
       "Name": "temporalRepeatRate",
       "ValueType": "String",
       "Value": "10daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SPOT4"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SPOT4"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "SPOT4"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "VEGETATION"
     }
   ]
 }
