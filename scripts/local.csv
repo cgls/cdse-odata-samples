@@ -39,3 +39,4 @@ lai_global_300m_10daily_v1,/data/MTDA/Copernicus/Land/global/netcdf/leaf_area_in
 wb_global_1km_10daily_v2,/data/MTDA/Copernicus/Land/global/netcdf/water_bodies/wb_1km_v2_10daily/2001/20010911/c_gls_WB_200109110000_GLOBE_VGT_V2.1.1.nc
 wb_global_300m_10daily_v1,/data/MTDA/Copernicus/Land/global/netcdf/water_bodies/wb_300m_v1_10daily/2019/20190221/c_gls_WB300_201902210000_GLOBE_PROBAV_V1.0.1.nc
 lc_global_100m_yearly_v3,/data/MTDA/Copernicus/Land/global/geotiff/land_cover/lcc_100m_v3_yearly/2019/20190101/
+lsp_global_300m_yearly_v1,/data/MTDA/Copernicus/Land/global/geotiff/land_surface_phenology/lsp_300m_v1_yearly/2023/20230101/c_gls_LSP300-AMPL-S2_202301010000_GLOBE_OLCI_V1.0.1.tiff
