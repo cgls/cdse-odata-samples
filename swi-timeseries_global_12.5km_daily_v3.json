@@ -1,11 +1,11 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "c_gls_SWI-TS_202312310000_C0348_ASCAT_V3.2.1_nc",
+  "Name": "c_gls_SWI-TS_202412310000_C0348_ASCAT_V3.2.1_nc",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2024-01-10T04:19:16.000000Z",
+  "OriginDate": "2025-02-18T22:03:50.000000Z",
   "Online": true,
   "ContentType": "application/netcdf",
-  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_time-series/2023/20231231/c_gls_SWI-TS_202312310000_C0348_ASCAT_V3.2.1.nc",
+  "Link": "/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_time-series/2024/20241231/c_gls_SWI-TS_202412310000_C0348_ASCAT_V3.2.1.nc",
   "CollectionName": "CLMS",
   "ProductType": "soil_water_index",
   "Component": "bio-geophysical",
@@ -15,9 +15,9 @@
   "CompressionType": null,
   "ContentDate": {
     "Start": "2007-01-01T12:00:00.000000Z",
-    "End": "2023-12-31T12:00:00.000000Z"
+    "End": "2024-12-31T12:00:00.000000Z"
   },
-  "NominalDate": "2023-12-31T00:00:00.000000Z",
+  "NominalDate": "2024-12-31T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
