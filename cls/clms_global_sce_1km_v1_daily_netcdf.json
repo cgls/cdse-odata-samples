@@ -67,21 +67,6 @@
             "Value": "ENVEO IT"
         },
         {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "SUOMI NPP"
-        },
-        {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": "NPP"
-        },
-        {
-            "Name": "instrumentShortName",
-            "ValueType": "String",
-            "Value": "VIIRS"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "sce"
@@ -112,9 +97,24 @@
             "Value": "daily"
         },
         {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SUOMINPP"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "NPP"
+        },
+        {
             "Name": "platformAcronym",
             "ValueType": "String",
             "Value": "unspecified"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "VIIRS"
         }
     ]
 }

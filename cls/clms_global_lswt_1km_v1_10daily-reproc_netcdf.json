@@ -67,21 +67,6 @@
             "Value": "University of Reading"
         },
         {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "ENVISAT"
-        },
-        {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": "ENVISAT"
-        },
-        {
-            "Name": "instrumentShortName",
-            "ValueType": "String",
-            "Value": "AATSR"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "lswt"
@@ -112,9 +97,24 @@
             "Value": "10daily"
         },
         {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "ENVISAT"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "ENVISAT"
+        },
+        {
             "Name": "platformAcronym",
             "ValueType": "String",
             "Value": "unspecified"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "AATSR"
         }
     ]
 }
