@@ -16,5 +16,5 @@ do
     eval $(aws configure export-credentials --format env --profile $profile_name)
     export AWS_ENDPOINT_URL=$(aws configure --profile $profile_name get endpoint_url)
     # using virtual filesystem with netCDF driver in Docker requires userfaultd system call, so set security-opt to allow it
-    docker run --rm --security-opt seccomp=unconfined -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -e AWS_ENDPOINT_URL -a stdout -a stderr  $DOCKER_IMAGE odata create $path | jq . > $name.json
+    docker run --rm --security-opt seccomp=unconfined -e AWS_ACCESS_KEY_ID -e AWS_SECRET_ACCESS_KEY -e AWS_ENDPOINT_URL -a stdout -a stderr  $DOCKER_IMAGE odata create $path | python3 -m json.tool --indent 2 > $name.json
 done < <(tail -n +2 $dir/s3.csv)
