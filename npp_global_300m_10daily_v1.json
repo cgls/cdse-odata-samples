@@ -7,7 +7,7 @@
   "ContentType": "application/netcdf",
   "Link": "/data/MTDA/Copernicus/Land/global/netcdf/dry_matter_productivity/npp_300m_v1_10daily/2023/20230710/c_gls_NPP300-RT6_202307100000_GLOBE_OLCI_V1.1.1.nc",
   "CollectionName": "CLMS",
-  "ProductType": "dry-gross_dry_matter_productivity",
+  "ProductType": "net-gross_primary_production",
   "Component": "bio-geophysical",
   "DatasetIdentifier": "npp_global_300m_10daily_v1",
   "TargetFormat": "EXTRACTED",
