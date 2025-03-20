@@ -97,6 +97,11 @@
       "Value": "daily"
     },
     {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "X33Y07"
+    },
+    {
       "Name": "missionShortName",
       "ValueType": "String",
       "Value": "SENTINEL3"

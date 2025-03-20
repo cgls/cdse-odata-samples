@@ -97,7 +97,7 @@
       "Value": "daily"
     },
     {
-      "Name": "swiTSCellId",
+      "Name": "cellID",
       "ValueType": "String",
       "Value": "C0348"
     },
