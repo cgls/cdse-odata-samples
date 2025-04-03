@@ -67,26 +67,6 @@
             "Value": "Plymouth Marine Laboratory"
         },
         {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL3"
-        },
-        {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL3A,SENTINEL3B"
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": "S3A,S3B"
-        },
-        {
-            "Name": "instrumentShortName",
-            "ValueType": "String",
-            "Value": "OLCI"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "lwq"
@@ -115,6 +95,26 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "10daily"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3A,SENTINEL3B"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "S3A,S3B"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "OLCI"
         }
     ]
 }

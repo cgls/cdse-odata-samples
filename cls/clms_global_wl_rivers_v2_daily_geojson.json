@@ -57,21 +57,6 @@
             "Value": "CLS"
         },
         {
-            "Name": "missionShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL3"
-        },
-        {
-            "Name": "platformShortName",
-            "ValueType": "String",
-            "Value": "SENTINEL3B"
-        },
-        {
-            "Name": "platformAcronym",
-            "ValueType": "String",
-            "Value": "S3B"
-        },
-        {
             "Name": "datasetShortName",
             "ValueType": "String",
             "Value": "rwl"
@@ -90,6 +75,21 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "daily"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3B"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "S3B"
         },
         {
             "Name": "instrumentShortName",
