@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "c_gls_WL_202501210043_0000000000001_ALTI_V2.2.0_geojson",
+    "Name": "c_gls_WL_202503160043_0000000000001_ALTI_V2.2.0_geojson",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "OriginDate": "2025-01-23T01:04:00.000000Z",
+    "OriginDate": "2025-03-18T01:04:00.000000Z",
     "Online": true,
     "ContentType": "application/geo+json",
-    "Link": "/data/MTDA/Copernicus/Land/global/geojson/lake_river_water_level/wl_rivers_v2_daily/c_gls_WL_202501210043_0000000000001_ALTI_V2.2.0.json",
+    "Link": "/data/MTDA/Copernicus/Land/global/geojson/lake_river_water_level/wl_rivers_v2_daily/c_gls_WL_202503160043_0000000000001_ALTI_V2.2.0.json",
     "CollectionName": "CLMS",
     "ProductType": "river_and_lake_water_level",
     "Component": "bio-geophysical",
@@ -14,10 +14,10 @@
     "DecompressionStep": false,
     "CompressionType": null,
     "ContentDate": {
-        "Start": "2018-12-03T00:42:00.000000Z",
-        "End": "2025-01-21T00:43:00.000000Z"
+        "Start": "2018-12-30T00:42:00.000000Z",
+        "End": "2025-03-16T00:43:00.000000Z"
     },
-    "NominalDate": "2025-01-21T00:43:00.000000Z",
+    "NominalDate": "2025-03-16T00:43:00.000000Z",
     "GeoFootprint": {
         "type": "Point",
         "coordinates": [
