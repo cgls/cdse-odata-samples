@@ -7,7 +7,7 @@
     "ContentType": "application/netcdf",
     "Link": "/data/MTDA/Copernicus/Land/global/netcdf/lake_surface_water_temperature/lswt_1km_v1_10daily-nrt/2016/20161101/c_gls_LSWT_201611010000_GLOBE_SLSTRA_v1.0.2.nc",
     "CollectionName": "CLMS",
-    "ProductType": "land_surface_temperature",
+    "ProductType": "lake_surface_water_temperature",
     "Component": "bio-geophysical",
     "DatasetIdentifier": "lswt-nrt_global_1km_10daily_v1",
     "TargetFormat": "EXTRACTED",
