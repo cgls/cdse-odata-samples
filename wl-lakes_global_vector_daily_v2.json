@@ -1,0 +1,105 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_WL_202505062242_1300000001254_ALTI_V2.2.0_geojson",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-05-08T00:58:00.000000Z",
+  "Online": true,
+  "ContentType": "application/geo+json",
+  "Link": "s3://CLMS-CRYOHYDRO-INGESTION/webResources/catalogTree/geojson/lake_river_water_level/wl_lakes_v2_daily/c_gls_WL_202505062242_1300000001254_ALTI_V2.2.0.json",
+  "CollectionName": "CLMS",
+  "ProductType": "river_and_lake_water_level",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "wl-lakes_global_vector_daily_v2",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2002-07-20T05:13:00.000000Z",
+    "End": "2025-05-06T22:42:00.000000Z"
+  },
+  "NominalDate": "2025-05-06T22:42:00.000000Z",
+  "GeoFootprint": {
+    "type": "Point",
+    "coordinates": [
+      81.0,
+      46.58
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v2.2.0"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 2
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "geojson"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "1300000001254"
+    },
+    {
+      "Name": "wlLakeName",
+      "ValueType": "String",
+      "Value": "sasykkol"
+    },
+    {
+      "Name": "wlBasinName",
+      "ValueType": "String",
+      "Value": "Mongolian"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "CLS"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lwl"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "wl-lakes_global_vector_daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    }
+  ]
+}
