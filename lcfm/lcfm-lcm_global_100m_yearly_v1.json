@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "LCFM_LCM-100_V100_2020_N30W150_cog",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-04-29T18:44:18.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "/vitodata/vegteam_lcfm_openeo/LCFM/LCM-100/v100/tiles_latlon/30deg/N30/W150/2020",
+  "CollectionName": "CLMS",
+  "ProductType": "dynamic_land_cover",
+  "Component": "landcover_landuse",
+  "DatasetIdentifier": "lcfm-lcm_global_100m_yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2020-01-01T00:00:00.000000Z",
+    "End": "2020-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2020-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -150.0,
+          30.0
+        ],
+        [
+          -150.0,
+          60.0
+        ],
+        [
+          -120.0,
+          60.0
+        ],
+        [
+          -120.0,
+          30.0
+        ],
+        [
+          -150.0,
+          30.0
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v100"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lcfm"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "lcfm-lcm_global_100m_yearly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 100
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "100m"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "yearly"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "N30W150"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL1,SENTINEL2"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "SAR,MSI"
+    }
+  ]
+}

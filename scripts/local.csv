@@ -40,3 +40,6 @@ wb_global_1km_10daily_v2,/data/MTDA/Copernicus/Land/global/netcdf/water_bodies/w
 wb_global_300m_10daily_v1,/data/MTDA/Copernicus/Land/global/netcdf/water_bodies/wb_300m_v1_10daily/2019/20190221/c_gls_WB300_201902210000_GLOBE_PROBAV_V1.0.1.nc
 lc_global_100m_yearly_v3,/data/MTDA/Copernicus/Land/global/geotiff/land_cover/lcc_100m_v3_yearly/2019/20190101/
 lsp_global_300m_yearly_v1,/data/MTDA/Copernicus/Land/global/geotiff/land_surface_phenology/lsp_300m_v1_yearly/2023/20230101/c_gls_LSP300-AMPL-S2_202301010000_GLOBE_OLCI_V1.0.1.tiff
+lcfm/lcfm-lcm_global_10m_yearly_v1,/vitodata/vegteam_lcfm_openeo/LCFM/LCM-10/v100/tiles_latlon/3deg/S27/E135/2020
+lcfm/lcfm-lcm_global_100m_yearly_v1,/vitodata/vegteam_lcfm_openeo/LCFM/LCM-100/v100/tiles_latlon/30deg/N30/W150/2020
+lcfm/lcfm-tcd_pantropical_10m_yearly_v1,/vitodata/vegteam_vol2/products/LCFM/TCD-10/v100/tiles_latlon/3deg/S48/E036/2020

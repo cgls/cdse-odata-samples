@@ -10,5 +10,5 @@ do
     echo $name
     # use VSICACHED option to circumvent libhdf5 writing to stdout
     # using virtual filesystem with netCDF driver in Docker requires userfaultd system call, so set security-opt to allow it
-    docker run --rm -e VSICACHED=true --security-opt seccomp=unconfined -a stdout -a stderr -v /data/MTDA/:/data/MTDA/ $DOCKER_IMAGE odata create $path | python3 -m json.tool --indent 2 > $name.json
+    docker run --rm -e VSICACHED=true --security-opt seccomp=unconfined -a stdout -a stderr -v /data/MTDA/:/data/MTDA/ -v /vitodata/:/vitodata/ $DOCKER_IMAGE odata create $path | python3 -m json.tool --indent 2 > $name.json
 done < <(tail -n +2 $dir/local.csv)
