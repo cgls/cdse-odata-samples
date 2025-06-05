@@ -13,11 +13,11 @@ lst-tci_global_5km_10daily_v1,/data/MTDA/Copernicus/Land/global/netcdf/land_surf
 lst-tci_global_5km_10daily_v2,/data/MTDA/Copernicus/Land/global/netcdf/land_surface_temperature/lst_5km_v2_10daily-tci/2021/20210111/c_gls_LST10-TCI_202101110000_GLOBE_GEO_V2.1.1.nc
 lst_global_5km_hourly_v1,/data/MTDA/Copernicus/Land/global/netcdf/land_surface_temperature/lst_5km_v1_hourly/2014/20140926/c_gls_LST_201409261600_GLOBE_GEO_V1.2.1.nc
 lst_global_5km_hourly_v2,/data/MTDA/Copernicus/Land/global/netcdf/land_surface_temperature/lst_5km_v2_hourly/2025/20250112/c_gls_LST_202501121100_GLOBE_GEO_V2.1.2.nc
-swi-static_global_12.5km_daily_v1,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-CI_201101010000_GLOBE_SWI-GLDAS_V1.1.1.nc
-swi-static_global_12.5km_daily_v1_YEAR1----YEAR2,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-CI_2007----2017_GLOBE_SWI-GLDAS_V1.1.1.nc
-swi-static_global_12.5km_daily_v1_FM,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-FM_201501010000_GLOBE_ASCAT_V1.1.1.nc
-swi-static_global_12.5km_daily_v1_TC,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-TC_201501010000_GLOBE_GTOPO30_V1.1.1.nc
-swi-static_global_12.5km_daily_v1_WF,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-WF_201501010000_GLOBE_GLWD_V1.1.1.nc
+swi-static_global_12.5km_daily_v3,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-CI_201101010000_GLOBE_SWI-GLDAS_V3.2.1.nc
+swi-static_global_12.5km_daily_v3_YEAR1----YEAR2,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-CI_2007----2017_GLOBE_SWI-GLDAS_V3.2.1.nc
+swi-static_global_12.5km_daily_v3_FM,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-FM_201501010000_GLOBE_ASCAT_V3.2.1.nc
+swi-static_global_12.5km_daily_v3_TC,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-TC_201501010000_GLOBE_GTOPO30_V3.2.1.nc
+swi-static_global_12.5km_daily_v3_WF,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_static/c_gls_SWI-STATIC-WF_201501010000_GLOBE_GLWD_V3.2.1.nc
 swi-timeseries_global_12.5km_daily_v3,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_time-series/2024/20241231/c_gls_SWI-TS_202412310000_C0348_ASCAT_V3.2.1.nc
 swi_europe_1km_daily_v1,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_1km_v1_daily/2016/20160813/c_gls_SWI1km_201608131200_CEURO_SCATSAR_V1.0.1.nc
 swi_global_12.5km_10daily_v3,/data/MTDA/Copernicus/Land/global/netcdf/soil_water_index/swi_12.5km_v3_10daily/2012/20120621/c_gls_SWI10_201206211200_GLOBE_ASCAT_V3.1.1.nc
