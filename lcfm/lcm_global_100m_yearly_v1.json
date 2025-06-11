@@ -1,15 +1,15 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "LCFM_LCM-10_V100_2020_S27E135_cog",
+  "Name": "LCFM_LCM-100_V100_2020_N30W150_cog",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-06-04T10:39:48.000000Z",
+  "OriginDate": "2025-04-29T18:44:18.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "/vitodata/vegteam_lcfm_openeo/LCFM/LCM-10/v100/tiles_latlon/3deg/S27/E135/2020",
+  "Link": "/vitodata/vegteam_lcfm_openeo/LCFM/LCM-100/v100/tiles_latlon/30deg/N30/W150/2020",
   "CollectionName": "CLMS",
   "ProductType": "dynamic_land_cover",
   "Component": "landcover_landuse",
-  "DatasetIdentifier": "lcfm-lcm_global_10m_yearly_v1",
+  "DatasetIdentifier": "lcm_global_100m_yearly_v1",
   "TargetFormat": "EXTRACTED",
   "DecompressionStep": false,
   "CompressionType": null,
@@ -23,24 +23,24 @@
     "coordinates": [
       [
         [
-          135.0,
-          -27.0
+          -150.0,
+          30.0
         ],
         [
-          135.0,
-          -24.0
+          -150.0,
+          60.0
         ],
         [
-          138.0,
-          -24.0
+          -120.0,
+          60.0
         ],
         [
-          138.0,
-          -27.0
+          -120.0,
+          30.0
         ],
         [
-          135.0,
-          -27.0
+          -150.0,
+          30.0
         ]
       ]
     ]
@@ -69,12 +69,12 @@
     {
       "Name": "datasetShortName",
       "ValueType": "String",
-      "Value": "lcfm"
+      "Value": "lcm"
     },
     {
       "Name": "datasetAlias",
       "ValueType": "String",
-      "Value": "lcfm-lcm_global_10m_yearly"
+      "Value": "lcm_global_100m_yearly"
     },
     {
       "Name": "areaOfInterest",
@@ -84,12 +84,12 @@
     {
       "Name": "metricGridSpacing",
       "ValueType": "Integer",
-      "Value": 10
+      "Value": 100
     },
     {
       "Name": "gridLabel",
       "ValueType": "String",
-      "Value": "10m"
+      "Value": "100m"
     },
     {
       "Name": "temporalRepeatRate",
@@ -99,7 +99,7 @@
     {
       "Name": "cellID",
       "ValueType": "String",
-      "Value": "S27E135"
+      "Value": "N30W150"
     },
     {
       "Name": "missionShortName",

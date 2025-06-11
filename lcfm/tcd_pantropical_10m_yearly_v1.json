@@ -1,15 +1,15 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "LCFM_LCM-100_V100_2020_N30W150_cog",
+  "Name": "LCFM_TCD-10_V100_2020_S48E036_cog",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-04-29T18:44:18.000000Z",
+  "OriginDate": "2025-05-27T15:47:49.238982Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "/vitodata/vegteam_lcfm_openeo/LCFM/LCM-100/v100/tiles_latlon/30deg/N30/W150/2020",
+  "Link": "/vitodata/vegteam_vol2/products/LCFM/TCD-10/v100/tiles_latlon/3deg/S48/E036/2020",
   "CollectionName": "CLMS",
   "ProductType": "dynamic_land_cover",
   "Component": "landcover_landuse",
-  "DatasetIdentifier": "lcfm-lcm_global_100m_yearly_v1",
+  "DatasetIdentifier": "tcd_pantropical_10m_yearly_v1",
   "TargetFormat": "EXTRACTED",
   "DecompressionStep": false,
   "CompressionType": null,
@@ -23,24 +23,24 @@
     "coordinates": [
       [
         [
-          -150.0,
-          30.0
+          36.0,
+          -48.0
         ],
         [
-          -150.0,
-          60.0
+          36.0,
+          -45.0
         ],
         [
-          -120.0,
-          60.0
+          39.0,
+          -45.0
         ],
         [
-          -120.0,
-          30.0
+          39.0,
+          -48.0
         ],
         [
-          -150.0,
-          30.0
+          36.0,
+          -48.0
         ]
       ]
     ]
@@ -64,32 +64,32 @@
     {
       "Name": "processingCenter",
       "ValueType": "String",
-      "Value": "VITO"
+      "Value": "GAF"
     },
     {
       "Name": "datasetShortName",
       "ValueType": "String",
-      "Value": "lcfm"
+      "Value": "tcd"
     },
     {
       "Name": "datasetAlias",
       "ValueType": "String",
-      "Value": "lcfm-lcm_global_100m_yearly"
+      "Value": "tcd_pantropical_10m_yearly"
     },
     {
       "Name": "areaOfInterest",
       "ValueType": "String",
-      "Value": "global"
+      "Value": "pan tropical"
     },
     {
       "Name": "metricGridSpacing",
       "ValueType": "Integer",
-      "Value": 100
+      "Value": 10
     },
     {
       "Name": "gridLabel",
       "ValueType": "String",
-      "Value": "100m"
+      "Value": "10m"
     },
     {
       "Name": "temporalRepeatRate",
@@ -99,12 +99,12 @@
     {
       "Name": "cellID",
       "ValueType": "String",
-      "Value": "N30W150"
+      "Value": "S48E036"
     },
     {
       "Name": "missionShortName",
       "ValueType": "String",
-      "Value": "SENTINEL1,SENTINEL2"
+      "Value": "SENTINEL2"
     },
     {
       "Name": "platformShortName",
@@ -119,7 +119,7 @@
     {
       "Name": "instrumentShortName",
       "ValueType": "String",
-      "Value": "SAR,MSI"
+      "Value": "MSI"
     }
   ]
 }
