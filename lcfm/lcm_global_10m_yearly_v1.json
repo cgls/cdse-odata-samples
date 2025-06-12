@@ -2,10 +2,10 @@
   "@odata.context": "$metadata#Products(Attributes())",
   "Name": "LCFM_LCM-10_V100_2020_S27E135_cog",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-06-04T10:39:48.000000Z",
+  "OriginDate": "2025-06-11T22:30:31.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "/vitodata/vegteam_lcfm_openeo/LCFM/LCM-10/v100/tiles_latlon/3deg/S27/E135/2020",
+  "Link": "/vitodata/vegteam_vol2/products/LCFM/LCM-10/v100_ingestion/tiles_latlon/3deg/S27/E135/2020",
   "CollectionName": "CLMS",
   "ProductType": "dynamic_land_cover",
   "Component": "landcover_landuse",
@@ -109,12 +109,12 @@
     {
       "Name": "platformShortName",
       "ValueType": "String",
-      "Value": "unspecified"
+      "Value": "SENTINEL1A,SENTINEL1B,SENTINEL2A,SENTINEL2B"
     },
     {
       "Name": "platformAcronym",
       "ValueType": "String",
-      "Value": "unspecified"
+      "Value": "S1A,S1B,S2A,S2B"
     },
     {
       "Name": "instrumentShortName",
