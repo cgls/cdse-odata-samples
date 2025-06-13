@@ -1,11 +1,11 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "LCFM_TCD-10_V100_2020_S48E036_cog",
+  "Name": "LCFM_TCD-10_V100_2020_N30W108_cog",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-05-27T15:47:49.238982Z",
+  "OriginDate": "2025-06-12T10:38:58.000000Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "/vitodata/vegteam_vol2/products/LCFM/TCD-10/v100/tiles_latlon/3deg/S48/E036/2020",
+  "Link": "/vitodata/vegteam_vol2/products/LCFM/TCD-10/v100_ingestion/tiles_latlon/3deg/N30/W108/2020",
   "CollectionName": "CLMS",
   "ProductType": "dynamic_land_cover",
   "Component": "landcover_landuse",
@@ -23,24 +23,24 @@
     "coordinates": [
       [
         [
-          36.0,
-          -48.0
+          -108.0,
+          30.0
         ],
         [
-          36.0,
-          -45.0
+          -108.0,
+          33.0
         ],
         [
-          39.0,
-          -45.0
+          -105.0,
+          33.0
         ],
         [
-          39.0,
-          -48.0
+          -105.0,
+          30.0
         ],
         [
-          36.0,
-          -48.0
+          -108.0,
+          30.0
         ]
       ]
     ]
@@ -99,7 +99,7 @@
     {
       "Name": "cellID",
       "ValueType": "String",
-      "Value": "S48E036"
+      "Value": "N30W108"
     },
     {
       "Name": "missionShortName",
@@ -109,12 +109,12 @@
     {
       "Name": "platformShortName",
       "ValueType": "String",
-      "Value": "unspecified"
+      "Value": "SENTINEL2A,SENTINEL2B"
     },
     {
       "Name": "platformAcronym",
       "ValueType": "String",
-      "Value": "unspecified"
+      "Value": "S2A,S2B"
     },
     {
       "Name": "instrumentShortName",
