@@ -1,0 +1,94 @@
+{
+    "@odata.context": "$metadata#Products(Attributes())",
+    "Name": "c_gls_LIE500_202506220000_GLOBAL_SLSTR_V2.0.1_nc",
+    "EvictionDate": "9999-12-31T23:59:59.999999Z",
+    "OriginDate": "2025-07-02T08:29:32.146534Z",
+    "Online": true,
+    "ContentType": "application/netcdf",
+    "Link": "./c_gls_LIE500_202506220000_GLOBAL_SLSTR_V2.0.1.nc",
+    "CollectionName": "CLMS",
+    "ProductType": "river_and_lake_ice_extent",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "lie_global_500m_daily_v2",
+    "TargetFormat": "EXTRACTED",
+    "DecompressionStep": false,
+    "CompressionType": null,
+    "ContentDate": {
+        "Start": "2025-06-22T00:01:27.000000Z",
+        "End": "2025-06-22T23:38:16.000000Z"
+    },
+    "NominalDate": "2025-06-22T00:00:00.000000Z",
+    "GeoFootprint": {"type": "Polygon", "coordinates": [[[-180.0025, -59.9975], [-180.0025, 80.0025], [179.9975, 80.0025], [179.9975, -59.9975], [-180.0025, -59.9975]]]},
+    "Attributes": [
+        {
+            "Name": "productVersion",
+            "ValueType": "String",
+            "Value": "v2.0.1"
+        },
+        {
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 2
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "nc"
+        },
+        {
+            "Name": "processingCenter",
+            "ValueType": "String",
+            "Value": "Syke,FMI,ENVEO"
+        },
+        {
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "lie"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "lie_global_500m_daily"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "global"
+        },
+        {
+            "Name": "metricGridSpacing",
+            "ValueType": "Integer",
+            "Value": 500
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "500m"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "daily"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3A,SENTINEL3B"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "S3A,S3B"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "SLSTR"
+        }
+    ]
+}
