@@ -1,0 +1,120 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "c_gls_SWI10_202505111200_GLOBE_ASCAT_V4.0.1_nc",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-07-17T13:58:04.000000Z",
+  "Online": true,
+  "ContentType": "application/netcdf",
+  "Link": "./c_gls_SWI10_202505111200_GLOBE_ASCAT_V4.0.1.nc",
+  "CollectionName": "CLMS",
+  "ProductType": "soil_water_index",
+  "Component": "bio-geophysical",
+  "DatasetIdentifier": "swi_global_12.5km_10daily_v4",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2025-05-10T12:00:00.000000Z",
+    "End": "2025-05-20T12:00:00.000000Z"
+  },
+  "NominalDate": "2025-05-11T12:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -180.0,
+          -90.0
+        ],
+        [
+          -180.0,
+          90.0
+        ],
+        [
+          180.0,
+          90.0
+        ],
+        [
+          180.0,
+          -90.0
+        ],
+        [
+          -180.0,
+          -90.0
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v4.0.1"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 4
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "nc"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "TU Wien"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "swi"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "swi_global_12.5km_10daily"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 12500
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "12.5km"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "10daily"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "METOP"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "METOPB,METOPC"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "unspecified"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "ASCAT"
+    }
+  ]
+}
