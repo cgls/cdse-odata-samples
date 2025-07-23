@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "LCFM_LCM-10_V100_2020_N00E000_cog",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-06-12T06:06:34.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "LCFM_LCM-10_V100_2020_N00E000_MAP.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "low_resolution",
+  "Component": "landcover_landuse",
+  "DatasetIdentifier": "lcm_global_300m_yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2020-01-01T00:00:00.000000Z",
+    "End": "2020-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2020-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          30.0
+        ],
+        [
+          30.0,
+          30.0
+        ],
+        [
+          30.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v100"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "VITO"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "lcm"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "lcm_global_300m_yearly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "global"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 300
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "300m"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "yearly"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "N00E000"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL1,SENTINEL2"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL1A,SENTINEL1B,SENTINEL2A,SENTINEL2B"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "S1A,S1B,S2A,S2B"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "SAR,MSI"
+    }
+  ]
+}
