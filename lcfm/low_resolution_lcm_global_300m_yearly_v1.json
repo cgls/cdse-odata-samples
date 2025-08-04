@@ -1,6 +1,6 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "LCFM_LCM-10_V100_2020_N00E000_cog",
+  "Name": "LCFM_LCM-10_V100_2020_N00E000_lr_cog",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
   "OriginDate": "2025-06-12T06:06:34.000000Z",
   "Online": true,
