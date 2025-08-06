@@ -1,0 +1,125 @@
+{
+  "@odata.context": "$metadata#Products(Attributes())",
+  "Name": "LCFM_TCD-10_V100_2020_S30W120_lr_cog",
+  "EvictionDate": "9999-12-31T23:59:59.999999Z",
+  "OriginDate": "2025-06-16T05:56:05.000000Z",
+  "Online": true,
+  "ContentType": "application/tiff",
+  "Link": "LCFM_TCD-10_V100_2020_S30W120_MAP.tif",
+  "CollectionName": "CLMS",
+  "ProductType": "low_resolution",
+  "Component": "landcover_landuse",
+  "DatasetIdentifier": "tcd_pantropical_300m_yearly_v1",
+  "TargetFormat": "EXTRACTED",
+  "DecompressionStep": false,
+  "CompressionType": null,
+  "ContentDate": {
+    "Start": "2020-01-01T00:00:00.000000Z",
+    "End": "2020-12-31T23:59:59.999999Z"
+  },
+  "NominalDate": "2020-01-01T00:00:00.000000Z",
+  "GeoFootprint": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -120.0,
+          -30.0
+        ],
+        [
+          -120.0,
+          0.0
+        ],
+        [
+          -90.0,
+          0.0
+        ],
+        [
+          -90.0,
+          -30.0
+        ],
+        [
+          -120.0,
+          -30.0
+        ]
+      ]
+    ]
+  },
+  "Attributes": [
+    {
+      "Name": "productVersion",
+      "ValueType": "String",
+      "Value": "v100"
+    },
+    {
+      "Name": "datasetVersion",
+      "ValueType": "Integer",
+      "Value": 1
+    },
+    {
+      "Name": "fileFormat",
+      "ValueType": "String",
+      "Value": "cog"
+    },
+    {
+      "Name": "processingCenter",
+      "ValueType": "String",
+      "Value": "GAF"
+    },
+    {
+      "Name": "datasetShortName",
+      "ValueType": "String",
+      "Value": "tcd"
+    },
+    {
+      "Name": "datasetAlias",
+      "ValueType": "String",
+      "Value": "tcd_pantropical_300m_yearly"
+    },
+    {
+      "Name": "areaOfInterest",
+      "ValueType": "String",
+      "Value": "pan tropical"
+    },
+    {
+      "Name": "metricGridSpacing",
+      "ValueType": "Integer",
+      "Value": 300
+    },
+    {
+      "Name": "gridLabel",
+      "ValueType": "String",
+      "Value": "300m"
+    },
+    {
+      "Name": "temporalRepeatRate",
+      "ValueType": "String",
+      "Value": "yearly"
+    },
+    {
+      "Name": "cellID",
+      "ValueType": "String",
+      "Value": "S30W120"
+    },
+    {
+      "Name": "missionShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL2"
+    },
+    {
+      "Name": "platformShortName",
+      "ValueType": "String",
+      "Value": "SENTINEL2A,SENTINEL2B"
+    },
+    {
+      "Name": "platformAcronym",
+      "ValueType": "String",
+      "Value": "S2A,S2B"
+    },
+    {
+      "Name": "instrumentShortName",
+      "ValueType": "String",
+      "Value": "MSI"
+    }
+  ]
+}
