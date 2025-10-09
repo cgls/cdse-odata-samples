@@ -1,11 +1,11 @@
 {
     "@odata.context": "$metadata#Products(Attributes())",
-    "Name": "c_gls_LSP300_201901010000_GLOBE_OLCI_V2.0.1_cog",
+    "Name": "c_gls_LSP300-AMPL-S1_201901010000_GLOBE_OLCI_V2.0.1_cog",
     "EvictionDate": "9999-12-31T23:59:59.999999Z",
-    "OriginDate": "2025-07-23T20:28:21.000000Z",
+    "OriginDate": "2025-07-23T19:49:32.000000Z",
     "Online": true,
     "ContentType": "application/tiff",
-    "Link": "/vitodata/cgl_vol2/SEN3-LSP/reprocessing/2019",
+    "Link": "/vitodata/cgl_vol2/SEN3-LSP/reprocessing/2019/c_gls_LSP300-AMPL-S1_201901010000_GLOBE_OLCI_V2.0.1.tiff",
     "CollectionName": "CLMS",
     "ProductType": "vegetation_phenology_and_productivity_parameters",
     "Component": "bio-geophysical",
@@ -99,6 +99,16 @@
             "Name": "temporalRepeatRate",
             "ValueType": "String",
             "Value": "yearly"
+        },
+        {
+            "Name": "vppSeason",
+            "ValueType": "String",
+            "Value": "S1"
+        },
+        {
+            "Name": "vppSubParameter",
+            "ValueType": "String",
+            "Value": "AMPL"
         },
         {
             "Name": "missionShortName",
