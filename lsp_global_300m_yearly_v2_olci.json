@@ -1,0 +1,134 @@
+{
+    "@odata.context": "$metadata#Products(Attributes())",
+    "Name": "c_gls_LSP300-AMPL-S1_201901010000_GLOBE_OLCI_V2.0.1_cog",
+    "EvictionDate": "9999-12-31T23:59:59.999999Z",
+    "OriginDate": "2025-07-23T19:49:32.000000Z",
+    "Online": true,
+    "ContentType": "application/tiff",
+    "Link": "/vitodata/cgl_vol2/SEN3-LSP/reprocessing/2019/c_gls_LSP300-AMPL-S1_201901010000_GLOBE_OLCI_V2.0.1.tiff",
+    "CollectionName": "CLMS",
+    "ProductType": "vegetation_phenology_and_productivity_parameters",
+    "Component": "bio-geophysical",
+    "DatasetIdentifier": "lsp_global_300m_yearly_v2",
+    "TargetFormat": "EXTRACTED",
+    "DecompressionStep": false,
+    "CompressionType": null,
+    "ContentDate":
+    {
+        "Start": "2019-01-01T00:00:00.000000Z",
+        "End": "2019-12-31T23:59:59.999999Z"
+    },
+    "NominalDate": "2019-01-01T00:00:00.000000Z",
+    "GeoFootprint":
+    {
+        "type": "Polygon",
+        "coordinates":
+        [
+            [
+                [
+                    -180.0014881,
+                    -59.998513
+                ],
+                [
+                    -180.0014881,
+                    80.0014881
+                ],
+                [
+                    179.9985148,
+                    80.0014881
+                ],
+                [
+                    179.9985148,
+                    -59.998513
+                ],
+                [
+                    -180.0014881,
+                    -59.998513
+                ]
+            ]
+        ]
+    },
+    "Attributes":
+    [
+        {
+            "Name": "productVersion",
+            "ValueType": "String",
+            "Value": "v2.0.1"
+        },
+        {
+            "Name": "datasetVersion",
+            "ValueType": "Integer",
+            "Value": 2
+        },
+        {
+            "Name": "fileFormat",
+            "ValueType": "String",
+            "Value": "cog"
+        },
+        {
+            "Name": "processingCenter",
+            "ValueType": "String",
+            "Value": "VITO"
+        },
+        {
+            "Name": "datasetShortName",
+            "ValueType": "String",
+            "Value": "lsp"
+        },
+        {
+            "Name": "datasetAlias",
+            "ValueType": "String",
+            "Value": "lsp_global_300m_yearly"
+        },
+        {
+            "Name": "areaOfInterest",
+            "ValueType": "String",
+            "Value": "global"
+        },
+        {
+            "Name": "metricGridSpacing",
+            "ValueType": "Integer",
+            "Value": 300
+        },
+        {
+            "Name": "gridLabel",
+            "ValueType": "String",
+            "Value": "300m"
+        },
+        {
+            "Name": "temporalRepeatRate",
+            "ValueType": "String",
+            "Value": "yearly"
+        },
+        {
+            "Name": "vppSeason",
+            "ValueType": "String",
+            "Value": "S1"
+        },
+        {
+            "Name": "vppSubParameter",
+            "ValueType": "String",
+            "Value": "AMPL"
+        },
+        {
+            "Name": "missionShortName",
+            "ValueType": "String",
+            "Value": "SENTINEL3"
+        },
+        {
+            "Name": "platformShortName",
+            "ValueType": "String",
+            "Value": "unspecified"
+        },
+        {
+            "Name": "platformAcronym",
+            "ValueType": "String",
+            "Value": "unspecified"
+        },
+        {
+            "Name": "instrumentShortName",
+            "ValueType": "String",
+            "Value": "OLCI"
+        }
+    ]
+}
