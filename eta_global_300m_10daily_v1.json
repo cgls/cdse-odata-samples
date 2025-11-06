@@ -7,7 +7,7 @@
   "ContentType": "application/tiff",
   "Link": "/vitodata/cgl_vol2/SEN3-ETA/20210601/dekadal",
   "CollectionName": "CLMS",
-  "ProductType": "surface_energy-water_flux",
+  "ProductType": "evapotranspiration",
   "Component": "bio-geophysical",
   "DatasetIdentifier": "eta_global_300m_10daily_v1",
   "TargetFormat": "EXTRACTED",
