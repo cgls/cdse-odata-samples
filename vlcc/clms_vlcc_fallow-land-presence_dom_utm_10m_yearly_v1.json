@@ -1,46 +1,46 @@
 {
   "@odata.context": "$metadata#Products(Attributes())",
-  "Name": "CLMS_HRLVLCC_CPFLP_S2021_R10m_E63N16_03035_V01_R00",
+  "Name": "CLMS_HRLVLCC_CPFLP_S2020_R10m_MQ_32620_V01_R00",
   "EvictionDate": "9999-12-31T23:59:59.999999Z",
-  "OriginDate": "2025-10-29T15:09:41.726846Z",
+  "OriginDate": "2025-10-30T10:19:19.806464Z",
   "Online": true,
   "ContentType": "application/tiff",
-  "Link": "VLCCSuccefullyIngestedDatasetSample/FallowLandPresence/CPFLP2021/CPFLP2021_10m/CLMS_HRLVLCC_CPFLP_S2021_R10m_E63N16_03035_V01_R00.tif",
+  "Link": "VLCCFallowLandPresenceDOM/FallowLandPresence/CPFLP2020/CPFLP2020_10m/CLMS_HRLVLCC_CPFLP_S2020_R10m_MQ_32620_V01_R00.tif",
   "CollectionName": "CLMS",
   "ProductType": "cropping_patterns",
   "Component": "landcover_landuse",
-  "DatasetIdentifier": "clms_vlcc_fallow-land-presence_europe_laea_10m_yearly_v1",
+  "DatasetIdentifier": "clms_vlcc_fallow-land-presence_dom_utm_10m_yearly_v1",
   "TargetFormat": "EXTRACTED",
   "DecompressionStep": false,
   "CompressionType": null,
   "ContentDate": {
-    "Start": "2021-01-01T00:00:00.000000Z",
-    "End": "2021-12-31T23:59:59.999999Z"
+    "Start": "2020-01-01T00:00:00.000000Z",
+    "End": "2020-12-31T23:59:59.999999Z"
   },
-  "NominalDate": "2021-01-01T00:00:00.000000Z",
+  "NominalDate": "2020-01-01T00:00:00.000000Z",
   "GeoFootprint": {
     "type": "Polygon",
     "coordinates": [
       [
         [
-          31.7438892,
-          34.9186628
+          -61.2350617,
+          14.3874003
         ],
         [
-          32.013222,
-          35.7884034
+          -61.2310973,
+          14.8826383
         ],
         [
-          33.0764699,
-          35.5245134
+          -60.790709,
+          14.8788183
         ],
         [
-          32.7961769,
-          34.6584058
+          -60.7956587,
+          14.3837128
         ],
         [
-          31.7438892,
-          34.9186628
+          -61.2350617,
+          14.3874003
         ]
       ]
     ]
@@ -89,7 +89,7 @@
     {
       "Name": "areaOfInterest",
       "ValueType": "String",
-      "Value": "europe"
+      "Value": "dom"
     },
     {
       "Name": "metricGridSpacing",
